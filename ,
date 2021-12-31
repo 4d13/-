@@ -1,0 +1,3295 @@
+local v3 = Instance.new("ScreenGui")
+local php = Instance.new("Frame")
+local rounded = Instance.new("UICorner")
+local top = Instance.new("Frame")
+local rounded_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local key = Instance.new("TextBox")
+local rounded_3 = Instance.new("UICorner")
+local login = Instance.new("TextButton")
+local rounded_4 = Instance.new("UICorner")
+local main = Instance.new("Frame")
+local dashboard = Instance.new("Frame")
+local bg = Instance.new("Frame")
+local rounded_5 = Instance.new("UICorner")
+local title = Instance.new("TextLabel")
+local ezadmin = Instance.new("TextButton")
+local rounded_6 = Instance.new("UICorner")
+local prisonbreaker = Instance.new("TextButton")
+local rounded_7 = Instance.new("UICorner")
+local teampicker = Instance.new("TextButton")
+local rounded_8 = Instance.new("UICorner")
+local crappy = Instance.new("TextButton")
+local rounded_9 = Instance.new("UICorner")
+local hitbox = Instance.new("TextButton")
+local rounded_10 = Instance.new("UICorner")
+local smooth = Instance.new("TextButton")
+local rounded_11 = Instance.new("UICorner")
+local user = Instance.new("ImageLabel")
+local rounded_12 = Instance.new("UICorner")
+local text = Instance.new("TextLabel")
+local rounded_13 = Instance.new("UICorner")
+local top_2 = Instance.new("Frame")
+local rounded_14 = Instance.new("UICorner")
+local title_2 = Instance.new("TextLabel")
+local rounded_15 = Instance.new("UICorner")
+
+--Properties:
+
+v3.Name = "v3"
+v3.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+v3.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+v3.ResetOnSpawn = false
+
+php.Name = "php"
+php.Parent = v3
+php.BackgroundColor3 = Color3.fromRGB(42, 48, 51)
+php.Position = UDim2.new(0.567567647, 0, 0.584269583, 0)
+php.Size = UDim2.new(0, 404, 0, 72)
+
+rounded.Name = "rounded"
+rounded.Parent = php
+
+top.Name = "top"
+top.Parent = php
+top.BackgroundColor3 = Color3.fromRGB(33, 39, 42)
+top.Position = UDim2.new(-0.00014926419, 0, -0.027777778, 0)
+top.Size = UDim2.new(0, 404, 0, 25)
+
+rounded_2.Name = "rounded"
+rounded_2.Parent = top
+
+TextLabel.Parent = top
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0222772285, 0, -0.0399999991, 0)
+TextLabel.Size = UDim2.new(0, 196, 0, 26)
+TextLabel.Text = "Portal | Enter key"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 10.000
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
+
+key.Name = "key"
+key.Parent = php
+key.BackgroundColor3 = Color3.fromRGB(60, 67, 77)
+key.Position = UDim2.new(0.254950494, 0, 0.416555554, 0)
+key.Size = UDim2.new(0, 287, 0, 29)
+key.Text = "..."
+key.TextColor3 = Color3.fromRGB(177, 177, 177)
+key.TextSize = 11.000
+
+rounded_3.Name = "rounded"
+rounded_3.Parent = key
+
+login.Name = "login"
+login.Parent = php
+login.BackgroundColor3 = Color3.fromRGB(49, 54, 63)
+login.Position = UDim2.new(0.0272277221, 0, 0.430555552, 0)
+login.Size = UDim2.new(0, 87, 0, 28)
+login.Text = "Login"
+login.TextColor3 = Color3.fromRGB(255, 255, 255)
+login.TextSize = 10.000
+
+rounded_4.Name = "rounded"
+rounded_4.Parent = login
+
+main.Name = "main"
+main.Parent = v3
+main.BackgroundColor3 = Color3.fromRGB(42, 48, 51)
+main.Position = UDim2.new(0.568607092, 0, 0.712680578, 0)
+main.Size = UDim2.new(0, 404, 0, 169)
+
+dashboard.Name = "dashboard"
+dashboard.Parent = main
+dashboard.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dashboard.BackgroundTransparency = 1.000
+dashboard.BorderSizePixel = 0
+dashboard.Size = UDim2.new(0, 403, 0, 168)
+
+bg.Name = "bg"
+bg.Parent = dashboard
+bg.BackgroundColor3 = Color3.fromRGB(57, 67, 75)
+bg.Position = UDim2.new(0.286188096, 0, 0.185147062, 0)
+bg.Size = UDim2.new(0, 282, 0, 25)
+
+rounded_5.Name = "rounded"
+rounded_5.Parent = bg
+
+title.Name = "title"
+title.Parent = bg
+title.BackgroundColor3 = Color3.fromRGB(58, 64, 75)
+title.BackgroundTransparency = 1.000
+title.BorderSizePixel = 0
+title.Position = UDim2.new(0.258865237, 0, 0.0568863079, 4)
+title.Size = UDim2.new(0, 135, 0, 17)
+title.Text = "Prison life"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextScaled = true
+title.TextWrapped = true
+
+ezadmin.Name = "ez admin"
+ezadmin.Parent = bg
+ezadmin.BackgroundColor3 = Color3.fromRGB(57, 67, 75)
+ezadmin.Position = UDim2.new(-0.00114105444, 0, 1.27055538, 0)
+ezadmin.Size = UDim2.new(0, 137, 0, 21)
+ezadmin.Text = "EZ Admin"
+ezadmin.TextColor3 = Color3.fromRGB(255, 255, 255)
+ezadmin.TextSize = 10.000
+
+rounded_6.Name = "rounded"
+rounded_6.Parent = ezadmin
+
+prisonbreaker.Name = "prisonbreaker"
+prisonbreaker.Parent = bg
+prisonbreaker.BackgroundColor3 = Color3.fromRGB(57, 67, 75)
+prisonbreaker.Position = UDim2.new(-0.00114105444, 0, 2.35055542, 0)
+prisonbreaker.Size = UDim2.new(0, 137, 0, 21)
+prisonbreaker.Text = "Prisonbreaker"
+prisonbreaker.TextColor3 = Color3.fromRGB(255, 255, 255)
+prisonbreaker.TextSize = 10.000
+
+rounded_7.Name = "rounded"
+rounded_7.Parent = prisonbreaker
+
+teampicker.Name = "teampicker"
+teampicker.Parent = bg
+teampicker.BackgroundColor3 = Color3.fromRGB(57, 67, 75)
+teampicker.Position = UDim2.new(0.513043344, 0, 2.35055542, 0)
+teampicker.Size = UDim2.new(0, 137, 0, 21)
+teampicker.Text = "Team picker"
+teampicker.TextColor3 = Color3.fromRGB(255, 255, 255)
+teampicker.TextSize = 10.000
+
+rounded_8.Name = "rounded"
+rounded_8.Parent = teampicker
+
+crappy.Name = "crappy"
+crappy.Parent = bg
+crappy.BackgroundColor3 = Color3.fromRGB(57, 67, 75)
+crappy.Position = UDim2.new(0.513043344, 0, 1.27055538, 0)
+crappy.Size = UDim2.new(0, 137, 0, 21)
+crappy.Text = "Crappy GUI"
+crappy.TextColor3 = Color3.fromRGB(255, 255, 255)
+crappy.TextSize = 10.000
+
+rounded_9.Name = "rounded"
+rounded_9.Parent = crappy
+
+hitbox.Name = "hitbox"
+hitbox.Parent = bg
+hitbox.BackgroundColor3 = Color3.fromRGB(57, 67, 75)
+hitbox.Position = UDim2.new(0.513043344, 0, 3.39055538, 0)
+hitbox.Size = UDim2.new(0, 137, 0, 21)
+hitbox.Text = "Hitbox extender"
+hitbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+hitbox.TextSize = 10.000
+
+rounded_10.Name = "rounded"
+rounded_10.Parent = hitbox
+
+smooth.Name = "smooth"
+smooth.Parent = bg
+smooth.BackgroundColor3 = Color3.fromRGB(57, 67, 75)
+smooth.Position = UDim2.new(-0.00114105444, 0, 3.39055538, 0)
+smooth.Size = UDim2.new(0, 137, 0, 21)
+smooth.Text = "Smooth animations"
+smooth.TextColor3 = Color3.fromRGB(255, 255, 255)
+smooth.TextSize = 10.000
+
+rounded_11.Name = "rounded"
+rounded_11.Parent = smooth
+
+user.Name = "user"
+user.Parent = dashboard
+user.BackgroundColor3 = Color3.fromRGB(114, 137, 218)
+user.Position = UDim2.new(0.0173267331, 0, 0.187681764, 0)
+user.Size = UDim2.new(0, 100, 0, 100)
+user.Image = "rbxassetid://0"
+user.ScaleType = Enum.ScaleType.Crop
+
+rounded_12.Name = "rounded"
+rounded_12.Parent = user
+
+text.Name = "text"
+text.Parent = user
+text.BackgroundColor3 = Color3.fromRGB(58, 64, 75)
+text.Position = UDim2.new(-0.000198019668, 0, 1.05622625, 0)
+text.Size = UDim2.new(0, 100, 0, 19)
+text.Text = "Loading"
+text.TextColor3 = Color3.fromRGB(255, 255, 255)
+text.TextSize = 10.000
+text.TextWrapped = true
+
+rounded_13.CornerRadius = UDim.new(0, 5)
+rounded_13.Name = "rounded"
+rounded_13.Parent = text
+
+top_2.Name = "top"
+top_2.Parent = main
+top_2.BackgroundColor3 = Color3.fromRGB(33, 39, 42)
+top_2.Position = UDim2.new(-0.00014926419, 0, -0.0038625896, 0)
+top_2.Size = UDim2.new(0, 404, 0, 25)
+
+rounded_14.Name = "rounded"
+rounded_14.Parent = top_2
+
+title_2.Name = "title"
+title_2.Parent = top_2
+title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title_2.BackgroundTransparency = 1.000
+title_2.BorderSizePixel = 0
+title_2.Position = UDim2.new(0.0222772285, 0, -0.0399999991, 0)
+title_2.Size = UDim2.new(0, 196, 0, 26)
+title_2.Text = "Portal | v3"
+title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+title_2.TextSize = 10.000
+title_2.TextWrapped = true
+title_2.TextXAlignment = Enum.TextXAlignment.Left
+
+rounded_15.Name = "rounded"
+rounded_15.Parent = main
+
+-- Scripts:
+
+local function VNXQ_fake_script() -- login.setUI 
+	local script = Instance.new('LocalScript', login)
+
+	local txt = script.Parent
+	txt.Parent.Parent.main.Visible = false
+	
+	txt.Activated:Connect(function()
+		if txt.Text == "Login" then
+			if txt.Parent.key.Text == "5859" then
+				txt.Text = "Success!"
+				wait(1)
+				txt.Parent.Parent.main.Visible = true
+				txt.Parent.Parent.php.Visible = false
+			else
+				txt.Text = "Incorrect!"
+				wait(1)
+				txt.Text = "Login"
+			end
+		end
+	end)
+end
+coroutine.wrap(VNXQ_fake_script)()
+local function HLBMDZU_fake_script() -- php.drag 
+	local script = Instance.new('LocalScript', php)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(HLBMDZU_fake_script)()
+local function TXKU_fake_script() -- title.settext 
+	local script = Instance.new('LocalScript', title)
+
+	if game.PlaceId == 155615604 then
+		script.Parent.Text = "Prison Life"
+	else
+		script.Parent.Text = "Universal"
+	end
+end
+coroutine.wrap(TXKU_fake_script)()
+local function ZKINYR_fake_script() -- ezadmin.setUI 
+	local script = Instance.new('LocalScript', ezadmin)
+
+	script.Parent.Activated:Connect(function()
+		loadstring(game:HttpGet(('	https://pastebin.com/raw/M6txp8vK'), true))()
+	end)
+end
+coroutine.wrap(ZKINYR_fake_script)()
+local function ANJJ_fake_script() -- prisonbreaker.setUI 
+	local script = Instance.new('LocalScript', prisonbreaker)
+
+	script.Parent.Activated:Connect(function()
+		-------------KRNL SCRIPTS----------------------
+	
+		---------Guard hitbox extender (Prison life)
+	
+		local function SendNotification(title,text,duration,...)
+			game.StarterGui:SetCore("SendNotification", {
+				Title = title;
+				Text = text;
+				Icon = "";
+				Duration = duration;
+			})
+		end
+	
+		game.Players.ChildAdded:Connect(function(player)
+			if not pcall (function()
+					SendNotification("Player Joined",""..player.Name.."  Has joined the server",2.5 )
+				end) then
+				print ("Error")
+			end
+		end)
+	
+		game.Players.ChildRemoved:Connect(function(player)
+			if not pcall (function()
+					SendNotification("Player Left",""..player.Name.."  Has rage quit",2.5 )
+				end) then
+				print ("Error")
+			end
+		end)
+		for i,v in pairs(game:GetService("CoreGui"):GetChildren()) do 
+			if v.Name == "PurchasePromptApp" then 
+				v:Remove()
+			end
+		end
+		for i,v in pairs(game:GetService("CoreGui"):GetChildren()) do 
+			if v.Name == "PrisonBreakerV1.6" then 
+				v:Remove()
+			end
+		end
+	
+		local toggle = false
+		local PrisonBreakerV16 = Instance.new("ScreenGui")
+		local openmain = Instance.new("Frame")
+		local open = Instance.new("TextButton")
+		local main = Instance.new("Frame")
+		local title = Instance.new("TextLabel")
+		local home = Instance.new("TextButton")
+		local guis = Instance.new("TextButton")
+		local teams = Instance.new("TextButton")
+		local funcs = Instance.new("TextButton")
+		local homemain = Instance.new("Frame")
+		local title_2 = Instance.new("TextLabel")
+		local TextLabel = Instance.new("TextLabel")
+		local teamsmain = Instance.new("Frame")
+		local cop = Instance.new("TextButton")
+		local inmate = Instance.new("TextButton")
+		local neutral = Instance.new("TextButton")
+		local crim = Instance.new("TextButton")
+		local guismain = Instance.new("Frame")
+		local prisonbreakerv15 = Instance.new("TextButton")
+		local prisondestroyer = Instance.new("TextButton")
+		local kickgui = Instance.new("TextButton")
+		local scriptsmain = Instance.new("Frame")
+		local godmode = Instance.new("TextButton")
+		local destroy = Instance.new("TextButton")
+		local hitbox = Instance.new("TextButton")
+		local antikickmainon = Instance.new("Frame")
+		local antikickon = Instance.new("TextButton")
+		local antikickmainoff = Instance.new("Frame")
+		local antikickoff = Instance.new("TextButton")
+		local modguns = Instance.new("TextButton")
+		PrisonBreakerV16.Name = "PrisonBreakerV1.6"
+		PrisonBreakerV16.Parent = game.CoreGui
+		-- All Skids Welcome 
+	
+		openmain.Name = "openmain"
+		openmain.Parent = PrisonBreakerV16
+		openmain.BackgroundColor3 = Color3.new(1, 1, 1)
+		openmain.Position = UDim2.new(0.0104873544, 0, 0.549140036, 0)
+		openmain.Size = UDim2.new(0, 100, 0, 26)
+	
+		open.Name = "open"
+		open.Parent = openmain
+		open.BackgroundColor3 = Color3.new(1, 0, 0.498039)
+		open.Position = UDim2.new(0, 0, -0.0299201012, 0)
+		open.Size = UDim2.new(0, 100, 0, 26)
+		open.Font = Enum.Font.GothamBlack
+		open.Text = "OPEN"
+		open.TextColor3 = Color3.new(0, 0, 0)
+		open.TextSize = 18
+		open.TextWrapped = true
+		open.MouseButton1Down:connect(function()
+			local main = game:GetService("CoreGui")["PrisonBreakerV1.6"].main
+			wait(0.01)
+			if toggle == false then
+				main:TweenPosition(UDim2.new(0.081, 0, 0.3, 0), 'Out', 'Quad', 0.8)
+				toggle = true
+			else
+				main:TweenPosition(UDim2.new(1.5, 0, 0.8, 0), 'Out', 'Quad', 0.8)
+				toggle = false
+			end
+			wait(0.9)
+			if main.Position == (UDim2.new(0.081, 0, 0.3, 0)) then 
+				open.Text = "CLOSE"
+			else
+				open.Text = "OPEN"
+			end
+		end)
+	
+		main.Name = "main"
+		main.Parent = PrisonBreakerV16
+		main.BackgroundColor3 = Color3.new(0, 0, 127)
+		main.BorderColor3 = Color3.new(0, 0, 127)
+		main.BorderSizePixel = 5
+		main.Position = UDim2.new(1.5, 0, 0.8, 0)
+		main.Size = UDim2.new(0, 465, 0, 341)
+		main.Active = true
+		main.Draggable = true
+	
+		title.Name = "title"
+		title.Parent = main
+		title.BackgroundColor3 = Color3.new(0, 0, 0)
+		title.BorderSizePixel = 2
+		title.Position = UDim2.new(0.0064516128, 0, 0.829912007, 0)
+		title.Size = UDim2.new(0, 459, 0, 58)
+		title.Font = Enum.Font.GothamBold
+		title.Text = "PrisonBreaker V1.6 Made By Jake11price"
+		title.TextColor3 = Color3.new(1, 0, 0)
+		title.TextSize = 15
+	
+		home.Name = "home"
+		home.Parent = main
+		home.BackgroundColor3 = Color3.new(255, 0, 0)
+		home.Position = UDim2.new(0.0129032256, 0, 0.0263929628, 0)
+		home.Size = UDim2.new(0, 100, 0, 37)
+		home.Font = Enum.Font.GothamBlack
+		home.Text = "Home"
+		home.TextColor3 = Color3.new(0, 0, 0)
+		home.TextSize = 25
+		function SCRIPT_CIMJ66_FAKESCRIPT() -- Frame.LocalScript 
+			local script = Instance.new('LocalScript')
+			script.Parent = home
+			function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+			counter = 0
+	
+			while wait(0.1)do
+				script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+				counter = counter + 0.01
+			end
+	
+	
+		end
+		coroutine.resume(coroutine.create(SCRIPT_CIMJ66_FAKESCRIPT))
+		home.MouseButton1Down:connect(function()
+			teamsmain.Visible = false
+			guismain.Visible = false
+			scriptsmain.Visible = false
+			homemain.Visible = true
+		end)
+	
+		guis.Name = "guis"
+		guis.Parent = main
+		guis.BackgroundColor3 = Color3.new(255, 0, 0)
+		guis.Position = UDim2.new(0.246848866, 0, 0.0263929628, 0)
+		guis.Size = UDim2.new(0, 108, 0, 37)
+		guis.Font = Enum.Font.GothamBlack
+		guis.Text = "Guis"
+		guis.TextColor3 = Color3.new(0, 0, 0)
+		guis.TextSize = 25
+		function SCRIPT_CIMJ66_FAKESCRIPT() -- Frame.LocalScript 
+			local script = Instance.new('LocalScript')
+			script.Parent = guis
+			function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+			counter = 0
+	
+			while wait(0.1)do
+				script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+				counter = counter + 0.01
+			end
+	
+	
+		end
+		coroutine.resume(coroutine.create(SCRIPT_CIMJ66_FAKESCRIPT))
+		guis.MouseButton1Down:connect(function()
+			teamsmain.Visible = false
+			scriptsmain.Visible = false
+			homemain.Visible = false
+			guismain.Visible = true
+		end)
+	
+		teams.Name = "teams"
+		teams.Parent = main
+		teams.BackgroundColor3 = Color3.new(255, 0, 0)
+		teams.Position = UDim2.new(0.500149369, 0, 0.0263929628, 0)
+		teams.Size = UDim2.new(0, 108, 0, 37)
+		teams.Font = Enum.Font.GothamBlack
+		teams.Text = "Teams"
+		teams.TextColor3 = Color3.new(0, 0, 0)
+		teams.TextSize = 25
+		function SCRIPT_CIMJ66_FAKESCRIPT() -- Frame.LocalScript 
+			local script = Instance.new('LocalScript')
+			script.Parent = teams
+			function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+			counter = 0
+	
+			while wait(0.1)do
+				script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+				counter = counter + 0.01
+			end
+	
+	
+		end
+		coroutine.resume(coroutine.create(SCRIPT_CIMJ66_FAKESCRIPT))
+		teams.MouseButton1Down:connect(function()
+			scriptsmain.Visible = false
+			homemain.Visible = false
+			guismain.Visible = false
+			teamsmain.Visible = true
+		end)
+	
+		funcs.Name = "funcs"
+		funcs.Parent = main
+		funcs.BackgroundColor3 = Color3.new(255, 0, 0)
+		funcs.Position = UDim2.new(0.754838645, 0, 0.0263929628, 0)
+		funcs.Size = UDim2.new(0, 108, 0, 37)
+		funcs.Font = Enum.Font.GothamBlack
+		funcs.Text = "New Scripts"
+		funcs.TextColor3 = Color3.new(0, 0, 0)
+		funcs.TextSize = 18
+		function SCRIPT_CIMJ66_FAKESCRIPT() -- Frame.LocalScript 
+			local script = Instance.new('LocalScript')
+			script.Parent = funcs
+			function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
+	
+			counter = 0
+	
+			while wait(0.1)do
+				script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
+	
+				counter = counter + 0.01
+			end
+	
+	
+		end
+		coroutine.resume(coroutine.create(SCRIPT_CIMJ66_FAKESCRIPT))
+		funcs.MouseButton1Down:connect(function()
+			homemain.Visible = false
+			guismain.Visible = false
+			teamsmain.Visible = false
+			scriptsmain.Visible = true
+		end)
+	
+		homemain.Name = "homemain"
+		homemain.Parent = main
+		homemain.BackgroundColor3 = Color3.new(0, 0, 0)
+		homemain.Position = UDim2.new(0, 0, 0.178885639, 0)
+		homemain.Size = UDim2.new(0, 465, 0, 218)
+	
+		title_2.Name = "title"
+		title_2.Parent = homemain
+		title_2.BackgroundColor3 = Color3.new(0.333333, 1, 0)
+		title_2.BorderSizePixel = 0
+		title_2.Position = UDim2.new(0.0206066482, 0, 0.0379392318, 0)
+		title_2.Size = UDim2.new(0, 445, 0, 87)
+		title_2.Font = Enum.Font.GothamBlack
+		title_2.Text = "This is my last prison life gui... Enjoy the new scripts!"
+		title_2.TextColor3 = Color3.new(0, 0, 0)
+		title_2.TextScaled = true
+		title_2.TextSize = 14
+		title_2.TextWrapped = true
+	
+		TextLabel.Parent = homemain
+		TextLabel.BackgroundColor3 = Color3.new(0, 1, 0)
+		TextLabel.BorderSizePixel = 0
+		TextLabel.Position = UDim2.new(0.0193548389, 0, 0.486238539, 0)
+		TextLabel.Size = UDim2.new(0, 445, 0, 87)
+		TextLabel.Font = Enum.Font.GothamBlack
+		TextLabel.Text = "Subscribe to my Youtube Channel: Jake11price"
+		TextLabel.TextColor3 = Color3.new(0, 0, 0)
+		TextLabel.TextScaled = true
+		TextLabel.TextSize = 14
+		TextLabel.TextWrapped = true
+	
+		teamsmain.Name = "teamsmain"
+		teamsmain.Parent = main
+		teamsmain.BackgroundColor3 = Color3.new(0, 0, 0)
+		teamsmain.BorderSizePixel = 0
+		teamsmain.Position = UDim2.new(0, 0, 0.178885639, 0)
+		teamsmain.Size = UDim2.new(0, 462, 0, 222)
+		teamsmain.Visible = false
+	
+		cop.Name = "cop"
+		cop.Parent = teamsmain
+		cop.BackgroundColor3 = Color3.new(0, 0, 1)
+		cop.BorderSizePixel = 1
+		cop.Position = UDim2.new(0.0199004635, 0, 0.28773582, 0)
+		cop.Size = UDim2.new(0, 89, 0, 70)
+		cop.Font = Enum.Font.GothamBlack
+		cop.Text = "Guards"
+		cop.TextColor3 = Color3.new(0, 0, 0)
+		cop.TextSize = 18
+		cop.TextWrapped = true
+		cop.MouseButton1Down:connect(function()
+			workspace.Remote.TeamEvent:FireServer("Bright blue")
+		end)
+	
+		inmate.Name = "inmate"
+		inmate.Parent = teamsmain
+		inmate.BackgroundColor3 = Color3.new(1, 0.666667, 0)
+		inmate.BorderSizePixel = 1
+		inmate.Position = UDim2.new(0.278606981, 0, 0.28773585, 0)
+		inmate.Size = UDim2.new(0, 89, 0, 70)
+		inmate.Font = Enum.Font.GothamBlack
+		inmate.Text = "Inmates"
+		inmate.TextColor3 = Color3.new(0, 0, 0)
+		inmate.TextSize = 18
+		inmate.MouseButton1Down:connect(function()
+			workspace.Remote.TeamEvent:FireServer("Bright orange")
+		end)
+	
+		neutral.Name = "neutral"
+		neutral.Parent = teamsmain
+		neutral.BackgroundColor3 = Color3.new(0.584314, 0.584314, 0.584314)
+		neutral.BorderSizePixel = 1
+		neutral.Position = UDim2.new(0.524875581, 0, 0.28773585, 0)
+		neutral.Size = UDim2.new(0, 89, 0, 70)
+		neutral.Font = Enum.Font.GothamBlack
+		neutral.Text = "Neutral"
+		neutral.TextColor3 = Color3.new(0, 0, 0)
+		neutral.TextSize = 18
+		neutral.MouseButton1Down:connect(function()
+			Workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+		end)
+	
+		crim.Name = "crim"
+		crim.Parent = teamsmain
+		crim.BackgroundColor3 = Color3.new(1, 0, 0)
+		crim.BorderSizePixel = 1
+		crim.Position = UDim2.new(0.768656731, 0, 0.28773585, 0)
+		crim.Size = UDim2.new(0, 89, 0, 70)
+		crim.Font = Enum.Font.GothamBlack
+		crim.Text = "Criminals"
+		crim.TextColor3 = Color3.new(0, 0, 0)
+		crim.TextSize = 18
+		crim.MouseButton1Down:connect(function()
+			local Crim = Instance.new("Part")
+			Crim.Name = "plr"
+			Crim.Parent = workspace
+			Crim.Anchored = true
+			Crim.Archivable = true
+			Crim.CFrame = CFrame.new(9e99, 9e99, 9e99)
+			Bruh = game.Workspace["Criminals Spawn"].SpawnLocation
+			wait(0.1)
+			Crim.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+			Crim.Transparency = 1
+			Crim.Anchored = true
+			Crim.CanCollide = false
+			lol = true               
+			Bruh = game.Workspace["Criminals Spawn"].SpawnLocation
+			Bruh.CanCollide = false
+			Bruh.Size = Vector3.new(51.05, 24.12, 54.76)
+			Bruh.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+			Bruh.Transparency = 1
+			wait(0.1)
+			lol = false
+			wait(0.04)
+			if lol == false then
+				Bruh.CFrame = CFrame.new(-920.510803, 92.2271957, 2138.27002, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+				Bruh.Size = Vector3.new(6, 0.2, 6)
+				Bruh.Transparency = 0
+				lol = false
+			end
+		end)
+	
+		guismain.Name = "guismain"
+		guismain.Parent = main
+		guismain.BackgroundColor3 = Color3.new(1, 0.45098, 0)
+		guismain.BorderSizePixel = 0
+		guismain.Position = UDim2.new(0, 0, 0.178885639, 0)
+		guismain.Size = UDim2.new(0, 462, 0, 222)
+		guismain.Visible = false
+	
+		prisonbreakerv15.Name = "prisonbreakerv1.5"
+		prisonbreakerv15.Parent = guismain
+		prisonbreakerv15.BackgroundColor3 = Color3.new(0, 0, 0)
+		prisonbreakerv15.Position = UDim2.new(0.0273631848, 0, 0.0566037744, 0)
+		prisonbreakerv15.Size = UDim2.new(0, 109, 0, 50)
+		prisonbreakerv15.Font = Enum.Font.GothamBlack
+		prisonbreakerv15.Text = "PrisonBreaker V1.5"
+		prisonbreakerv15.TextColor3 = Color3.new(0, 1, 0)
+		prisonbreakerv15.TextScaled = true
+		prisonbreakerv15.TextSize = 14
+		prisonbreakerv15.TextWrapped = true
+		prisonbreakerv15.MouseButton1Down:connect(function()
+			loadstring(game:HttpGet("https://pastebin.com/raw/HpCpt9rt",true))()
+		end)
+	
+		prisondestroyer.Name = "prisondestroyer"
+		prisondestroyer.Parent = guismain
+		prisondestroyer.BackgroundColor3 = Color3.new(0, 0, 0)
+		prisondestroyer.Position = UDim2.new(0.363184065, 0, 0.0566037744, 0)
+		prisondestroyer.Size = UDim2.new(0, 109, 0, 50)
+		prisondestroyer.Font = Enum.Font.GothamBlack
+		prisondestroyer.Text = "PrisonDestroyer"
+		prisondestroyer.TextColor3 = Color3.new(0, 1, 0)
+		prisondestroyer.TextScaled = true
+		prisondestroyer.TextSize = 14
+		prisondestroyer.TextWrapped = true
+		prisondestroyer.MouseButton1Down:connect(function()
+			loadstring(game:HttpGet("https://pastebin.com/raw/nu20tAZE",true))()
+		end)
+	
+		kickgui.Name = "kickgui"
+		kickgui.Parent = guismain
+		kickgui.BackgroundColor3 = Color3.new(0, 0, 0)
+		kickgui.Position = UDim2.new(0.701492548, 0, 0.0566037744, 0)
+		kickgui.Size = UDim2.new(0, 109, 0, 50)
+		kickgui.Font = Enum.Font.GothamBlack
+		kickgui.Text = "Kick Gui"
+		kickgui.TextColor3 = Color3.new(0, 1, 0)
+		kickgui.TextSize = 18
+		kickgui.TextWrapped = true
+		kickgui.MouseButton1Down:connect(function()
+			loadstring(game:HttpGet("https://pastebin.com/raw/AncyYd8Q", true))()
+		end)
+	
+		scriptsmain.Name = "scriptsmain"
+		scriptsmain.Parent = main
+		scriptsmain.BackgroundColor3 = Color3.new(1, 0.45098, 0)
+		scriptsmain.BorderSizePixel = 0
+		scriptsmain.Position = UDim2.new(0, 0, 0.178885639, 0)
+		scriptsmain.Size = UDim2.new(0, 462, 0, 222)
+		scriptsmain.Visible = false
+	
+		godmode.Name = "godmode"
+		godmode.Parent = scriptsmain
+		godmode.BackgroundColor3 = Color3.new(0, 0, 0)
+		godmode.Position = UDim2.new(0.12686567, 0, 0.061611373, 0)
+		godmode.Size = UDim2.new(0, 126, 0, 44)
+		godmode.Font = Enum.Font.GothamBlack
+		godmode.Text = "Godmode (SWAT ONLY)"
+		godmode.TextColor3 = Color3.new(0, 1, 0)
+		godmode.TextScaled = true
+		godmode.TextSize = 14
+		godmode.TextWrapped = true
+		godmode.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.Humanoid.HealthChanged:Connect(function(health)
+				if health < game.Players.LocalPlayer.Character.Humanoid.MaxHealth then
+					workspace.Remote.TeamEvent:FireServer("Bright blue")
+					workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.clothes["Riot Police"].ITEMPICKUP)
+					workspace.Remote.TeamEvent:FireServer("Bright orange")
+				end
+			end)
+		end)
+	
+		destroy.Name = "destroy"
+		destroy.Parent = scriptsmain
+		destroy.BackgroundColor3 = Color3.new(0, 0, 0)
+		destroy.Position = UDim2.new(0.559701502, 0, 0.061611373, 0)
+		destroy.Size = UDim2.new(0, 126, 0, 44)
+		destroy.Font = Enum.Font.GothamBlack
+		destroy.Text = "CRASH OTHERS!"
+		destroy.TextColor3 = Color3.new(0, 1, 0)
+		destroy.TextScaled = true
+		destroy.TextSize = 14
+		destroy.TextWrapped = true
+		destroy.MouseButton1Down:connect(function()
+			game:GetService("StarterGui"):SetCore("SendNotification", {
+				Title = "Destroying Server...";
+				Text = "Please wait up to 30 seconds!!";
+			})
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(917.909851, 129.489944, 2328.6958)
+			wait(0.5)
+			local client = game:GetService("Players").LocalPlayer
+	
+			for _, child in next, client.Backpack:GetChildren() do
+				if child:IsA("Tool") then
+					client.Character.Humanoid:UnequipTools()
+				end
+			end
+	
+			local Crim = Instance.new("Part")
+			Crim.Name = "plr"
+			Crim.Parent = workspace
+			Crim.Anchored = true
+			Crim.Archivable = true
+			Crim.CFrame = CFrame.new(9e99, 9e99, 9e99)
+			Bruh = game.Workspace["Criminals Spawn"].SpawnLocation
+			wait(0.1)
+			Crim.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+			Crim.Transparency = 1
+			Crim.Anchored = true
+			Crim.CanCollide = false
+			lol = true				
+			Bruh = game.Workspace["Criminals Spawn"].SpawnLocation
+			Bruh.CanCollide = false
+			Bruh.Size = Vector3.new(51.05, 24.12, 54.76)
+			Bruh.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+			Bruh.Transparency = 1
+			wait(0.1)
+			lol = false
+			wait(0.04)
+			if lol == false then
+				Bruh.CFrame = CFrame.new(-920.510803, 92.2271957, 2138.27002, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+				Bruh.Size = Vector3.new(6, 0.2, 6)
+				Bruh.Transparency = 0
+				lol = false
+			end
+			game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP) 
+			wait(0.1)
+			local tbl_main = 
+				{
+					"CRASHING SERVER!! Script made by jake11price.", 
+					"All"
+				}
+			game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(tbl_main))
+			wait(0.5)
+			game:GetService("StarterGui"):SetCore("SendNotification", {
+				Title = "Warning!!";
+				Text = "DO NOT EQUIP THE REMINGTON 870 UNTIL YOU TURN BACK INTO AN INMATE!!";
+			})
+			for i,v in pairs(game:GetService("Players"):GetChildren()) do
+				for i=1,650 do
+					local tbl_36BA2890 = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(839.947937, 99.4999466, 2211.61719), Vector3.new(-379.812744, 31.2091656, 121.524826)), 
+							["Distance"] = 61.344123840332, 
+							["Cframe"] = CFrame.new(809.089844, 101.766418, 2219.49268, 0.363455683, 0.0792314336, -0.928236127, -1.86264515e-09, 0.996376872, 0.0850477219, 0.931611478, -0.0309110768, 0.362138808), 
+							["Hit"] = v.Character.Head
+						}
+					local tbl_36B5BF78 = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(839.947937, 99.4999466, 2211.61719), Vector3.new(-379.036713, 35.5271149, 122.755898)), 
+							["Distance"] = 61.299308776855, 
+							["Cframe"] = CFrame.new(809.180542, 102.100838, 2219.57886, 0.366918802, 0.0893238857, -0.92595464, 0, 0.995379448, 0.0960210636, 0.930253029, -0.035231933, 0.365223378), 
+							["Hit"] = v.Character.Head
+						}
+					local tbl_36B585E8 = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(839.947937, 99.4999466, 2211.61719), Vector3.new(-379.921326, 20.3493805, 123.473427)), 
+							["Distance"] = 61.141574859619, 
+							["Cframe"] = CFrame.new(809.180542, 100.912926, 2219.61255, 0.36787042, 0.0533849634, -0.928343356, 0, 0.99835068, 0.0574107729, 0.929877102, -0.021119725, 0.367263645), 
+							["Hit"] = v.Character.Head
+						}
+					local tbl_36B5CC38 = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(839.947937, 99.4999466, 2211.61719), Vector3.new(-371.464417, 33.5804787, 144.521744)), 
+							["Distance"] = 63.866916656494, 
+							["Cframe"] = CFrame.new(808.680542, 102.047562, 2221.70142, 0.418726623, 0.0821772888, -0.90438652, 0, 0.995897233, 0.0904924273, 0.908112347, -0.0378915891, 0.417008668), 
+							["Hit"] = v.Character.Head
+						}
+					local tbl_36B5BB28 = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(839.947937, 99.4999466, 2211.61719), Vector3.new(-376.177948, 24.8940163, 133.680374)), 
+							["Distance"] = 62.931880950928, 
+							["Cframe"] = CFrame.new(808.680542, 101.319054, 2220.68823, 0.391926825, 0.0631896704, -0.917823792, 0, 0.997638524, 0.0686846897, 0.91999644, -0.0269193724, 0.391001284), 
+							["Hit"] = v.Character.Head
+						}
+					local tbl_36B58A98 = 
+						{
+							tbl_36B5BB28, 
+							tbl_36B5CC38, 
+							tbl_36B585E8, 
+							tbl_36B5BF78, 
+							tbl_36BA2890
+						}
+					local tbl_main = 
+						{
+							tbl_36B58A98, 
+							game:GetService("Players").LocalPlayer.Backpack["Remington 870"]
+						}
+					game:GetService("ReplicatedStorage").ShootEvent:FireServer(unpack(tbl_main))
+					local tbl_36BA2890 = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(839.947937, 99.4999466, 2211.61719), Vector3.new(-379.812744, 31.2091656, 121.524826)), 
+							["Distance"] = 61.344123840332, 
+							["Cframe"] = CFrame.new(809.089844, 101.766418, 2219.49268, 0.363455683, 0.0792314336, -0.928236127, -1.86264515e-09, 0.996376872, 0.0850477219, 0.931611478, -0.0309110768, 0.362138808), 
+							["Hit"] = v.Character.Head
+						}
+					local tbl_36B5BF78 = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(839.947937, 99.4999466, 2211.61719), Vector3.new(-379.036713, 35.5271149, 122.755898)), 
+							["Distance"] = 61.299308776855, 
+							["Cframe"] = CFrame.new(809.180542, 102.100838, 2219.57886, 0.366918802, 0.0893238857, -0.92595464, 0, 0.995379448, 0.0960210636, 0.930253029, -0.035231933, 0.365223378), 
+							["Hit"] = v.Character.Head
+						}
+					local tbl_36B585E8 = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(839.947937, 99.4999466, 2211.61719), Vector3.new(-379.921326, 20.3493805, 123.473427)), 
+							["Distance"] = 61.141574859619, 
+							["Cframe"] = CFrame.new(809.180542, 100.912926, 2219.61255, 0.36787042, 0.0533849634, -0.928343356, 0, 0.99835068, 0.0574107729, 0.929877102, -0.021119725, 0.367263645), 
+							["Hit"] = v.Character.Head
+						}
+					local tbl_36B5CC38 = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(839.947937, 99.4999466, 2211.61719), Vector3.new(-371.464417, 33.5804787, 144.521744)), 
+							["Distance"] = 63.866916656494, 
+							["Cframe"] = CFrame.new(808.680542, 102.047562, 2221.70142, 0.418726623, 0.0821772888, -0.90438652, 0, 0.995897233, 0.0904924273, 0.908112347, -0.0378915891, 0.417008668), 
+							["Hit"] = v.Character.Head
+						}
+					local tbl_36B5BB28 = 
+						{
+							["RayObject"] = Ray.new(Vector3.new(839.947937, 99.4999466, 2211.61719), Vector3.new(-376.177948, 24.8940163, 133.680374)), 
+							["Distance"] = 62.931880950928, 
+							["Cframe"] = CFrame.new(808.680542, 101.319054, 2220.68823, 0.391926825, 0.0631896704, -0.917823792, 0, 0.997638524, 0.0686846897, 0.91999644, -0.0269193724, 0.391001284), 
+							["Hit"] = v.Character.Head
+						}
+					local tbl_36B58A98 = 
+						{
+							tbl_36B5BB28, 
+							tbl_36B5CC38, 
+							tbl_36B585E8, 
+							tbl_36B5BF78, 
+							tbl_36BA2890
+						}
+					local tbl_main = 
+						{
+							tbl_36B58A98, 
+							game:GetService("Players").LocalPlayer.Backpack["Remington 870"]
+						}
+					game:GetService("ReplicatedStorage").ShootEvent:FireServer(unpack(tbl_main))
+				end
+			end
+			workspace.Remote.TeamEvent:FireServer("Bright orange")
+		end)
+	
+		hitbox.Name = "hitbox"
+		hitbox.Parent = scriptsmain
+		hitbox.BackgroundColor3 = Color3.new(0, 0, 0)
+		hitbox.Position = UDim2.new(0.12686567, 0, 0.379146874, 0)
+		hitbox.Size = UDim2.new(0, 126, 0, 50)
+		hitbox.Font = Enum.Font.GothamBlack
+		hitbox.Text = "Guard Hitbox Expander"
+		hitbox.TextColor3 = Color3.new(0, 1, 0)
+		hitbox.TextScaled = true
+		hitbox.TextSize = 14
+		hitbox.TextWrapped = true
+		hitbox.MouseButton1Down:connect(function()
+			_G.HeadSize = 10
+			_G.Disabled = true
+			_G.Reset = true
+	
+			game:GetService('RunService').RenderStepped:connect(function()
+				if _G.Disabled then
+					for i,v in pairs(game.Teams["Guards"]:GetPlayers()) do
+						if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+							pcall(function()
+								v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+								v.Character.HumanoidRootPart.Transparency = 0.7
+								v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really blue")
+								v.Character.HumanoidRootPart.Material = "Neon"
+								v.Character.HumanoidRootPart.CanCollide = false
+							end)
+							if _G.Reset then
+								if v.Character.Humanoid.Health == 0 then 
+									v.Character.HumanoidRootPart.Size = Vector3.new(1,1,1)
+								end
+							end
+						end
+					end
+				end
+			end)
+		end)
+	
+		antikickmainon.Name = "antikickmainon"
+		antikickmainon.Parent = scriptsmain
+		antikickmainon.BackgroundColor3 = Color3.new(1, 1, 1)
+		antikickmainon.Position = UDim2.new(0.559701502, 0, 0.379146934, 0)
+		antikickmainon.Size = UDim2.new(0, 126, 0, 50)
+		antikickmainon.Visible = false
+	
+		antikickon.Name = "antikickon"
+		antikickon.Parent = antikickmainon
+		antikickon.BackgroundColor3 = Color3.new(0, 1, 0)
+		antikickon.Size = UDim2.new(0, 126, 0, 50)
+		antikickon.Font = Enum.Font.GothamBlack
+		antikickon.Text = "CrimAura (On)"
+		antikickon.TextColor3 = Color3.new(0, 0, 0)
+		antikickon.TextSize = 14
+		antikickon.MouseButton1Down:connect(function()
+			antikickmainon.Visible = false
+			antikickmainoff.Visible = true
+			_G.Crim = false
+		end)
+	
+		antikickmainoff.Name = "antikickmainoff"
+		antikickmainoff.Parent = scriptsmain
+		antikickmainoff.BackgroundColor3 = Color3.new(1, 1, 1)
+		antikickmainoff.Position = UDim2.new(0.559701562, 0, 0.379146814, 0)
+		antikickmainoff.Size = UDim2.new(0, 126, 0, 50)
+	
+		antikickoff.Name = "antikickoff"
+		antikickoff.Parent = antikickmainoff
+		antikickoff.BackgroundColor3 = Color3.new(1, 0, 0)
+		antikickoff.Size = UDim2.new(0, 126, 0, 50)
+		antikickoff.Font = Enum.Font.GothamBlack
+		antikickoff.Text = "CrimAura (Off)"
+		antikickoff.TextColor3 = Color3.new(0, 0, 0)
+		antikickoff.TextSize = 14
+		antikickoff.TextWrapped = true
+		antikickoff.MouseButton1Down:connect(function()
+			antikickmainoff.Visible = false
+			antikickmainon.Visible = true
+			wait(0.6)
+			_G.Crim = true
+			while _G.Crim == true do wait() do
+					for i,v in pairs(game.Teams["Guards"]:GetPlayers()) do
+						for o,l in pairs(game.Teams["Inmates"]:GetPlayers()) do
+							local tbl_main = 
+								{
+									game:GetService("Workspace")["Prison_ITEMS"].single["Crude Knife"].ITEMPICKUP
+								}
+							game:GetService("Workspace").Remote.ItemHandler:InvokeServer(unpack(tbl_main))
+	
+							wait(0.00001)
+							for i,v in pairs(game.Teams["Guards"]:GetPlayers()) do
+								for o,l in pairs(game.Teams["Inmates"]:GetPlayers()) do
+									if v.Name ~= game.Players.LocalPlayer.Name then
+										if l.Name ~= game.Players.LocalPlayer.Name then
+											local tbl_main = 
+												{
+													v, 
+													game:GetService("Players").LocalPlayer.Backpack["Crude Knife"]
+												}
+											game:GetService("ReplicatedStorage").meleeEvent:FireServer(unpack(tbl_main))
+											local tbl_main = 
+												{
+													l, 
+													game:GetService("Players").LocalPlayer.Backpack["Crude Knife"]
+												}
+											game:GetService("ReplicatedStorage").meleeEvent:FireServer(unpack(tbl_main))
+	
+	
+											local Crim = Instance.new("Part")
+											Crim.Name = "plr"
+											Crim.Parent = workspace
+											Crim.Anchored = true
+											Crim.Archivable = true
+											Crim.CFrame = CFrame.new(9e99, 9e99, 9e99)
+											Bruh = game.Workspace["Criminals Spawn"].SpawnLocation
+											Crim.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+											Crim.Transparency = 1
+											Crim.Anchored = true
+											Crim.CanCollide = false
+											lol = true				
+											Bruh = game.Workspace["Criminals Spawn"].SpawnLocation
+											Bruh.CanCollide = false
+											Bruh.Size = Vector3.new(51.05, 24.12, 54.76)
+											Bruh.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+											Bruh.Transparency = 1
+											wait(0.001)
+											lol = false
+											if lol == false then
+												Bruh.CFrame = CFrame.new(-920.510803, 92.2271957, 2138.27002, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+												Bruh.Size = Vector3.new(6, 0.2, 6)
+												Bruh.Transparency = 0
+												lol = false
+											end
+										end
+									end
+								end
+							end
+						end
+					end
+				end
+			end
+		end)
+	
+		modguns.Name = "modguns"
+		modguns.Parent = scriptsmain
+		modguns.BackgroundColor3 = Color3.new(0, 0, 0)
+		modguns.Position = UDim2.new(0.137171283, 0, 0.706161141, 0)
+		modguns.Size = UDim2.new(0, 329, 0, 50)
+		modguns.Font = Enum.Font.GothamBlack
+		modguns.Text = "Mod All Guns"
+		modguns.TextColor3 = Color3.new(0, 1, 0)
+		modguns.TextSize = 30
+		modguns.TextWrapped = true
+		modguns.MouseButton1Down:connect(function()
+			for i,v in pairs(Workspace.Prison_ITEMS.giver:GetChildren()) do
+	
+				lol = Workspace.Remote.ItemHandler:InvokeServer(v.ITEMPICKUP)
+				print(lol)
+			end
+	
+			local client = game:GetService("Players").LocalPlayer
+	
+			for _, child in next, client.Backpack:GetChildren() do
+				if child:IsA("Tool") then
+					client.Character.Humanoid:UnequipTools()
+				end
+			end
+			local reg = (getreg or debug.getregistry)
+			local get = (debug.getupvalues or secret953)
+			local client = game:GetService("Players").LocalPlayer
+			local render = game:GetService('RunService').RenderStepped
+	
+			local function fakeStats()
+				function change(t)
+					local myStats = {
+						ReloadTime = 0,
+						FireRate = 0,
+						AutoFire = true,
+						StoredAmmo = math.huge,
+						MaxAmmo = math.huge,
+						CurrentAmmo = math.huge,
+					}
+	
+					for name, fake in next, myStats do
+						t[name] = fake
+					end
+				end
+	
+				for k, v in next, reg() do
+					if type(v) == "function" then
+						local upvals = get(v)
+						if upvals and upvals.GunStates then
+							change(upvals.GunStates)
+						end
+					end
+				end
+			end
+	
+			client.Backpack.ChildAdded:connect(function(child)
+				if child:IsA("Tool") and child:FindFirstChild("GunInterface") then
+					client.Character.Humanoid:EquipTool(child)
+	
+					render:wait()
+					fakeStats()
+					render:wait()
+	
+					client.Character.Humanoid:UnequipTools()
+				end
+			end)
+	
+			for _, child in next, client.Backpack:GetChildren() do
+				if child:IsA("Tool") and child:FindFirstChild("GunInterface") then
+					client.Character.Humanoid:EquipTool(child)
+	
+					render:wait()
+					fakeStats()
+					render:wait()
+	
+					client.Character.Humanoid:UnequipTools()
+				end
+			end
+		end)
+	end)
+end
+coroutine.wrap(ANJJ_fake_script)()
+local function UNGPUJG_fake_script() -- teampicker.setUI 
+	local script = Instance.new('LocalScript', teampicker)
+
+	script.Parent.Activated:Connect(function()
+		local ColorPicker = Instance.new("ScreenGui")
+		local TopBar = Instance.new("Frame")
+		local ColorPicker_2 = Instance.new("Frame")
+		local UIPadding = Instance.new("UIPadding")
+		local Value = Instance.new("Frame")
+		local UIGradient = Instance.new("UIGradient")
+		local Frame = Instance.new("Frame")
+		local Bottom = Instance.new("Frame")
+		local UIListLayout = Instance.new("UIListLayout")
+		local ColorPreview = Instance.new("Frame")
+		local OK = Instance.new("TextButton")
+		local HueSaturation = Instance.new("ImageLabel")
+		local Frame_2 = Instance.new("Frame")
+		local TextLabel = Instance.new("TextLabel")
+	
+		ColorPicker.Name = "ColorPicker"
+		ColorPicker.Parent = game.CoreGui
+		ColorPicker.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	
+		TopBar.Name = "TopBar"
+		TopBar.Parent = ColorPicker
+		TopBar.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+		TopBar.BorderSizePixel = 0
+		TopBar.Position = UDim2.new(0.369488537, 0, 0.458181828, 0)
+		TopBar.Size = UDim2.new(0, 288, 0, 21)
+	
+		local UserInputService = game:GetService("UserInputService")
+	
+		local gui = TopBar
+	
+		local dragging
+		local dragInput
+		local dragStart
+		local startPos
+	
+		local function update(input)
+			local delta = input.Position - dragStart
+			gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		end
+	
+		gui.InputBegan:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+				dragging = true
+				dragStart = input.Position
+				startPos = gui.Position
+	
+				input.Changed:Connect(function()
+					if input.UserInputState == Enum.UserInputState.End then
+						dragging = false
+					end
+				end)
+			end
+		end)
+	
+		gui.InputChanged:Connect(function(input)
+			if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+				dragInput = input
+			end
+		end)
+	
+		UserInputService.InputChanged:Connect(function(input)
+			if input == dragInput and dragging then
+				update(input)
+			end
+		end)
+	
+		ColorPicker_2.Name = "ColorPicker"
+		ColorPicker_2.Parent = TopBar
+		ColorPicker_2.BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+		ColorPicker_2.BorderSizePixel = 0
+		ColorPicker_2.Position = UDim2.new(0, 0, 1, 0)
+		ColorPicker_2.Size = UDim2.new(0, 288, 0, 273)
+	
+		UIPadding.Parent = ColorPicker_2
+		UIPadding.PaddingBottom = UDim.new(0, 5)
+		UIPadding.PaddingLeft = UDim.new(0, 5)
+		UIPadding.PaddingRight = UDim.new(0, 5)
+		UIPadding.PaddingTop = UDim.new(0, 5)
+	
+		Value.Name = "Value"
+		Value.Parent = ColorPicker_2
+		Value.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Value.BorderSizePixel = 0
+		Value.Position = UDim2.new(1, -20, 0, 0)
+		Value.Size = UDim2.new(0, 20, 1, -45)
+	
+		UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+		UIGradient.Rotation = 90
+		UIGradient.Parent = Value
+	
+		Frame.Parent = Value
+		Frame.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+		Frame.BorderSizePixel = 0
+		Frame.Position = UDim2.new(0, -2, 0, 0)
+		Frame.Size = UDim2.new(1, 4, 0, 5)
+	
+		Bottom.Name = "Bottom"
+		Bottom.Parent = ColorPicker_2
+		Bottom.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Bottom.BackgroundTransparency = 1.000
+		Bottom.Position = UDim2.new(0, 0, 1, -40)
+		Bottom.Size = UDim2.new(1, 0, 0, 40)
+	
+		UIListLayout.Parent = Bottom
+		UIListLayout.FillDirection = Enum.FillDirection.Horizontal
+		UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+		UIListLayout.Padding = UDim.new(0, 5)
+	
+		ColorPreview.Name = "ColorPreview"
+		ColorPreview.Parent = Bottom
+		ColorPreview.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		ColorPreview.BorderSizePixel = 0
+		ColorPreview.Size = UDim2.new(0.5, -2, 1, 0)
+	
+		OK.Name = "OK"
+		OK.Parent = Bottom
+		OK.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+		OK.BorderSizePixel = 0
+		OK.Size = UDim2.new(0.5, -2, 1, 0)
+		OK.Font = Enum.Font.ArialBold
+		OK.Text = "OK"
+		OK.TextColor3 = Color3.fromRGB(255, 255, 255)
+		OK.TextSize = 16.000
+	
+		HueSaturation.Name = "HueSaturation"
+		HueSaturation.Parent = ColorPicker_2
+		HueSaturation.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		HueSaturation.BorderSizePixel = 0
+		HueSaturation.Size = UDim2.new(1, -25, 1, -45)
+		HueSaturation.Image = "http://www.roblox.com/asset/?id=328298876"
+	
+		Frame_2.Parent = HueSaturation
+		Frame_2.AnchorPoint = Vector2.new(0.5, 0.5)
+		Frame_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+		Frame_2.BorderSizePixel = 0
+		Frame_2.Size = UDim2.new(0, 5, 0, 5)
+	
+		TextLabel.Parent = TopBar
+		TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel.BackgroundTransparency = 1.000
+		TextLabel.Size = UDim2.new(1, 0, 1, 0)
+		TextLabel.Font = Enum.Font.ArialBold
+		TextLabel.Text = "Team Color Picker"
+		TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+		TextLabel.TextSize = 16.000
+	
+		local Button1Down = false
+		local currentColor = {h=0,s=1,v=1}
+	
+		function calculateLocalMousePosition(object)
+			local positionX,positionY = object.AbsolutePosition.X,object.AbsolutePosition.Y
+			local mouseX, mouseY = game.Players.LocalPlayer:GetMouse().X,game.Players.LocalPlayer:GetMouse().Y
+	
+			return Vector2.new(mouseX-positionX, mouseY-positionY)
+		end
+	
+		function isHoveringOver(object)
+			local position = object.AbsolutePosition
+			local size = object.AbsoluteSize
+			local mouse = game.Players.LocalPlayer:GetMouse()
+			local localMouse = calculateLocalMousePosition(object)
+	
+			if (mouse.X >= position.X and mouse.Y >= position.Y) and (localMouse.X <= size.X and localMouse.Y <= size.Y) then
+				return true
+			else
+				return false
+			end
+		end
+	
+		function updatePreview()
+			ColorPreview.BackgroundColor3 = Color3.fromHSV(currentColor.h,currentColor.s,currentColor.v)
+		end
+	
+		function hueSaturationCheck() -- script made by Vapin' Cat#5497
+			if isHoveringOver(HueSaturation) then
+				local LocalOffset = calculateLocalMousePosition(HueSaturation)
+				local LocalScaleX, LocalScaleY = LocalOffset.X/HueSaturation.AbsoluteSize.X,LocalOffset.Y/HueSaturation.AbsoluteSize.Y
+	
+				HueSaturation.Frame.Position = UDim2.new(LocalScaleX, 0, LocalScaleY, 0)
+				currentColor.h = 1-LocalScaleX
+				currentColor.s = 1-LocalScaleY
+	
+				UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromHSV(currentColor.h,currentColor.s,1)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
+	
+				updatePreview()
+			end
+		end
+	
+		function valueCheck()
+			if isHoveringOver(Value) then
+				local LocalOffset = calculateLocalMousePosition(Value)
+				local LocalScaleY = LocalOffset.Y/HueSaturation.AbsoluteSize.Y
+	
+				Value.Frame.Position = UDim2.new(0, 0, LocalScaleY, 0)
+				currentColor.v = 1-LocalScaleY
+	
+				updatePreview()
+			end
+		end
+	
+		function refresh(color)
+			local position = workspace:FindFirstChild(game.Players.LocalPlayer.Name).HumanoidRootPart.CFrame
+			local _, RY, _ = position:ToOrientation()
+			position = CFrame.new(position.p) * CFrame.fromOrientation(0, RY, 0)
+	
+			local camera = workspace.CurrentCamera.CFrame
+	
+			if tostring(game.Players.LocalPlayer.TeamColor) == 'Medium stone grey' and color == nil then
+				workspace.Remote.TeamEvent:FireServer("Bright orange")
+	
+				wait()
+	
+				workspace.Remote.loadchar:InvokeServer()
+	
+				workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+			else
+				workspace.Remote.loadchar:InvokeServer(nil,color)
+			end
+	
+			local HumanoidRootPart = workspace:FindFirstChild(game.Players.LocalPlayer.Name):WaitForChild('HumanoidRootPart',0.3)
+	
+			HumanoidRootPart.CFrame = position
+	
+			workspace.CurrentCamera.CFrame = camera
+			workspace.CurrentCamera.Changed:Wait()
+			workspace.CurrentCamera.CFrame = camera
+	
+			game:GetService("StarterGui"):SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
+		end
+	
+		game.Players.LocalPlayer:GetMouse().Button1Down:Connect(function()
+			Button1Down = true
+			hueSaturationCheck()
+			valueCheck()
+		end)
+	
+		game.Players.LocalPlayer:GetMouse().Button1Up:Connect(function()
+			Button1Down = false
+		end)
+	
+		game.Players.LocalPlayer:GetMouse().Move:Connect(function()
+			if Button1Down then
+				hueSaturationCheck()
+				valueCheck()
+			end
+		end)
+	
+		OK.MouseButton1Down:Connect(function()
+			refresh(Color3.fromHSV(currentColor.h,currentColor.s,currentColor.v))
+		end)
+	end)
+end
+coroutine.wrap(UNGPUJG_fake_script)()
+local function ZJCWIYW_fake_script() -- crappy.setUI 
+	local script = Instance.new('LocalScript', crappy)
+
+	script.Parent.Activated:Connect(function()
+		--Prison life GUI
+	
+		local PrisonGui = Instance.new("ScreenGui")
+		local Main = Instance.new("Frame")
+		local Title = Instance.new("TextLabel")
+		local TitleBar = Instance.new("TextLabel")
+		local ObGuns = Instance.new("TextButton")
+		local Close = Instance.new("TextButton")
+		local KillAll = Instance.new("TextButton")
+		local TaseBypass = Instance.new("TextButton")
+		local RemoveDoors = Instance.new("TextButton")
+		local Btools = Instance.new("TextButton")
+		local BeNeutral = Instance.new("TextButton")
+		local ModGun = Instance.new("TextButton")
+		local ForceCgui = Instance.new("Frame")
+		local ComSeperateBar = Instance.new("TextLabel")
+		local InsertUser = Instance.new("TextBox")
+		local UserHolder = Instance.new("TextLabel")
+		local CrimTitle = Instance.new("TextLabel")
+		local CrimTitleBar = Instance.new("TextLabel")
+		local TextButton = Instance.new("TextButton")
+		local CrimHideButton = Instance.new("TextButton")
+		local TPshow = Instance.new("TextButton")
+		local LocalCommands = Instance.new("Frame")
+		local LocalCMD_Title = Instance.new("TextLabel")
+		local NexusTPbut = Instance.new("TextButton")
+		local CrimBaseTPbut = Instance.new("TextButton")
+		local GuardAreaTPbut = Instance.new("TextButton")
+		local FLY = Instance.new("TextButton")
+		local NWalk = Instance.new("TextButton")
+		local Njump = Instance.new("TextButton")
+		local tfJump = Instance.new("TextButton")
+		local Respawn = Instance.new("TextButton")
+		local tfWalk = Instance.new("TextButton")
+		local LocalCMD_BarTitle = Instance.new("TextLabel")
+		local TheLocal = Instance.new("TextButton")
+		local CrimG = Instance.new("TextButton")
+		local tpgui = Instance.new("Frame")
+		local TPtileBar = Instance.new("TextLabel")
+		local TPYEET = Instance.new("TextButton")
+		local UserHolderTP = Instance.new("TextLabel")
+		local InsertUserTP = Instance.new("TextBox")
+		local TpTitle = Instance.new("TextLabel")
+		local RightSepBarTp = Instance.new("TextLabel")
+		local TpHideButton = Instance.new("TextButton")
+		local AmokahsLogo = Instance.new("ImageLabel")
+		local SuperPunch = Instance.new("TextButton")
+		local KillAura = Instance.new("TextButton")
+		local BeCriminal = Instance.new("TextButton")
+		local BeGuard = Instance.new("TextButton")
+		local BeInmate = Instance.new("TextButton")
+		local ArrestAll = Instance.new("TextButton")
+		local InvGuns = Instance.new("TextButton")
+		local CrimPunch = Instance.new("TextButton")
+		local Trans = Instance.new("TextButton")
+		local Open = Instance.new("Frame")
+		local OpenGUI = Instance.new("TextButton")
+		local Credit = Instance.new("TextLabel")
+		local Dino = Instance.new("TextLabel")
+		local KA = Instance.new("Frame")
+		local NameOfKa = Instance.new("TextLabel")
+		local TrueOrFalse = Instance.new("TextLabel")
+		local TeamGUIOC = Instance.new("Frame")
+		local TeamOPorCL = Instance.new("TextButton")
+		local TeamMain = Instance.new("Frame")
+		local TextLabel = Instance.new("TextLabel")
+		local TextLabel_2 = Instance.new("TextLabel")
+		local SOG = Instance.new("TextButton")
+		local SOC = Instance.new("TextButton")
+		local SOI = Instance.new("TextButton")
+		local Disable = Instance.new("TextButton")
+		local Apart = Instance.new("Part")
+	
+		Apart.Name = "PlrsPos"
+		Apart.Parent = workspace
+		Apart.Anchored = true
+		Apart.Archivable = true
+		Apart.CFrame = CFrame.new(9e99, 9e99, 9e99)
+	
+		-- Properties
+	
+		PrisonGui.Name = "PrisonGui"
+		PrisonGui.Parent = game:GetService("Players").LocalPlayer.PlayerGui
+	
+		Main.Name = "Main"
+		Main.Parent = PrisonGui
+		Main.BackgroundColor3 = Color3.new(0.219608, 0.219608, 0.219608)
+		Main.BorderSizePixel = 0
+		Main.Position = UDim2.new(0.345, 0,2.204, 0)
+		Main.Size = UDim2.new(0, 338, 0, 301)
+		Main.Visible = false
+	
+		Title.Name = "Title"
+		Title.Parent = Main
+		Title.BackgroundColor3 = Color3.new(1, 1, 1)
+		Title.BackgroundTransparency = 1
+		Title.BorderSizePixel = 0
+		Title.Position = UDim2.new(0.136094674, 0, 0.00996677764, 0)
+		Title.Size = UDim2.new(0, 162, 0, 31)
+		Title.Font = Enum.Font.SourceSansLight
+		Title.FontSize = Enum.FontSize.Size14
+		Title.Text = "Prison Life v2.0.2 GUI"
+		Title.TextColor3 = Color3.new(0.807843, 0.807843, 0.807843)
+		Title.TextScaled = true
+		Title.TextStrokeTransparency = 0
+		Title.TextWrapped = true
+	
+		TitleBar.Name = "TitleBar"
+		TitleBar.Parent = Main
+		TitleBar.BackgroundColor3 = Color3.new(0, 0, 0)
+		TitleBar.BackgroundTransparency = 0.5
+		TitleBar.BorderSizePixel = 0
+		TitleBar.Position = UDim2.new(0, 0, 0.116104871, 0)
+		TitleBar.Size = UDim2.new(0, 338, 0, 6)
+		TitleBar.Font = Enum.Font.SourceSans
+		TitleBar.FontSize = Enum.FontSize.Size14
+		TitleBar.Text = ""
+		TitleBar.TextColor3 = Color3.new(0, 0, 0)
+	
+		ObGuns.Name = "ObGuns"
+		ObGuns.Parent = Main
+		ObGuns.BackgroundColor3 = Color3.new(1, 1, 1)
+		ObGuns.BackgroundTransparency = 0.5
+		ObGuns.BorderSizePixel = 0
+		ObGuns.Position = UDim2.new(0.0147928996, 0, 0.16104874, 0)
+		ObGuns.Size = UDim2.new(0, 159, 0, 22)
+		ObGuns.Font = Enum.Font.SourceSans
+		ObGuns.FontSize = Enum.FontSize.Size14
+		ObGuns.Text = "OBTAIN GUNS"
+		ObGuns.TextColor3 = Color3.new(1, 1, 1)
+		ObGuns.TextScaled = true
+		ObGuns.TextStrokeTransparency = 0
+		ObGuns.TextWrapped = true
+	
+		Close.Name = "Close"
+		Close.Parent = Main
+		Close.BackgroundColor3 = Color3.new(1, 0.34902, 0.34902)
+		Close.BackgroundTransparency = 0.30000001192093
+		Close.BorderSizePixel = 0
+		Close.Position = UDim2.new(0.908284009, 0, 0.0224719122, 0)
+		Close.Size = UDim2.new(0, 24, 0, 24)
+		Close.Font = Enum.Font.SourceSans
+		Close.FontSize = Enum.FontSize.Size14
+		Close.Text = ""
+		Close.TextColor3 = Color3.new(0, 0, 0)
+	
+		KillAll.Name = "KillAll"
+		KillAll.Parent = Main
+		KillAll.BackgroundColor3 = Color3.new(1, 1, 1)
+		KillAll.BackgroundTransparency = 0.5
+		KillAll.BorderSizePixel = 0
+		KillAll.Position = UDim2.new(0.0177514795, 0, 0.265917659, 0)
+		KillAll.Size = UDim2.new(0, 159, 0, 22)
+		KillAll.Font = Enum.Font.SourceSans
+		KillAll.FontSize = Enum.FontSize.Size14
+		KillAll.Text = "KILL ALL"
+		KillAll.TextColor3 = Color3.new(1, 1, 1)
+		KillAll.TextScaled = true
+		KillAll.TextStrokeTransparency = 0
+		KillAll.TextWrapped = true
+	
+		TaseBypass.Name = "TaseBypass"
+		TaseBypass.Parent = Main
+		TaseBypass.BackgroundColor3 = Color3.new(1, 1, 1)
+		TaseBypass.BackgroundTransparency = 0.5
+		TaseBypass.BorderSizePixel = 0
+		TaseBypass.Position = UDim2.new(0.0177514795, 0, 0.370786548, 0)
+		TaseBypass.Size = UDim2.new(0, 159, 0, 22)
+		TaseBypass.Font = Enum.Font.SourceSans
+		TaseBypass.FontSize = Enum.FontSize.Size14
+		TaseBypass.Text = "TASER BYPASS"
+		TaseBypass.TextColor3 = Color3.new(1, 1, 1)
+		TaseBypass.TextScaled = true
+		TaseBypass.TextStrokeTransparency = 0
+		TaseBypass.TextWrapped = true
+	
+		RemoveDoors.Name = "RemoveDoors"
+		RemoveDoors.Parent = Main
+		RemoveDoors.BackgroundColor3 = Color3.new(1, 1, 1)
+		RemoveDoors.BackgroundTransparency = 0.5
+		RemoveDoors.BorderSizePixel = 0
+		RemoveDoors.Position = UDim2.new(0.0177514795, 0, 0.483146131, 0)
+		RemoveDoors.Size = UDim2.new(0, 158, 0, 22)
+		RemoveDoors.Font = Enum.Font.SourceSans
+		RemoveDoors.FontSize = Enum.FontSize.Size14
+		RemoveDoors.Text = "REMOVE ALL DOORS"
+		RemoveDoors.TextColor3 = Color3.new(1, 1, 1)
+		RemoveDoors.TextScaled = true
+		RemoveDoors.TextStrokeTransparency = 0
+		RemoveDoors.TextWrapped = true
+	
+		Btools.Name = "Btools"
+		Btools.Parent = Main
+		Btools.BackgroundColor3 = Color3.new(1, 1, 1)
+		Btools.BackgroundTransparency = 0.5
+		Btools.BorderSizePixel = 0
+		Btools.Position = UDim2.new(0.0177514795, 0, 0.58801502, 0)
+		Btools.Size = UDim2.new(0, 159, 0, 22)
+		Btools.Font = Enum.Font.SourceSans
+		Btools.FontSize = Enum.FontSize.Size14
+		Btools.Text = "BTOOLS"
+		Btools.TextColor3 = Color3.new(1, 1, 1)
+		Btools.TextScaled = true
+		Btools.TextStrokeTransparency = 0
+		Btools.TextWrapped = true
+	
+		BeNeutral.Name = "BeNeutral"
+		BeNeutral.Parent = Main
+		BeNeutral.BackgroundColor3 = Color3.new(1, 1, 1)
+		BeNeutral.BackgroundTransparency = 0.5
+		BeNeutral.BorderSizePixel = 0
+		BeNeutral.Position = UDim2.new(0.756781578, 0, 0.696629226, 0)
+		BeNeutral.Size = UDim2.new(0, 74, 0, 22)
+		BeNeutral.Font = Enum.Font.SourceSans
+		BeNeutral.FontSize = Enum.FontSize.Size14
+		BeNeutral.Text = "NEUTRAL"
+		BeNeutral.TextColor3 = Color3.new(1, 1, 1)
+		BeNeutral.TextScaled = true
+		BeNeutral.TextStrokeTransparency = 0
+		BeNeutral.TextWrapped = true
+	
+		ModGun.Name = "ModGun"
+		ModGun.Parent = Main
+		ModGun.BackgroundColor3 = Color3.new(1, 1, 1)
+		ModGun.BackgroundTransparency = 0.5
+		ModGun.BorderSizePixel = 0
+		ModGun.Position = UDim2.new(0.0177514795, 0, 0.801498115, 0)
+		ModGun.Size = UDim2.new(0, 325, 0, 22)
+		ModGun.Font = Enum.Font.SourceSans
+		ModGun.FontSize = Enum.FontSize.Size14
+		ModGun.Text = "MOD YOUR GUN (Hold the item first)"
+		ModGun.TextColor3 = Color3.new(1, 1, 1)
+		ModGun.TextScaled = true
+		ModGun.TextStrokeTransparency = 0
+		ModGun.TextWrapped = true
+	
+		ForceCgui.Name = "ForceCgui"
+		ForceCgui.Parent = Main
+		ForceCgui.BackgroundColor3 = Color3.new(0.219608, 0.219608, 0.219608)
+		ForceCgui.BorderSizePixel = 0
+		ForceCgui.Position = UDim2.new(1, 0, 0.215946838, 0)
+		ForceCgui.Size = UDim2.new(0, 155, 0, 198)
+	
+		ComSeperateBar.Name = "ComSeperateBar"
+		ComSeperateBar.Parent = ForceCgui
+		ComSeperateBar.BackgroundColor3 = Color3.new(1, 1, 1)
+		ComSeperateBar.BackgroundTransparency = 0.5
+		ComSeperateBar.BorderSizePixel = 0
+		ComSeperateBar.Position = UDim2.new(0, 0, 0.0757575706, 0)
+		ComSeperateBar.Size = UDim2.new(0, 1, 0, 167)
+		ComSeperateBar.Font = Enum.Font.SourceSans
+		ComSeperateBar.FontSize = Enum.FontSize.Size14
+		ComSeperateBar.Text = ""
+		ComSeperateBar.TextColor3 = Color3.new(0, 0, 0)
+	
+		InsertUser.Name = "InsertUser"
+		InsertUser.Parent = ForceCgui
+		InsertUser.BackgroundColor3 = Color3.new(1, 1, 1)
+		InsertUser.BackgroundTransparency = 1
+		InsertUser.BorderSizePixel = 0
+		InsertUser.Position = UDim2.new(0.0064516128, 0, 0.186868697, 0)
+		InsertUser.Size = UDim2.new(0, 154, 0, 50)
+		InsertUser.Font = Enum.Font.SourceSansLight
+		InsertUser.FontSize = Enum.FontSize.Size14
+		InsertUser.Text = "USERNAME"
+		InsertUser.TextColor3 = Color3.new(1, 1, 1)
+		InsertUser.TextScaled = true
+		InsertUser.TextWrapped = true
+	
+		UserHolder.Name = "UserHolder"
+		UserHolder.Parent = ForceCgui
+		UserHolder.BackgroundColor3 = Color3.new(0.0156863, 0.0156863, 0.0156863)
+		UserHolder.BorderSizePixel = 0
+		UserHolder.Position = UDim2.new(0.0516129024, 0, 0.451651365, 0)
+		UserHolder.Size = UDim2.new(0, 139, 0, 3)
+		UserHolder.Font = Enum.Font.SourceSans
+		UserHolder.FontSize = Enum.FontSize.Size14
+		UserHolder.Text = ""
+		UserHolder.TextColor3 = Color3.new(0, 0, 0)
+	
+		CrimTitle.Name = "CrimTitle"
+		CrimTitle.Parent = ForceCgui
+		CrimTitle.BackgroundColor3 = Color3.new(1, 1, 1)
+		CrimTitle.BackgroundTransparency = 1
+		CrimTitle.BorderSizePixel = 0
+		CrimTitle.Position = UDim2.new(0.0064516128, 0, 0, 0)
+		CrimTitle.Size = UDim2.new(0, 154, 0, 31)
+		CrimTitle.Font = Enum.Font.SourceSansLight
+		CrimTitle.FontSize = Enum.FontSize.Size14
+		CrimTitle.Text = "CRIMINAL GUI"
+		CrimTitle.TextColor3 = Color3.new(1, 1, 1)
+		CrimTitle.TextScaled = true
+		CrimTitle.TextStrokeTransparency = 0
+		CrimTitle.TextWrapped = true
+	
+		CrimTitleBar.Name = "CrimTitleBar"
+		CrimTitleBar.Parent = ForceCgui
+		CrimTitleBar.BackgroundColor3 = Color3.new(0, 0, 0)
+		CrimTitleBar.BackgroundTransparency = 0.5
+		CrimTitleBar.BorderSizePixel = 0
+		CrimTitleBar.Position = UDim2.new(0.0064516128, 0, 0.14952904, 0)
+		CrimTitleBar.Size = UDim2.new(0, 154, 0, 1)
+		CrimTitleBar.Font = Enum.Font.SourceSans
+		CrimTitleBar.FontSize = Enum.FontSize.Size14
+		CrimTitleBar.Text = ""
+		CrimTitleBar.TextColor3 = Color3.new(0, 0, 0)
+	
+		TextButton.Parent = ForceCgui
+		TextButton.BackgroundColor3 = Color3.new(1, 1, 1)
+		TextButton.BackgroundTransparency = 0.5
+		TextButton.BorderSizePixel = 0
+		TextButton.Position = UDim2.new(0.0516129024, 0, 0.560606062, 0)
+		TextButton.Size = UDim2.new(0, 139, 0, 50)
+		TextButton.Font = Enum.Font.SourceSansLight
+		TextButton.FontSize = Enum.FontSize.Size14
+		TextButton.Text = "TURN INTO CRIMINAL (First, click KillAura)"
+		TextButton.TextColor3 = Color3.new(1, 1, 1)
+		TextButton.TextScaled = true
+		TextButton.TextStrokeTransparency = 0
+		TextButton.TextWrapped = true
+	
+		CrimHideButton.Name = "CrimHideButton"
+		CrimHideButton.Parent = ForceCgui
+		CrimHideButton.BackgroundColor3 = Color3.new(1, 0.34902, 0.34902)
+		CrimHideButton.BackgroundTransparency = 0.30000001192093
+		CrimHideButton.BorderSizePixel = 0
+		CrimHideButton.Position = UDim2.new(0.0322580636, 0, 0.89015615, 0)
+		CrimHideButton.Size = UDim2.new(0, 146, 0, 18)
+		CrimHideButton.Font = Enum.Font.SourceSansLight
+		CrimHideButton.FontSize = Enum.FontSize.Size14
+		CrimHideButton.Text = "HIDE"
+		CrimHideButton.TextColor3 = Color3.new(1, 1, 1)
+		CrimHideButton.TextScaled = true
+		CrimHideButton.TextStrokeTransparency = 0
+		CrimHideButton.TextWrapped = true
+	
+		TPshow.Name = "TPshow"
+		TPshow.Parent = Main
+		TPshow.BackgroundColor3 = Color3.new(1, 1, 1)
+		TPshow.BackgroundTransparency = 0.5
+		TPshow.BorderSizePixel = 0
+		TPshow.Position = UDim2.new(0.0166848004, 0, 0.900033236, 0)
+		TPshow.Size = UDim2.new(0, 104, 0, 22)
+		TPshow.Font = Enum.Font.SourceSans
+		TPshow.FontSize = Enum.FontSize.Size14
+		TPshow.Text = "TELEPORT TO PLAYER"
+		TPshow.TextColor3 = Color3.new(1, 1, 1)
+		TPshow.TextScaled = true
+		TPshow.TextStrokeTransparency = 0
+		TPshow.TextWrapped = true
+	
+		LocalCommands.Name = "LocalCommands"
+		LocalCommands.Parent = Main
+		LocalCommands.BackgroundColor3 = Color3.new(0.219608, 0.219608, 0.219608)
+		LocalCommands.BorderSizePixel = 0
+		LocalCommands.Position = UDim2.new(0, 0, 1, 0)
+		LocalCommands.Size = UDim2.new(0, 338, 0, 100)
+	
+		LocalCMD_Title.Name = "LocalCMD_Title"
+		LocalCMD_Title.Parent = LocalCommands
+		LocalCMD_Title.BackgroundColor3 = Color3.new(0, 0, 0)
+		LocalCMD_Title.BackgroundTransparency = 0.30000001192093
+		LocalCMD_Title.BorderSizePixel = 0
+		LocalCMD_Title.Size = UDim2.new(0, 338, 0, 22)
+		LocalCMD_Title.Font = Enum.Font.SourceSans
+		LocalCMD_Title.FontSize = Enum.FontSize.Size14
+		LocalCMD_Title.Text = "COMMANDS FOR YOURSELF"
+		LocalCMD_Title.TextColor3 = Color3.new(1, 1, 1)
+		LocalCMD_Title.TextStrokeTransparency = 0
+	
+		NexusTPbut.Name = "NexusTPbut"
+		NexusTPbut.Parent = LocalCommands
+		NexusTPbut.BackgroundColor3 = Color3.new(1, 1, 1)
+		NexusTPbut.BackgroundTransparency = 0.40000000596046
+		NexusTPbut.BorderSizePixel = 0
+		NexusTPbut.Position = UDim2.new(0.0177514795, 0, 0.319999993, 0)
+		NexusTPbut.Size = UDim2.new(0, 98, 0, 16)
+		NexusTPbut.Font = Enum.Font.SourceSans
+		NexusTPbut.FontSize = Enum.FontSize.Size14
+		NexusTPbut.Text = "TP TO NEXUS"
+		NexusTPbut.TextColor3 = Color3.new(1, 1, 1)
+		NexusTPbut.TextScaled = true
+		NexusTPbut.TextStrokeTransparency = 0
+		NexusTPbut.TextWrapped = true
+	
+		CrimBaseTPbut.Name = "CrimBaseTPbut"
+		CrimBaseTPbut.Parent = LocalCommands
+		CrimBaseTPbut.BackgroundColor3 = Color3.new(1, 1, 1)
+		CrimBaseTPbut.BackgroundTransparency = 0.40000000596046
+		CrimBaseTPbut.BorderSizePixel = 0
+		CrimBaseTPbut.Position = UDim2.new(0.0177514795, 0, 0.550980508, 0)
+		CrimBaseTPbut.Size = UDim2.new(0, 98, 0, 16)
+		CrimBaseTPbut.Font = Enum.Font.SourceSans
+		CrimBaseTPbut.FontSize = Enum.FontSize.Size14
+		CrimBaseTPbut.Text = "TP TO CRIMINAL BASE"
+		CrimBaseTPbut.TextColor3 = Color3.new(1, 1, 1)
+		CrimBaseTPbut.TextScaled = true
+		CrimBaseTPbut.TextStrokeTransparency = 0
+		CrimBaseTPbut.TextWrapped = true
+	
+		GuardAreaTPbut.Name = "GuardAreaTPbut"
+		GuardAreaTPbut.Parent = LocalCommands
+		GuardAreaTPbut.BackgroundColor3 = Color3.new(1, 1, 1)
+		GuardAreaTPbut.BackgroundTransparency = 0.40000000596046
+		GuardAreaTPbut.BorderSizePixel = 0
+		GuardAreaTPbut.Position = UDim2.new(0.0177514795, 0, 0.781960726, 0)
+		GuardAreaTPbut.Size = UDim2.new(0, 98, 0, 16)
+		GuardAreaTPbut.Font = Enum.Font.SourceSans
+		GuardAreaTPbut.FontSize = Enum.FontSize.Size14
+		GuardAreaTPbut.Text = "TP TO GUARD AREA"
+		GuardAreaTPbut.TextColor3 = Color3.new(1, 1, 1)
+		GuardAreaTPbut.TextScaled = true
+		GuardAreaTPbut.TextStrokeTransparency = 0
+		GuardAreaTPbut.TextWrapped = true
+	
+		FLY.Name = "FLY"
+		FLY.Parent = LocalCommands
+		FLY.BackgroundColor3 = Color3.new(1, 1, 1)
+		FLY.BackgroundTransparency = 0.40000000596046
+		FLY.BorderSizePixel = 0
+		FLY.Position = UDim2.new(0.354683876, 0, 0.330000013, 0)
+		FLY.Size = UDim2.new(0, 98, 0, 16)
+		FLY.Font = Enum.Font.SourceSans
+		FLY.FontSize = Enum.FontSize.Size14
+		FLY.Text = "FLY 'E'"
+		FLY.TextColor3 = Color3.new(1, 1, 1)
+		FLY.TextScaled = true
+		FLY.TextStrokeTransparency = 0
+		FLY.TextWrapped = true
+	
+		NWalk.Name = "NWalk"
+		NWalk.Parent = LocalCommands
+		NWalk.BackgroundColor3 = Color3.new(1, 1, 1)
+		NWalk.BackgroundTransparency = 0.40000000596046
+		NWalk.BorderSizePixel = 0
+		NWalk.Position = UDim2.new(0.354683876, 0, 0.560980558, 0)
+		NWalk.Size = UDim2.new(0, 98, 0, 16)
+		NWalk.Font = Enum.Font.SourceSans
+		NWalk.FontSize = Enum.FontSize.Size14
+		NWalk.Text = "NORMAL WALKSPEED"
+		NWalk.TextColor3 = Color3.new(1, 1, 1)
+		NWalk.TextScaled = true
+		NWalk.TextStrokeTransparency = 0
+		NWalk.TextWrapped = true
+	
+		Njump.Name = "Njump"
+		Njump.Parent = LocalCommands
+		Njump.BackgroundColor3 = Color3.new(1, 1, 1)
+		Njump.BackgroundTransparency = 0.40000000596046
+		Njump.BorderSizePixel = 0
+		Njump.Position = UDim2.new(0.354683876, 0, 0.791960776, 0)
+		Njump.Size = UDim2.new(0, 98, 0, 16)
+		Njump.Font = Enum.Font.SourceSans
+		Njump.FontSize = Enum.FontSize.Size14
+		Njump.Text = "NORMAL JUMP HEIGHT"
+		Njump.TextColor3 = Color3.new(1, 1, 1)
+		Njump.TextScaled = true
+		Njump.TextStrokeTransparency = 0
+		Njump.TextWrapped = true
+	
+		tfJump.Name = "tfJump"
+		tfJump.Parent = LocalCommands
+		tfJump.BackgroundColor3 = Color3.new(1, 1, 1)
+		tfJump.BackgroundTransparency = 0.40000000596046
+		tfJump.BorderSizePixel = 0
+		tfJump.Position = UDim2.new(0.691616237, 0, 0.781960726, 0)
+		tfJump.Size = UDim2.new(0, 98, 0, 16)
+		tfJump.Font = Enum.Font.SourceSans
+		tfJump.FontSize = Enum.FontSize.Size14
+		tfJump.Text = "+25 JUMP HEIGHT"
+		tfJump.TextColor3 = Color3.new(1, 1, 1)
+		tfJump.TextScaled = true
+		tfJump.TextStrokeTransparency = 0
+		tfJump.TextWrapped = true
+	
+		Respawn.Name = "Respawn"
+		Respawn.Parent = LocalCommands
+		Respawn.BackgroundColor3 = Color3.new(1, 1, 1)
+		Respawn.BackgroundTransparency = 0.40000000596046
+		Respawn.BorderSizePixel = 0
+		Respawn.Position = UDim2.new(0.691616237, 0, 0.319999993, 0)
+		Respawn.Size = UDim2.new(0, 98, 0, 16)
+		Respawn.Font = Enum.Font.SourceSans
+		Respawn.FontSize = Enum.FontSize.Size14
+		Respawn.Text = "RESPAWN"
+		Respawn.TextColor3 = Color3.new(1, 1, 1)
+		Respawn.TextScaled = true
+		Respawn.TextStrokeTransparency = 0
+		Respawn.TextWrapped = true
+	
+		tfWalk.Name = "tfWalk"
+		tfWalk.Parent = LocalCommands
+		tfWalk.BackgroundColor3 = Color3.new(1, 1, 1)
+		tfWalk.BackgroundTransparency = 0.40000000596046
+		tfWalk.BorderSizePixel = 0
+		tfWalk.Position = UDim2.new(0.691616237, 0, 0.550980508, 0)
+		tfWalk.Size = UDim2.new(0, 98, 0, 16)
+		tfWalk.Font = Enum.Font.SourceSans
+		tfWalk.FontSize = Enum.FontSize.Size14
+		tfWalk.Text = "+25 WALKSPEED"
+		tfWalk.TextColor3 = Color3.new(1, 1, 1)
+		tfWalk.TextScaled = true
+		tfWalk.TextStrokeTransparency = 0
+		tfWalk.TextWrapped = true
+	
+		LocalCMD_BarTitle.Name = "LocalCMD_BarTitle"
+		LocalCMD_BarTitle.Parent = LocalCommands
+		LocalCMD_BarTitle.BackgroundColor3 = Color3.new(1, 1, 1)
+		LocalCMD_BarTitle.BackgroundTransparency = 0.30000001192093
+		LocalCMD_BarTitle.BorderSizePixel = 0
+		LocalCMD_BarTitle.Position = UDim2.new(0.0798816606, 0, 0.219999999, 0)
+		LocalCMD_BarTitle.Size = UDim2.new(0, 283, 0, 4)
+		LocalCMD_BarTitle.Font = Enum.Font.SourceSans
+		LocalCMD_BarTitle.FontSize = Enum.FontSize.Size14
+		LocalCMD_BarTitle.Text = ""
+		LocalCMD_BarTitle.TextColor3 = Color3.new(1, 1, 1)
+		LocalCMD_BarTitle.TextStrokeTransparency = 0
+	
+		TheLocal.Name = "TheLocal"
+		TheLocal.Parent = Main
+		TheLocal.BackgroundColor3 = Color3.new(1, 1, 1)
+		TheLocal.BackgroundTransparency = 0.5
+		TheLocal.BorderSizePixel = 0
+		TheLocal.Position = UDim2.new(0.344114006, 0, 0.900033236, 0)
+		TheLocal.Size = UDim2.new(0, 104, 0, 22)
+		TheLocal.Font = Enum.Font.SourceSans
+		TheLocal.FontSize = Enum.FontSize.Size14
+		TheLocal.Text = "MORE LOCAL COMMANDS"
+		TheLocal.TextColor3 = Color3.new(1, 1, 1)
+		TheLocal.TextScaled = true
+		TheLocal.TextStrokeTransparency = 0
+		TheLocal.TextWrapped = true
+	
+		CrimG.Name = "CrimG"
+		CrimG.Parent = Main
+		CrimG.BackgroundColor3 = Color3.new(1, 1, 1)
+		CrimG.BackgroundTransparency = 0.5
+		CrimG.BorderSizePixel = 0
+		CrimG.Position = UDim2.new(0.671616912, 0, 0.900033236, 0)
+		CrimG.Size = UDim2.new(0, 104, 0, 22)
+		CrimG.Font = Enum.Font.SourceSans
+		CrimG.FontSize = Enum.FontSize.Size14
+		CrimG.Text = "FORCE CRIMINAL PLAYER"
+		CrimG.TextColor3 = Color3.new(1, 1, 1)
+		CrimG.TextScaled = true
+		CrimG.TextStrokeTransparency = 0
+		CrimG.TextWrapped = true
+	
+		tpgui.Name = "tpgui"
+		tpgui.Parent = Main
+		tpgui.BackgroundColor3 = Color3.new(0.219608, 0.219608, 0.219608)
+		tpgui.BorderSizePixel = 0
+		tpgui.Position = UDim2.new(-0.458579868, 0, 0.215946838, 0)
+		tpgui.Size = UDim2.new(0, 155, 0, 198)
+	
+		TPtileBar.Name = "TPtileBar"
+		TPtileBar.Parent = tpgui
+		TPtileBar.BackgroundColor3 = Color3.new(0, 0, 0)
+		TPtileBar.BackgroundTransparency = 0.5
+		TPtileBar.BorderSizePixel = 0
+		TPtileBar.Position = UDim2.new(0.0064516128, 0, 0.14952904, 0)
+		TPtileBar.Size = UDim2.new(0, 154, 0, 1)
+		TPtileBar.Font = Enum.Font.SourceSans
+		TPtileBar.FontSize = Enum.FontSize.Size14
+		TPtileBar.Text = ""
+		TPtileBar.TextColor3 = Color3.new(0, 0, 0)
+	
+		TPYEET.Name = "TPYEET"
+		TPYEET.Parent = tpgui
+		TPYEET.BackgroundColor3 = Color3.new(1, 1, 1)
+		TPYEET.BackgroundTransparency = 0.5
+		TPYEET.BorderSizePixel = 0
+		TPYEET.Position = UDim2.new(0.0580645166, 0, 0.560606062, 0)
+		TPYEET.Size = UDim2.new(0, 140, 0, 50)
+		TPYEET.Font = Enum.Font.SourceSansLight
+		TPYEET.FontSize = Enum.FontSize.Size14
+		TPYEET.Text = "TELEPORT"
+		TPYEET.TextColor3 = Color3.new(1, 1, 1)
+		TPYEET.TextScaled = true
+		TPYEET.TextStrokeTransparency = 0
+		TPYEET.TextWrapped = true
+	
+		UserHolderTP.Name = "UserHolderTP"
+		UserHolderTP.Parent = tpgui
+		UserHolderTP.BackgroundColor3 = Color3.new(0.0156863, 0.0156863, 0.0156863)
+		UserHolderTP.BorderSizePixel = 0
+		UserHolderTP.Position = UDim2.new(0.0516129024, 0, 0.451651365, 0)
+		UserHolderTP.Size = UDim2.new(0, 139, 0, 3)
+		UserHolderTP.Font = Enum.Font.SourceSans
+		UserHolderTP.FontSize = Enum.FontSize.Size14
+		UserHolderTP.Text = ""
+		UserHolderTP.TextColor3 = Color3.new(0, 0, 0)
+	
+		InsertUserTP.Name = "InsertUserTP"
+		InsertUserTP.Parent = tpgui
+		InsertUserTP.BackgroundColor3 = Color3.new(1, 1, 1)
+		InsertUserTP.BackgroundTransparency = 1
+		InsertUserTP.BorderSizePixel = 0
+		InsertUserTP.Position = UDim2.new(0.0064516128, 0, 0.186868697, 0)
+		InsertUserTP.Size = UDim2.new(0, 154, 0, 50)
+		InsertUserTP.Font = Enum.Font.SourceSansLight
+		InsertUserTP.FontSize = Enum.FontSize.Size14
+		InsertUserTP.Text = "USERNAME"
+		InsertUserTP.TextColor3 = Color3.new(1, 1, 1)
+		InsertUserTP.TextScaled = true
+		InsertUserTP.TextWrapped = true
+	
+		TpTitle.Name = "TpTitle"
+		TpTitle.Parent = tpgui
+		TpTitle.BackgroundColor3 = Color3.new(1, 1, 1)
+		TpTitle.BackgroundTransparency = 1
+		TpTitle.BorderSizePixel = 0
+		TpTitle.Position = UDim2.new(0.0064516128, 0, 0, 0)
+		TpTitle.Size = UDim2.new(0, 154, 0, 31)
+		TpTitle.Font = Enum.Font.SourceSansLight
+		TpTitle.FontSize = Enum.FontSize.Size14
+		TpTitle.Text = "TELEPORT GUI"
+		TpTitle.TextColor3 = Color3.new(1, 1, 1)
+		TpTitle.TextScaled = true
+		TpTitle.TextStrokeTransparency = 0
+		TpTitle.TextWrapped = true
+	
+		RightSepBarTp.Name = "RightSepBarTp"
+		RightSepBarTp.Parent = tpgui
+		RightSepBarTp.BackgroundColor3 = Color3.new(1, 1, 1)
+		RightSepBarTp.BackgroundTransparency = 0.5
+		RightSepBarTp.BorderSizePixel = 0
+		RightSepBarTp.Position = UDim2.new(0.993548393, 0, 0.0757575706, 0)
+		RightSepBarTp.Size = UDim2.new(0, 1, 0, 167)
+		RightSepBarTp.Font = Enum.Font.SourceSans
+		RightSepBarTp.FontSize = Enum.FontSize.Size14
+		RightSepBarTp.Text = ""
+		RightSepBarTp.TextColor3 = Color3.new(0, 0, 0)
+	
+		TpHideButton.Name = "TpHideButton"
+		TpHideButton.Parent = tpgui
+		TpHideButton.BackgroundColor3 = Color3.new(1, 0.34902, 0.34902)
+		TpHideButton.BackgroundTransparency = 0.30000001192093
+		TpHideButton.BorderSizePixel = 0
+		TpHideButton.Position = UDim2.new(0.0322580636, 0, 0.89015615, 0)
+		TpHideButton.Size = UDim2.new(0, 146, 0, 18)
+		TpHideButton.Font = Enum.Font.SourceSansLight
+		TpHideButton.FontSize = Enum.FontSize.Size14
+		TpHideButton.Text = "HIDE"
+		TpHideButton.TextColor3 = Color3.new(1, 1, 1)
+		TpHideButton.TextScaled = true
+		TpHideButton.TextStrokeTransparency = 0
+		TpHideButton.TextWrapped = true
+	
+		AmokahsLogo.Name = "AmokahsLogo"
+		AmokahsLogo.Parent = Main
+		AmokahsLogo.BackgroundColor3 = Color3.new(1, 1, 1)
+		AmokahsLogo.BackgroundTransparency = 1
+		AmokahsLogo.BorderSizePixel = 0
+		AmokahsLogo.Position = UDim2.new(0.0177514795, 0, 0, 0)
+		AmokahsLogo.Size = UDim2.new(0, 34, 0, 35)
+		AmokahsLogo.Image = "rbxassetid://2715559615"
+	
+		SuperPunch.Name = "SuperPunch"
+		SuperPunch.Parent = Main
+		SuperPunch.BackgroundColor3 = Color3.new(1, 1, 1)
+		SuperPunch.BackgroundTransparency = 0.5
+		SuperPunch.BorderSizePixel = 0
+		SuperPunch.Position = UDim2.new(0.511219442, 0, 0.58801502, 0)
+		SuperPunch.Size = UDim2.new(0, 158, 0, 22)
+		SuperPunch.Font = Enum.Font.SourceSans
+		SuperPunch.FontSize = Enum.FontSize.Size14
+		SuperPunch.Text = "SUPER PUNCH"
+		SuperPunch.TextColor3 = Color3.new(1, 1, 1)
+		SuperPunch.TextScaled = true
+		SuperPunch.TextStrokeTransparency = 0
+		SuperPunch.TextWrapped = true
+	
+		KillAura.Name = "KillAura"
+		KillAura.Parent = Main
+		KillAura.BackgroundColor3 = Color3.new(1, 1, 1)
+		KillAura.BackgroundTransparency = 0.5
+		KillAura.BorderColor3 = Color3.new(1, 0, 0)
+		KillAura.BorderSizePixel = 0
+		KillAura.Position = UDim2.new(0.511219442, 0, 0.262595385, 0)
+		KillAura.Size = UDim2.new(0, 157, 0, 22)
+		KillAura.Font = Enum.Font.SourceSans
+		KillAura.FontSize = Enum.FontSize.Size14
+		KillAura.Text = "TOGGABLE KILL AURA 'P'"
+		KillAura.TextColor3 = Color3.new(1, 1, 1)
+		KillAura.TextScaled = true
+		KillAura.TextStrokeTransparency = 0
+		KillAura.TextWrapped = true
+	
+		BeCriminal.Name = "BeCriminal"
+		BeCriminal.Parent = Main
+		BeCriminal.BackgroundColor3 = Color3.new(1, 1, 1)
+		BeCriminal.BackgroundTransparency = 0.5
+		BeCriminal.BorderSizePixel = 0
+		BeCriminal.Position = UDim2.new(0.514421463, 0, 0.696629226, 0)
+		BeCriminal.Size = UDim2.new(0, 74, 0, 22)
+		BeCriminal.Font = Enum.Font.SourceSans
+		BeCriminal.FontSize = Enum.FontSize.Size14
+		BeCriminal.Text = "CRIMINAL"
+		BeCriminal.TextColor3 = Color3.new(1, 1, 1)
+		BeCriminal.TextScaled = true
+		BeCriminal.TextStrokeTransparency = 0
+		BeCriminal.TextWrapped = true
+	
+		BeGuard.Name = "BeGuard"
+		BeGuard.Parent = Main
+		BeGuard.BackgroundColor3 = Color3.new(1, 1, 1)
+		BeGuard.BackgroundTransparency = 0.5
+		BeGuard.BorderSizePixel = 0
+		BeGuard.Position = UDim2.new(0.0177514795, 0, 0.696629226, 0)
+		BeGuard.Size = UDim2.new(0, 77, 0, 22)
+		BeGuard.Font = Enum.Font.SourceSans
+		BeGuard.FontSize = Enum.FontSize.Size14
+		BeGuard.Text = "GUARD"
+		BeGuard.TextColor3 = Color3.new(1, 1, 1)
+		BeGuard.TextScaled = true
+		BeGuard.TextStrokeTransparency = 0
+		BeGuard.TextWrapped = true
+	
+		BeInmate.Name = "BeInmate"
+		BeInmate.Parent = Main
+		BeInmate.BackgroundColor3 = Color3.new(1, 1, 1)
+		BeInmate.BackgroundTransparency = 0.5
+		BeInmate.BorderSizePixel = 0
+		BeInmate.Position = UDim2.new(0.268615901, 0, 0.696629226, 0)
+		BeInmate.Size = UDim2.new(0, 74, 0, 22)
+		BeInmate.Font = Enum.Font.SourceSans
+		BeInmate.FontSize = Enum.FontSize.Size14
+		BeInmate.Text = "INMATE"
+		BeInmate.TextColor3 = Color3.new(1, 1, 1)
+		BeInmate.TextScaled = true
+		BeInmate.TextStrokeTransparency = 0
+		BeInmate.TextWrapped = true
+	
+		ArrestAll.Name = "ArrestAll"
+		ArrestAll.Parent = Main
+		ArrestAll.BackgroundColor3 = Color3.new(1, 1, 1)
+		ArrestAll.BackgroundTransparency = 0.5
+		ArrestAll.BorderSizePixel = 0
+		ArrestAll.Position = UDim2.new(0.511834323, 0, 0.370786548, 0)
+		ArrestAll.Size = UDim2.new(0, 159, 0, 22)
+		ArrestAll.Font = Enum.Font.SourceSans
+		ArrestAll.FontSize = Enum.FontSize.Size14
+		ArrestAll.Text = "ARREST ALL"
+		ArrestAll.TextColor3 = Color3.new(1, 1, 1)
+		ArrestAll.TextScaled = true
+		ArrestAll.TextStrokeTransparency = 0
+		ArrestAll.TextWrapped = true
+	
+		InvGuns.Name = "InvGuns"
+		InvGuns.Parent = Main
+		InvGuns.BackgroundColor3 = Color3.new(1, 1, 1)
+		InvGuns.BackgroundTransparency = 0.5
+		InvGuns.BorderSizePixel = 0
+		InvGuns.Position = UDim2.new(0.508875728, 0, 0.16104874, 0)
+		InvGuns.Size = UDim2.new(0, 159, 0, 22)
+		InvGuns.Font = Enum.Font.SourceSans
+		InvGuns.FontSize = Enum.FontSize.Size14
+		InvGuns.Text = "TURN GUNS INVIS (Unequip first)"
+		InvGuns.TextColor3 = Color3.new(1, 1, 1)
+		InvGuns.TextScaled = true
+		InvGuns.TextStrokeTransparency = 0
+		InvGuns.TextWrapped = true
+	
+		CrimPunch.Name = "CrimPunch"
+		CrimPunch.Parent = Main
+		CrimPunch.BackgroundColor3 = Color3.new(1, 1, 1)
+		CrimPunch.BackgroundTransparency = 0.5
+		CrimPunch.BorderSizePixel = 0
+		CrimPunch.Position = UDim2.new(0.508260846, 0, 0.481702745, 0)
+		CrimPunch.Size = UDim2.new(0, 158, 0, 22)
+		CrimPunch.Font = Enum.Font.SourceSans
+		CrimPunch.FontSize = Enum.FontSize.Size14
+		CrimPunch.Text = "REMOVE TOOLS"
+		CrimPunch.TextColor3 = Color3.new(1, 1, 1)
+		CrimPunch.TextScaled = true
+		CrimPunch.TextStrokeTransparency = 0
+		CrimPunch.TextWrapped = true
+	
+		Trans.Name = "Trans"
+		Trans.Parent = Main
+		Trans.BackgroundColor3 = Color3.new(1, 0.458824, 0.439216)
+		Trans.BackgroundTransparency = 0.5
+		Trans.BorderSizePixel = 0
+		Trans.Position = UDim2.new(0.64462477, 0, 0.0199335553, 0)
+		Trans.Size = UDim2.new(0, 80, 0, 25)
+		Trans.Font = Enum.Font.SourceSans
+		Trans.FontSize = Enum.FontSize.Size14
+		Trans.Text = "TRANSPARENT"
+		Trans.TextColor3 = Color3.new(1, 1, 1)
+		Trans.TextScaled = true
+		Trans.TextStrokeTransparency = 0
+		Trans.TextWrapped = true
+	
+		Open.Name = "Open"
+		Open.Parent = PrisonGui
+		Open.BackgroundColor3 = Color3.new(1, 1, 1)
+		Open.BackgroundTransparency = 1
+		Open.BorderSizePixel = 0
+		Open.Position = UDim2.new(0, 0, 0.915841579, 0)
+		Open.Size = UDim2.new(0, 154, 0, 34)
+	
+		OpenGUI.Name = "OpenGUI"
+		OpenGUI.Parent = Open
+		OpenGUI.BackgroundColor3 = Color3.new(0.219608, 0.219608, 0.219608)
+		OpenGUI.BackgroundTransparency = 0.5
+		OpenGUI.BorderSizePixel = 0
+		OpenGUI.Size = UDim2.new(0, 154, 0, 34)
+		OpenGUI.Font = Enum.Font.SourceSansLight
+		OpenGUI.FontSize = Enum.FontSize.Size14
+		OpenGUI.Text = "OPEN"
+		OpenGUI.TextColor3 = Color3.new(1, 1, 1)
+		OpenGUI.TextScaled = true
+		OpenGUI.TextStrokeTransparency = 0
+		OpenGUI.TextWrapped = true
+	
+		Credit.Name = "Credit"
+		Credit.Parent = PrisonGui
+		Credit.BackgroundColor3 = Color3.new(1, 1, 1)
+		Credit.BackgroundTransparency = 1
+		Credit.BorderSizePixel = 0
+		Credit.Position = UDim2.new(0, 0, 0.589113653, 0)
+		Credit.Size = UDim2.new(0, 156, 0, 43)
+		Credit.Font = Enum.Font.SourceSansSemibold
+		Credit.FontSize = Enum.FontSize.Size14
+		Credit.Text = "Lame Prison Life GUI by Amokah"
+		Credit.TextColor3 = Color3.new(0, 0.764706, 0.776471)
+		Credit.TextScaled = true
+		Credit.TextStrokeTransparency = 0.80000001192093
+		Credit.TextTransparency = 0.5
+		Credit.TextWrapped = true
+		Credit.TextXAlignment = Enum.TextXAlignment.Left
+	
+		Dino.Name = "Dino"
+		Dino.Parent = PrisonGui
+		Dino.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+		Dino.BackgroundTransparency = 0.80000001192093
+		Dino.BorderColor3 = Color3.new(1, 0, 0)
+		Dino.BorderSizePixel = 5
+		Dino.Position = UDim2.new(0, 0, 0.343575954, 0)
+		Dino.Size = UDim2.new(0, 1025, 0, 101)
+		Dino.Visible = false
+		Dino.Font = Enum.Font.SourceSans
+		Dino.FontSize = Enum.FontSize.Size14
+		Dino.Text = "This GUI is not the best with FREE exploits. It's mainly for paid exploits, such as Visenya, Synapse, etc. If you are using a free lua executor with this, then don't be surprised if something does not work correctly, please note, if anyone has uploaded this with their own link, that is not 'https://pastebin.com/JS5SYqaU' then you won't get the newest release of my crappy GUI, but anyway, good luck and have fun with this I guess."
+		Dino.TextColor3 = Color3.new(1, 1, 1)
+		Dino.TextScaled = true
+		Dino.TextStrokeTransparency = 0.80000001192093
+		Dino.TextTransparency = 0.80000001192093
+		Dino.TextWrapped = true
+	
+		KA.Name = "KA"
+		KA.Parent = PrisonGui
+		KA.BackgroundColor3 = Color3.new(1, 1, 1)
+		KA.BackgroundTransparency = 1
+		KA.BorderSizePixel = 0
+		KA.Position = UDim2.new(0, 0, 0.640399575, 0)
+		KA.Size = UDim2.new(0, 162, 0, 62)
+	
+		NameOfKa.Name = "NameOfKa"
+		NameOfKa.Parent = KA
+		NameOfKa.BackgroundColor3 = Color3.new(1, 1, 1)
+		NameOfKa.BackgroundTransparency = 1
+		NameOfKa.BorderSizePixel = 0
+		NameOfKa.Position = UDim2.new(0, 0, 0.419354856, 0)
+		NameOfKa.Size = UDim2.new(0, 157, 0, 30)
+		NameOfKa.Font = Enum.Font.SourceSans
+		NameOfKa.FontSize = Enum.FontSize.Size14
+		NameOfKa.Text = "KILL AURA "
+		NameOfKa.TextColor3 = Color3.new(0.72549, 0.329412, 0.337255)
+		NameOfKa.TextScaled = true
+		NameOfKa.TextStrokeColor3 = Color3.new(0.333333, 0, 0)
+		NameOfKa.TextStrokeTransparency = 0.5
+		NameOfKa.TextWrapped = true
+		NameOfKa.TextXAlignment = Enum.TextXAlignment.Left
+	
+		TrueOrFalse.Name = "TrueOrFalse"
+		TrueOrFalse.Parent = KA
+		TrueOrFalse.BackgroundColor3 = Color3.new(1, 1, 1)
+		TrueOrFalse.BackgroundTransparency = 1
+		TrueOrFalse.BorderSizePixel = 0
+		TrueOrFalse.Position = UDim2.new(0, 0, 0.913856268, 0)
+		TrueOrFalse.Size = UDim2.new(0, 148, 0, 33)
+		TrueOrFalse.Font = Enum.Font.SourceSans
+		TrueOrFalse.FontSize = Enum.FontSize.Size14
+		TrueOrFalse.Text = "nil"
+		TrueOrFalse.TextColor3 = Color3.new(1, 0.278431, 0.278431)
+		TrueOrFalse.TextScaled = true
+		TrueOrFalse.TextStrokeTransparency = 0.5
+		TrueOrFalse.TextWrapped = true
+		TrueOrFalse.TextXAlignment = Enum.TextXAlignment.Left
+	
+		TeamGUIOC.Name = "TeamGUIOC"
+		TeamGUIOC.Parent = PrisonGui
+		TeamGUIOC.BackgroundColor3 = Color3.new(1, 1, 1)
+		TeamGUIOC.BackgroundTransparency = 1
+		TeamGUIOC.BorderSizePixel = 0
+		TeamGUIOC.Position = UDim2.new(0.00132625992, 0, 0.759765625, 0)
+		TeamGUIOC.Size = UDim2.new(0, 156, 0, 33)
+	
+		TeamOPorCL.Name = "TeamOPorCL"
+		TeamOPorCL.Parent = TeamGUIOC
+		TeamOPorCL.BackgroundColor3 = Color3.new(0.219608, 0.219608, 0.219608)
+		TeamOPorCL.BackgroundTransparency = 0.5
+		TeamOPorCL.BorderColor3 = Color3.new(0.568627, 0.176471, 0.568627)
+		TeamOPorCL.BorderSizePixel = 0
+		TeamOPorCL.Position = UDim2.new(-5.00802327972, 5, 5.12121212, 5)
+		TeamOPorCL.Size = UDim2.new(0, 156, 0, 32)
+		TeamOPorCL.Font = Enum.Font.SourceSansLight
+		TeamOPorCL.FontSize = Enum.FontSize.Size14
+		TeamOPorCL.Text = "Open/Close STAY ON TEAM GUI"
+		TeamOPorCL.TextColor3 = Color3.new(1, 1, 1)
+		TeamOPorCL.TextScaled = true
+		TeamOPorCL.TextStrokeTransparency = 0
+		TeamOPorCL.TextWrapped = true
+	
+		TeamMain.Name = "TeamMain"
+		TeamMain.Parent = PrisonGui
+		TeamMain.BackgroundColor3 = Color3.new(0.219608, 0.219608, 0.219608)
+		TeamMain.BorderSizePixel = 0
+		TeamMain.Position = UDim2.new(0, 0, 0.291015625, 0)
+		TeamMain.Size = UDim2.new(0, 214, 0, 152)
+		TeamMain.Visible = false
+	
+		TextLabel.Parent = TeamMain
+		TextLabel.BackgroundColor3 = Color3.new(0, 0, 0)
+		TextLabel.BackgroundTransparency = 0.5
+		TextLabel.BorderSizePixel = 0
+		TextLabel.Position = UDim2.new(0.104430377, 0, 0.203947365, 0)
+		TextLabel.Size = UDim2.new(0, 169, 0, 3)
+		TextLabel.Font = Enum.Font.SourceSans
+		TextLabel.FontSize = Enum.FontSize.Size14
+		TextLabel.Text = ""
+		TextLabel.TextColor3 = Color3.new(0, 0, 0)
+	
+		TextLabel_2.Parent = TeamMain
+		TextLabel_2.BackgroundColor3 = Color3.new(0, 0, 0)
+		TextLabel_2.BackgroundTransparency = 1
+		TextLabel_2.BorderSizePixel = 0
+		TextLabel_2.Size = UDim2.new(0, 214, 0, 31)
+		TextLabel_2.Font = Enum.Font.SourceSansLight
+		TextLabel_2.FontSize = Enum.FontSize.Size14
+		TextLabel_2.Text = "Stay On Team GUI"
+		TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+		TextLabel_2.TextScaled = true
+		TextLabel_2.TextStrokeTransparency = 0
+		TextLabel_2.TextWrapped = true
+	
+		SOG.Name = "SOG"
+		SOG.Parent = TeamMain
+		SOG.BackgroundColor3 = Color3.new(0.52549, 0.756863, 1)
+		SOG.BackgroundTransparency = 0.5
+		SOG.BorderSizePixel = 0
+		SOG.Position = UDim2.new(0, 0, 0.223684207, 0)
+		SOG.Size = UDim2.new(0, 214, 0, 25)
+		SOG.Font = Enum.Font.SourceSansLight
+		SOG.FontSize = Enum.FontSize.Size14
+		SOG.Text = "Stay on guards team!"
+		SOG.TextColor3 = Color3.new(1, 1, 1)
+		SOG.TextScaled = true
+		SOG.TextStrokeTransparency = 0
+		SOG.TextWrapped = true
+	
+		SOC.Name = "SOC"
+		SOC.Parent = TeamMain
+		SOC.BackgroundColor3 = Color3.new(1, 0.235294, 0.235294)
+		SOC.BackgroundTransparency = 0.5
+		SOC.BorderSizePixel = 0
+		SOC.Position = UDim2.new(0, 0, 0.394416004, 0)
+		SOC.Size = UDim2.new(0, 214, 0, 25)
+		SOC.Font = Enum.Font.SourceSansLight
+		SOC.FontSize = Enum.FontSize.Size14
+		SOC.Text = "Stay on criminals team!"
+		SOC.TextColor3 = Color3.new(1, 1, 1)
+		SOC.TextScaled = true
+		SOC.TextStrokeTransparency = 0
+		SOC.TextWrapped = true
+	
+		SOI.Name = "SOI"
+		SOI.Parent = TeamMain
+		SOI.BackgroundColor3 = Color3.new(1, 0.831373, 0.494118)
+		SOI.BackgroundTransparency = 0.5
+		SOI.BorderSizePixel = 0
+		SOI.Position = UDim2.new(0, 0, 0.559050083, 0)
+		SOI.Size = UDim2.new(0, 214, 0, 25)
+		SOI.Font = Enum.Font.SourceSansLight
+		SOI.FontSize = Enum.FontSize.Size14
+		SOI.Text = "Stay on inmates team!"
+		SOI.TextColor3 = Color3.new(1, 1, 1)
+		SOI.TextScaled = true
+		SOI.TextStrokeTransparency = 0
+		SOI.TextWrapped = true
+	
+		Disable.Name = "Disable"
+		Disable.Parent = TeamMain
+		Disable.BackgroundColor3 = Color3.new(0.615686, 0.407843, 0.411765)
+		Disable.BackgroundTransparency = 0.5
+		Disable.BorderSizePixel = 0
+		Disable.Position = UDim2.new(0, 0, 0.801872253, 0)
+		Disable.Size = UDim2.new(0, 214, 0, 29)
+		Disable.Font = Enum.Font.SourceSansSemibold
+		Disable.FontSize = Enum.FontSize.Size14
+		Disable.Text = "Disable"
+		Disable.TextColor3 = Color3.new(1, 1, 1)
+		Disable.TextScaled = true
+		Disable.TextStrokeTransparency = 0
+		Disable.TextWrapped = true
+	
+	
+		Main.Position = UDim2.new(0.345, 0,2.204, 0)
+		TeamOPorCL.Visible = false
+		TeamMain.Visible = false
+		TeamGUIOC.Visible = false
+		LocalCommands.Visible = false
+		ForceCgui.Visible = false
+		tpgui.Visible = false
+		KA.Visible = true
+		TrueOrFalse.Text = "nil"
+		TrueOrFalse.TextColor3 = Color3.new(255, 0, 191)
+	
+		wait(0.5)
+		Dino.Visible = true
+		Dino.TextTransparency = 0.8
+		Dino.TextStrokeTransparency = 0.8
+		wait(0.1)
+		Dino.TextTransparency = 0.7
+		Dino.TextStrokeTransparency = 0.7
+		wait(0.1)
+		Dino.TextTransparency = 0.6
+		Dino.TextStrokeTransparency = 0.6
+		wait(0.1)
+		Dino.TextTransparency = 0.5
+		Dino.TextStrokeTransparency = 0.5
+		wait(0.1)
+		Dino.TextTransparency = 0.4
+		Dino.TextStrokeTransparency = 0.4
+		wait(0.1)
+		Dino.TextTransparency = 0.3
+		Dino.TextStrokeTransparency = 0.3
+		wait(0.1)
+		Dino.TextTransparency = 0.2
+		Dino.TextStrokeTransparency = 0.2
+		wait(0.1)
+		Dino.TextTransparency = 0.1
+		Dino.TextStrokeTransparency = 0.1
+	
+		wait(5)
+	
+		Dino.TextTransparency = 0.1
+		Dino.TextStrokeTransparency = 0.1
+		wait(0.1)
+		Dino.TextTransparency = 0.2
+		Dino.TextStrokeTransparency = 0.2
+		wait(0.1)
+		Dino.TextTransparency = 0.3
+		Dino.TextStrokeTransparency = 0.3
+		wait(0.1)
+		Dino.TextTransparency = 0.4
+		Dino.TextStrokeTransparency = 0.4
+		wait(0.1)
+		Dino.TextTransparency = 0.5
+		Dino.TextStrokeTransparency = 0.5
+		wait(0.1)
+		Dino.TextTransparency = 0.6
+		Dino.TextStrokeTransparency = 0.6
+		wait(0.1)
+		Dino.TextTransparency = 0.7
+		Dino.TextStrokeTransparency = 0.7
+		wait(0.1)
+		Dino.TextTransparency = 0.8
+		Dino.TextStrokeTransparency = 0.8
+		wait(0.1)
+		Dino.Visible = false
+	
+		OpenGUI.MouseButton1Down:connect(function()
+			Main.Visible = true
+	
+			Main:TweenPosition(UDim2.new(0.345, 0,0.204, 0), 'Out', 'Bounce', 3)
+		end)
+	
+		Close.MouseButton1Down:connect(function()
+			Main:TweenPosition(UDim2.new(0.345, 0,2.204, 0), 'Out', 'Bounce', 1)
+			wait(1)
+			Main.Visible = false
+		end)
+	
+		CrimG.MouseButton1Down:connect(function()
+			ForceCgui.Visible = true
+		end)
+	
+		CrimHideButton.MouseButton1Down:connect(function()
+			ForceCgui.Visible = false
+		end)
+	
+		TheLocal.MouseButton1Down:connect(function()
+			if LocalCommands.Visible == false then
+				LocalCommands.Visible = true
+			elseif LocalCommands.Visible == true then
+				LocalCommands.Visible = false
+			end
+		end)
+	
+		NWalk.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+		end)
+	
+		NexusTPbut.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(879,99,2377)
+		end)
+	
+		CrimBaseTPbut.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-943, 96, 2055)
+		end)
+	
+		tfWalk.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 41
+		end)
+	
+		tfJump.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = 75
+		end)
+	
+		Njump.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+		end)
+	
+		GuardAreaTPbut.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(802,99,2270)
+		end)
+	
+		Respawn.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(0, -496, 0)
+		end)
+	
+		ObGuns.MouseButton1Down:connect(function()
+			for i,v in pairs(Workspace.Prison_ITEMS.giver:GetChildren()) do
+	
+				OwO = Workspace.Remote.ItemHandler:InvokeServer(v.ITEMPICKUP)
+			end
+		end)
+	
+		TaseBypass.MouseButton1Down:connect(function()
+			game.Players.LocalPlayer.Character.ClientInputHandler.Disabled = true
+			game.Players.LocalPlayer.CharacterAdded:connect(function()
+				game.Workspace:WaitForChild(game.Players.LocalPlayer.Name)
+				game.Players.LocalPlayer.Character.ClientInputHandler.Disabled = true
+			end)
+		end)
+	
+		RemoveDoors.MouseButton1Down:connect(function()
+			Workspace.Prison_Cellblock.doors:Destroy()
+	
+			for i,v in pairs(workspace:GetChildren())do
+				if v.Name == "Doors" then
+					v:Destroy()
+				end
+			end
+		end)
+	
+		Btools.MouseButton1Down:connect(function()
+			local tool1 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+			local tool2 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+			local tool3 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+			local tool4 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+			local tool5 = Instance.new("HopperBin",game.Players.LocalPlayer.Backpack)
+			tool1.BinType = "Clone"
+			tool2.BinType = "GameTool"
+			tool3.BinType = "Hammer"
+			tool4.BinType = "Script"
+			tool5.BinType = "Grab"
+		end)
+	
+		ModGun.MouseButton1Down:connect(function()
+			local m = require(game:GetService('Players').LocalPlayer.Character:FindFirstChildOfClass("Tool").GunStates)
+			m.Damage = 100
+			m.MaxAmmo = math.huge
+			m.CurrentAmmo = math.huge
+			m.AutoFire = true
+			m.FireRate = 0
+		end)
+	
+		KillAll.MouseButton1Down:connect(function()
+	
+			workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+	
+			game.Workspace.Remote.ItemHandler:InvokeServer(workspace.Prison_ITEMS.giver["Remington 870"].ITEMPICKUP)
+	
+			wait(0.5)
+			function kill(a)
+				local A_1 =
+					{
+						[1] =
+						{
+							["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-391.152252, 8.65560055, -83.2166901)),
+							["Distance"] = 3.2524313926697,
+							["Cframe"] = CFrame.new(840.310791, 101.334137, 2267.87988, 0.0636406094, 0.151434347, -0.986416459, 0, 0.988420188, 0.151741937, 0.997972965, -0.00965694897, 0.0629036576),
+							["Hit"] = a.Character.Head
+						},
+						[2] =
+						{
+							["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-392.481476, -8.44939327, -76.7261353)),
+							["Distance"] = 3.2699294090271,
+							["Cframe"] = CFrame.new(840.290466, 101.184189, 2267.93506, 0.0964837447, 0.0589403138, -0.993587971, 4.65661287e-10, 0.998245299, 0.0592165813, 0.995334625, -0.00571343815, 0.0963144377),
+							["Hit"] = a.Character.Head
+						},
+						[3] =
+						{
+							["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-389.21701, -2.50536323, -92.2163162)),
+							["Distance"] = 3.1665518283844,
+							["Cframe"] = CFrame.new(840.338867, 101.236496, 2267.80371, 0.0166504811, 0.0941716284, -0.995416701, 1.16415322e-10, 0.995554805, 0.0941846818, 0.999861419, -0.00156822044, 0.0165764652),
+							["Hit"] = a.Character.Head
+						},
+						[4] =
+						{
+							["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-393.353973, 3.13988972, -72.5452042)),
+							["Distance"] = 3.3218522071838,
+							["Cframe"] = CFrame.new(840.277222, 101.285957, 2267.9707, 0.117109694, 0.118740402, -0.985994935, -1.86264515e-09, 0.992826641, 0.119563118, 0.993119001, -0.0140019981, 0.116269611),
+							["Hit"] = a.Character.Head
+						},
+						[5] =
+						{
+							["RayObject"] = Ray.new(Vector3.new(845.555908, 101.429337, 2269.43945), Vector3.new(-390.73172, 3.2097764, -85.5477524)),
+							["Distance"] = 3.222757101059,
+							["Cframe"] = CFrame.new(840.317993, 101.286423, 2267.86035, 0.0517584644, 0.123365127, -0.991010666, 0, 0.992340803, 0.123530701, 0.99865967, -0.00639375951, 0.0513620302),
+							["Hit"] = a.Character.Head
+						}
+					}
+				local A_2 = game.Players.LocalPlayer.Backpack["Remington 870"]
+				local Event = game:GetService("ReplicatedStorage").ShootEvent
+				Event:FireServer(A_1, A_2)
+				Event:FireServer(A_1, A_2)
+			end
+	
+			for i,v in pairs(game.Players:GetChildren())do
+				if v.Name ~= game.Players.LocalPlayer.Name then
+					kill(v)
+				end
+			end
+			wait(1)
+			workspace.Remote.TeamEvent:FireServer("Bright orange")
+	
+		end)
+	
+		TPshow.MouseButton1Down:connect(function()
+			tpgui.Visible = true
+		end)
+	
+		TpHideButton.MouseButton1Down:connect(function()
+			tpgui.Visible = false
+		end)
+	
+		TPYEET.MouseButton1Down:connect(function()
+			Target = InsertUserTP.Text
+	
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[Target].Character.HumanoidRootPart.CFrame
+		end)
+	
+		FLY.MouseButton1Down:connect(function()
+			repeat wait()
+			until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("Torso") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid")
+			local mouse = game.Players.LocalPlayer:GetMouse()
+			repeat wait() until mouse
+			local plr = game.Players.LocalPlayer
+			local torso = plr.Character.Torso
+			local flying = true
+			local deb = true
+			local ctrl = {f = 0, b = 0, l = 0, r = 0}
+			local lastctrl = {f = 0, b = 0, l = 0, r = 0}
+			local maxspeed = 50
+			local speed = 0
+	
+			function Fly()
+				local bg = Instance.new("BodyGyro", torso)
+				bg.P = 9e4
+				bg.maxTorque = Vector3.new(9e9, 9e9, 9e9)
+				bg.cframe = torso.CFrame
+				local bv = Instance.new("BodyVelocity", torso)
+				bv.velocity = Vector3.new(0,0.1,0)
+				bv.maxForce = Vector3.new(9e9, 9e9, 9e9)
+				repeat wait()
+					plr.Character.Humanoid.PlatformStand = true
+					if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then
+						speed = speed+.5+(speed/maxspeed)
+						if speed > maxspeed then
+							speed = maxspeed
+						end
+					elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then
+						speed = speed-1
+						if speed < 0 then
+							speed = 0
+						end
+					end
+					if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then
+						bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+						lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r}
+					elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then
+						bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed
+					else
+						bv.velocity = Vector3.new(0,0.1,0)
+					end
+					bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0)
+				until not flying
+				ctrl = {f = 0, b = 0, l = 0, r = 0}
+				lastctrl = {f = 0, b = 0, l = 0, r = 0}
+				speed = 0
+				bg:Destroy()
+				bv:Destroy()
+				plr.Character.Humanoid.PlatformStand = false
+			end
+			mouse.KeyDown:connect(function(key)
+				if key:lower() == "e" then
+					if flying then flying = false
+					else
+						flying = true
+						Fly()
+					end
+				elseif key:lower() == "w" then
+					ctrl.f = 1
+				elseif key:lower() == "s" then
+					ctrl.b = -1
+				elseif key:lower() == "a" then
+					ctrl.l = -1
+				elseif key:lower() == "d" then
+					ctrl.r = 1
+				end
+			end)
+			mouse.KeyUp:connect(function(key)
+				if key:lower() == "w" then
+					ctrl.f = 0
+				elseif key:lower() == "s" then
+					ctrl.b = 0
+				elseif key:lower() == "a" then
+					ctrl.l = 0
+				elseif key:lower() == "d" then
+					ctrl.r = 0
+				end
+			end)
+			Fly()
+		end)
+	
+		SuperPunch.MouseButton1Down:connect(function()
+			mainRemotes = game.ReplicatedStorage
+			meleeRemote = mainRemotes['meleeEvent']
+			mouse = game.Players.LocalPlayer:GetMouse()
+			punching = false
+			cooldown = false
+	
+			function punch()
+				cooldown = true
+				local part = Instance.new("Part", game.Players.LocalPlayer.Character)
+				part.Transparency = 1
+				part.Size = Vector3.new(5, 2, 3)
+				part.CanCollide = false
+				local w1 = Instance.new("Weld", part)
+				w1.Part0 = game.Players.LocalPlayer.Character.Torso
+				w1.Part1 = part
+				w1.C1 = CFrame.new(0,0,2)
+				part.Touched:connect(function(hit)
+					if game.Players:FindFirstChild(hit.Parent.Name) then
+						local plr = game.Players:FindFirstChild(hit.Parent.Name)
+						if plr.Name ~= game.Players.LocalPlayer.Name then
+							part:Destroy()
+	
+							for i = 1,100 do
+								meleeRemote:FireServer(plr)
+							end
+						end
+					end
+				end)
+	
+				wait(1)
+				cooldown = false
+				part:Destroy()
+			end
+	
+	
+			mouse.KeyDown:connect(function(key)
+				if cooldown == false then
+					if key:lower() == "f" then
+	
+						punch()
+	
+					end
+				end
+			end)
+		end)
+	
+		BeInmate.MouseButton1Down:connect(function()
+			Workspace.Remote.TeamEvent:FireServer("Bright orange")
+		end)
+	
+		BeGuard.MouseButton1Down:connect(function()
+			Workspace.Remote.TeamEvent:FireServer("Bright blue")
+		end)
+	
+		BeCriminal.MouseButton1Down:connect(function()
+			LCS = game.Workspace["Criminals Spawn"].SpawnLocation
+	
+			LCS.CanCollide = false
+			LCS.Size = Vector3.new(51.05, 24.12, 54.76)
+			LCS.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+			LCS.Transparency = 1
+			wait(0.5)
+			LCS.CFrame = CFrame.new(-920.510803, 92.2271957, 2138.27002, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+			LCS.Size = Vector3.new(6, 0.2, 6)
+			LCS.Transparency = 0
+		end)
+	
+		InvGuns.MouseButton1Down:connect(function()
+			for i,v in pairs(game.Players.LocalPlayer.Backpack:GetDescendants())do
+				if v.ClassName == "Model" then
+					v:Destroy()
+				end
+			end
+	
+			game.Players.LocalPlayer.Backpack.M9.Part:Destroy()
+	
+			game.Players.LocalPlayer.Backpack.M9.Part:Destroy()
+		end)
+	
+		CrimPunch.MouseButton1Down:connect(function()
+			for i,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren())do
+				if v.ClassName == "Tool" then
+					v:Destroy()
+				end
+			end
+		end)
+	
+		BeNeutral.MouseButton1Down:connect(function()
+			Workspace.Remote.TeamEvent:FireServer("Medium stone grey")
+		end)
+	
+		TeamOPorCL.MouseButton1Down:connect(function()
+			if TeamMain.Visible == true then
+	
+				TeamMain:TweenPosition(UDim2.new(-0.00802327972, 0, 1.12121212, 0), 'Out', 'Bounce', 2)
+				wait(2)
+				TeamMain.Visible = false
+			elseif
+				TeamMain.Visible == false then
+				TeamMain:TweenPosition(UDim.new(-0.00802327972, 0, 5.12121212, 0), 'Out', 'Bounce', 2)
+				TeamMain.Visible = true
+			end
+		end)
+	
+		local yee = false
+	
+		SOC.MouseButton1Down:connect(function()
+			yee = true
+			wait(0.2)
+			if yee == true then
+				LCS = game.Workspace["Criminals Spawn"].SpawnLocation
+	
+				LCS.CanCollide = false
+				LCS.Size = Vector3.new(51.05, 24.12, 54.76)
+				LCS.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+				LCS.Transparency = 1
+				wait(0.5)
+				while yee do
+					wait(0.003)
+					LCS.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+				end
+				LCS.CFrame = CFrame.new(-920.510803, 92.2271957, 2138.27002, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+				LCS.Size = Vector3.new(6, 0.2, 6)
+				LCS.Transparency = 1
+				wait(2)
+				LCS.CFrame = CFrame.new(-920.510803, 92.2271957, 2138.27002, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+				LCS.Size = Vector3.new(6, 0.2, 6)
+				LCS.Transparency = 1
+			end
+		end)
+	
+		local GuTe = false
+	
+		SOG.MouseButton1Down:connect(function()
+			if GuTe == false then
+				GuTe = true
+				if GuTe == true then
+					while GuTe do
+						wait(0.2)
+						Workspace.Remote.TeamEvent:FireServer("Bright blue")
+					end
+				end
+			end
+		end)
+	
+		local InTe = false
+	
+		SOI.MouseButton1Down:connect(function()
+			if InTe == false then
+				InTe = true
+				if InTe == true then
+					wait(0.2)
+					workspace.Remote.TeamEvent:FireServer("Bright orange")
+				end
+			end
+		end)
+	
+		Disable.MouseButton1Down:connect(function()
+			InTe = false
+	
+			GuTe = false
+	
+			yee = false
+			wait(0.2)
+			if yee == false then
+				LCS.CFrame = CFrame.new(-920.510803, 92.2271957, 2138.27002, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+				LCS.Size = Vector3.new(6, 0.2, 6)
+				LCS.Transparency = 1
+				wait(2)
+				LCS.CFrame = CFrame.new(-920.510803, 92.2271957, 2138.27002, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+				LCS.Size = Vector3.new(6, 0.2, 6)
+				LCS.Transparency = 1
+			end
+		end)
+	
+		Trans.MouseButton1Down:connect(function()
+			PLMain = Main
+			PLCgui = ForceCgui
+			PLLc = LocalCommands
+			PLtp = tpgui
+			TMain = TeamMain
+	
+			TLble = TitleBar
+			LCTitleBar = LocalCMD_BarTitle
+			LCTitle = LocalCMD_Title
+	
+			if LCTitle.BackgroundTransparency == 0 then
+				LCTitle.BackgroundTransparency = 0.5
+			elseif
+				LCTitle.BackgroundTransparency == 0.5 then
+				LCTitle.BackgroundTransparency = 0
+			end
+	
+			if LCTitleBar.BackgroundTransparency == 0 then
+				LCTitleBar.BackgroundTransparency = 0.5
+			elseif
+				LCTitleBar.BackgroundTransparency == 0.5 then
+				LCTitleBar.BackgroundTransparency = 0
+			end
+	
+			if TLble.BackgroundTransparency == 0.8 then
+				TLble.BackgroundTransparency = 0.5
+			elseif
+				TLble.BackgroundTransparency == 0.5 then
+				TLble.BackgroundTransparency = 0.8
+			end
+	
+			if PLMain.BackgroundTransparency == 0 then
+				PLMain.BackgroundTransparency = 0.5
+			elseif
+				PLMain.BackgroundTransparency == 0.5 then
+				PLMain.BackgroundTransparency = 0
+			end
+	
+			if PLCgui.BackgroundTransparency == 0 then
+				PLCgui.BackgroundTransparency = 0.5
+			elseif
+				PLCgui.BackgroundTransparency == 0.5 then
+				PLCgui.BackgroundTransparency = 0
+			end
+	
+			if PLLc.BackgroundTransparency == 0 then
+				PLLc.BackgroundTransparency = 0.5
+			elseif
+				PLLc.BackgroundTransparency == 0.5 then
+				PLLc.BackgroundTransparency = 0
+			end
+	
+			if PLtp.BackgroundTransparency == 0 then
+				PLtp.BackgroundTransparency = 0.5
+			elseif
+				PLtp.BackgroundTransparency == 0.5 then
+				PLtp.BackgroundTransparency = 0
+			end
+	
+			if TMain.BackgroundTransparency == 0 then
+				TMain.BackgroundTransparency = 0.5
+			elseif
+				TMain.BackgroundTransparency == 0.5 then
+				TMain.BackgroundTransparency = 0
+			end
+		end)
+	
+		ArrestAll.MouseButton1Down:connect(function()
+			wait(0.1)
+			Player = game.Players.LocalPlayer
+			Pcf = Player.Character.HumanoidRootPart.CFrame
+			for i,v in pairs(game.Teams.Criminals:GetPlayers()) do
+				if v.Name ~= Player.Name then
+					local i = 10
+					repeat
+						wait()
+						i = i-1
+						game.Workspace.Remote.arrest:InvokeServer(v.Character.HumanoidRootPart)
+						Player.Character.HumanoidRootPart.CFrame = v.Character.HumanoidRootPart.CFrame * CFrame.new(0, 0, 1)
+					until i == 0
+				end
+			end
+		end)
+	
+		KillAura.MouseButton1Down:connect(function()
+			TrueOrFalse.Text = "FALSE"
+			TrueOrFalse.TextColor3 = Color3.new(0.768628, 0.156863, 0.109804)
+	
+			mainRemotes = game.ReplicatedStorage
+			meleeRemote = mainRemotes['meleeEvent']
+	
+			_G.killAura = false
+	
+			contextactionservice = game.ContextActionService
+	
+			function toggleKillAura(actionName, inputState, inputObject)
+				if inputState == Enum.UserInputState.Begin then
+					if _G.killAura == true then
+						_G.killAura = false
+						TrueOrFalse.Text = "FALSE"
+						TrueOrFalse.TextColor3 = Color3.new(0.768628, 0.156863, 0.109804)
+					else
+						_G.killAura = true
+						TrueOrFalse.Text = "TRUE"
+						TrueOrFalse.TextColor3 = Color3.new(0.6, 0.992157, 0.541176)
+					end
+				end
+			end
+	
+	
+	
+			contextactionservice:BindAction('ToggleKillAura', toggleKillAura, false, Enum.KeyCode.P)
+	
+			while wait() do
+				if _G.killAura == true then
+					for _, plr in pairs (game:GetService('Players'):GetChildren()) do
+						if plr.Name ~= game.Players.LocalPlayer.Name then
+							meleeRemote:FireServer(plr)
+	
+						end
+					end
+				end
+			end
+		end)
+	
+		local istptoplr = false
+		local metoplr = false
+	
+		TextButton.MouseButton1Down:connect(function()
+			Target = InsertUser.Text
+	
+			_G.killAura = true
+			wait(0.2)
+	
+			Apart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+			Apart.Transparency = 1
+			Apart.Anchored = true
+			Apart.CanCollide = false
+			wait(0.3)
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Players[Target].Character.HumanoidRootPart.CFrame
+	
+			istptoplr = true
+			wait(0.004)
+	
+			if game.Players.LocalPlayer.Team.TeamColor == "Bright orange" then
+				wait(6)
+				workspace.Remote.TeamEvent:FireServer("Bright orange")
+			elseif
+				game.Players.LocalPlayer.Team.TeamColor == "Bright blue" then
+				workspace.Remote.TeamEvent:FireServer("Bright blue")
+			end
+	
+			if istptoplr == true then
+				while istptoplr do
+					wait()
+	
+					game.Players.LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = game.Players[Target].Character.HumanoidRootPart.CFrame
+	
+					LCS = game.Workspace["Criminals Spawn"].SpawnLocation
+	
+					LCS.CanCollide = false
+					LCS.Size = Vector3.new(51.05, 24.12, 54.76)
+					LCS.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
+					LCS.Transparency = 1
+	
+					wait(2)
+	
+					istptoplr = false
+					_G.killAura = false
+	
+					wait(0.04)
+	
+					if istptoplr == false then
+						LCS.CFrame = CFrame.new(-920.510803, 92.2271957, 2138.27002, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+						LCS.Size = Vector3.new(6, 0.2, 6)
+						LCS.Transparency = 0
+						game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = Apart.CFrame
+						wait()
+						istptoplr = false
+					end
+				end
+			end
+		end)
+	
+		TeamOPorCL:Destroy()
+	
+	
+		function dragify(Main)
+			dragToggle = nil
+			dragSpeed = .20 -- You can edit this.
+			dragInput = nil
+			dragStart = nil
+			dragPos = nil
+	
+			function updateInput(input)
+				Delta = input.Position - dragStart
+				Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+				game:GetService("TweenService"):Create(Main, TweenInfo.new(.25), {Position = Position}):Play()
+			end
+	
+			Main.InputBegan:Connect(function(input)
+				if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+					dragToggle = true
+					dragStart = input.Position
+					startPos = Main.Position
+					input.Changed:Connect(function()
+						if (input.UserInputState == Enum.UserInputState.End) then
+							dragToggle = false
+						end
+					end)
+				end
+			end)
+	
+			Main.InputChanged:Connect(function(input)
+				if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+					dragInput = input
+				end
+			end)
+	
+			game:GetService("UserInputService").InputChanged:Connect(function(input)
+				if (input == dragInput and dragToggle) then
+					updateInput(input)
+				end
+			end)
+		end
+	
+		dragify(Main)
+	
+	
+	end)
+end
+coroutine.wrap(ZJCWIYW_fake_script)()
+local function QVFWEV_fake_script() -- hitbox.setUI 
+	local script = Instance.new('LocalScript', hitbox)
+
+	script.Parent.Activated:Connect(function()
+		local GameOverAgainllilli1iIil1l111i11 = assert local GameOverAgainl11illliliii1IIl1I1 = select local GameOverAgainlIlliil1Il1l1l1il1IlI = tonumber local GameOverAgaini1I1II1il1l1iI1lli1 = unpack local GameOverAgainI1i1i1i1lli1ilIII1l = pcall local GameOverAgainiiilI1ii1i11l11Ilil = setfenv local GameOverAgainll11Iii11i1Ill1ll1i = setmetatable local GameOverAgainl1IiiIl1iIilI1Ill1I = type local GameOverAgainlilIIii1lIlIiIiI11i = getfenv local GameOverAgainlIlilllIilIIiIIlIilIl = tostring local GameOverAgainl1I1iI11iII1lilliiI = error local GameOverAgainIiiiiI11llIIliiIIl1 = string.sub local GameOverAgainIiiI1lli1IliIiiII1l = string.byte local GameOverAgainlIl1l1iil1ilII111Il11 = string.char local GameOverAgainI1IllI1i1il1li11liI = string.rep local GameOverAgainlI1il11IliI1i1ii1ll = string.gsub local GameOverAgainlIIii1II11llI1I1III = string.match local GameOverAgainI1IIlIi1IIiiIiliII1 = #{2513} local GameOverAgainiIII1lllliIil1IlII1 = {} local GameOverAgainlIIi111Ii1liI11llii = 1 local function GameOverAgainlIlli1iIll1IlI111IlIi(GameOverAgainllIiIiillli1111lII1, GameOverAgainilIllIIIiilIll1Iii1) local GameOverAgaini1lill1lillil1II1Ii GameOverAgainllIiIiillli1111lII1 = GameOverAgainlI1il11IliI1i1ii1ll(GameOverAgainIiiiiI11llIIliiIIl1(GameOverAgainllIiIiillli1111lII1, 5), "..", function(GameOverAgainIl11IIlI1llI11llIil) if GameOverAgainIiiI1lli1IliIiiII1l(GameOverAgainIl11IIlI1llI11llIil, 2) == 71 then GameOverAgaini1lill1lillil1II1Ii = GameOverAgainlIlliil1Il1l1l1il1IlI(GameOverAgainIiiiiI11llIIliiIIl1(GameOverAgainIl11IIlI1llI11llIil, 1, 1)) return "" else local GameOverAgainlIilli1IIlil1iliIll = GameOverAgainlIl1l1iil1ilII111Il11(GameOverAgainlIlliil1Il1l1l1il1IlI(GameOverAgainIl11IIlI1llI11llIil, 16)) if GameOverAgaini1lill1lillil1II1Ii then local GameOverAgainlIliIllIili1lI1iilI1i = GameOverAgainI1IllI1i1il1li11liI(GameOverAgainlIilli1IIlil1iliIll, GameOverAgaini1lill1lillil1II1Ii) GameOverAgaini1lill1lillil1II1Ii = nil return GameOverAgainlIliIllIili1lI1iilI1i else return GameOverAgainlIilli1IIlil1iliIll end end end) local function GameOverAgainiIl111iiIllI1iiIiI1() local GameOverAgainll1i1iliil1I1Illli1 = GameOverAgainIiiI1lli1IliIiiII1l(GameOverAgainllIiIiillli1111lII1, GameOverAgainlIIi111Ii1liI11llii, GameOverAgainlIIi111Ii1liI11llii) GameOverAgainlIIi111Ii1liI11llii = GameOverAgainlIIi111Ii1liI11llii + 1 return GameOverAgainll1i1iliil1I1Illli1 end local function GameOverAgainliil1ili1iIiII1I1ii() local GameOverAgainll1i1iliil1I1Illli1, GameOverAgainlIilli1IIlil1iliIll, GameOverAgainlIliIllIili1lI1iilI1i, GameOverAgainIl11iiIli1I1lI1i111 = GameOverAgainIiiI1lli1IliIiiII1l(GameOverAgainllIiIiillli1111lII1, GameOverAgainlIIi111Ii1liI11llii, GameOverAgainlIIi111Ii1liI11llii + 3) GameOverAgainlIIi111Ii1liI11llii = GameOverAgainlIIi111Ii1liI11llii + 4 return GameOverAgainIl11iiIli1I1lI1i111 * 16777216 + GameOverAgainlIliIllIili1lI1iilI1i * 65536 + GameOverAgainlIilli1IIlil1iliIll * 256 + GameOverAgainll1i1iliil1I1Illli1 end local function GameOverAgainliiiII1lIi1i1l1ii1I(GameOverAgainill1liil1lIiII1ilIi, GameOverAgainlIiIiIliIlli1il11ii, GameOverAgaini1i111i1iii1111iIii) if GameOverAgaini1i111i1iii1111iIii then local GameOverAgainliIi1IliIIl1l11ilii, GameOverAgainliliIIlilIIIi1li1l1 = 0, 0 for GameOverAgainI1lIiii11ll1i1IlI1l = GameOverAgainlIiIiIliIlli1il11ii, GameOverAgaini1i111i1iii1111iIii do GameOverAgainliIi1IliIIl1l11ilii = GameOverAgainliIi1IliIIl1l11ilii + 2 ^ GameOverAgainliliIIlilIIIi1li1l1 * GameOverAgainliiiII1lIi1i1l1ii1I(GameOverAgainill1liil1lIiII1ilIi, GameOverAgainI1lIiii11ll1i1IlI1l) GameOverAgainliliIIlilIIIi1li1l1 = GameOverAgainliliIIlilIIIi1li1l1 + 1 end return GameOverAgainliIi1IliIIl1l11ilii else local GameOverAgainlIlIiIlIiiiliIIi1l1li = 2 ^ (GameOverAgainlIiIiIliIlli1il11ii - 1) return GameOverAgainlIlIiIlIiiiliIIi1l1li <= GameOverAgainill1liil1lIiII1ilIi % (GameOverAgainlIlIiIlIiiiliIIi1l1li + GameOverAgainlIlIiIlIiiiliIIi1l1li) and 1 or 0 end end local function GameOverAgainlIlIi11iiil1IiIi11I1l() local GameOverAgainll1i1iliil1I1Illli1, GameOverAgainlIilli1IIlil1iliIll = GameOverAgainliil1ili1iIiII1I1ii(), GameOverAgainliil1ili1iIiII1I1ii() if GameOverAgainll1i1iliil1I1Illli1 == 0 and GameOverAgainlIilli1IIlil1iliIll == 0 then return 0 end return (-2 * GameOverAgainliiiII1lIi1i1l1ii1I(GameOverAgainlIilli1IIlil1iliIll, 32) + 1) * 2 ^ (GameOverAgainliiiII1lIi1i1l1ii1I(GameOverAgainlIilli1IIlil1iliIll, 21, 31) - 1023) * ((GameOverAgainliiiII1lIi1i1l1ii1I(GameOverAgainlIilli1IIlil1iliIll, 1, 20) * 4294967296 + GameOverAgainll1i1iliil1I1Illli1) / 4503599627370496 + 1) end local function GameOverAgaini11iiiil1Ill11li1l1(GameOverAgainiiIilIlIl1IIi1l1IlI) local GameOverAgainlIlIi11iI1l1111I1ilI1 = { GameOverAgainIiiI1lli1IliIiiII1l(GameOverAgainllIiIiillli1111lII1, GameOverAgainlIIi111Ii1liI11llii, GameOverAgainlIIi111Ii1liI11llii + 3) } GameOverAgainlIIi111Ii1liI11llii = GameOverAgainlIIi111Ii1liI11llii + 4 local GameOverAgainlIllii11l1i1i1IIlI1ll = { nil, nil, nil, nil, nil, nil, nil, nil } for GameOverAgainI1lIiii11ll1i1IlI1l = 1, 8 do GameOverAgainlIllii11l1i1i1IIlI1ll[GameOverAgainI1lIiii11ll1i1IlI1l] = GameOverAgainliiiII1lIi1i1l1ii1I(GameOverAgainiiIilIlIl1IIi1l1IlI, GameOverAgainI1lIiii11ll1i1IlI1l) end local GameOverAgainlIl1lIIIlil1il111I1l1 = "" for GameOverAgainI1lIiii11ll1i1IlI1l = 1, 4 do local GameOverAgainliIi1IliIIl1l11ilii, GameOverAgainliliIIlilIIIi1li1l1 = 0, 0 for GameOverAgainliiIliIlilliIIIi1I1 = 1, 8 do local GameOverAgainI11iIliIi1I1Iiiil11 = GameOverAgainliiiII1lIi1i1l1ii1I(GameOverAgainlIlIi11iI1l1111I1ilI1[GameOverAgainI1lIiii11ll1i1IlI1l], GameOverAgainliiIliIlilliIIIi1I1) if GameOverAgainlIllii11l1i1i1IIlI1ll[GameOverAgainliiIliIlilliIIIi1I1] == 1 then GameOverAgainI11iIliIi1I1Iiiil11 = GameOverAgainI11iIliIi1I1Iiiil11 == 1 and 0 or 1 end GameOverAgainliIi1IliIIl1l11ilii = GameOverAgainliIi1IliIIl1l11ilii + 2 ^ GameOverAgainliliIIlilIIIi1li1l1 * GameOverAgainI11iIliIi1I1Iiiil11 GameOverAgainliliIIlilIIIi1li1l1 = GameOverAgainliliIIlilIIIi1li1l1 + 1 end GameOverAgainlIl1lIIIlil1il111I1l1 = GameOverAgainlIl1lIIIlil1il111I1l1 .. GameOverAgainlIl1lIIIlil1il111I1l1.char(GameOverAgainliIi1IliIIl1l11ilii) end local GameOverAgainll1i1iliil1I1Illli1, GameOverAgainlIilli1IIlil1iliIll, GameOverAgainlIliIllIili1lI1iilI1i, GameOverAgainIl11iiIli1I1lI1i111 = GameOverAgainIiiI1lli1IliIiiII1l(GameOverAgainlIl1lIIIlil1il111I1l1, 1, 4) return GameOverAgainIl11iiIli1I1lI1i111 * 16777216 + GameOverAgainlIliIllIili1lI1iilI1i * 65536 + GameOverAgainlIilli1IIlil1iliIll * 256 + GameOverAgainll1i1iliil1I1Illli1 end local function GameOverAgainiilllIi1ii11I1l1lii(GameOverAgainiiIilIlIl1IIi1l1IlI) local GameOverAgainlIlI11iii1I1llil1lIIi = GameOverAgainliil1ili1iIiII1I1ii() GameOverAgainlIIi111Ii1liI11llii = GameOverAgainlIIi111Ii1liI11llii + GameOverAgainlIlI11iii1I1llil1lIIi local GameOverAgainlIllii11l1i1i1IIlI1ll = { nil, nil, nil, nil, nil, nil, nil, nil } for GameOverAgainI1lIiii11ll1i1IlI1l = 1, 8 do GameOverAgainlIllii11l1i1i1IIlI1ll[GameOverAgainI1lIiii11ll1i1IlI1l] = GameOverAgainliiiII1lIi1i1l1ii1I(GameOverAgainiiIilIlIl1IIi1l1IlI, GameOverAgainI1lIiii11ll1i1IlI1l) end local GameOverAgainlIl1lIIIlil1il111I1l1 = "" for GameOverAgainI1lIiii11ll1i1IlI1l = 1, GameOverAgainlIlI11iii1I1llil1lIIi do local GameOverAgainliIi1IliIIl1l11ilii, GameOverAgainliliIIlilIIIi1li1l1 = 0, 0 for GameOverAgainliiIliIlilliIIIi1I1 = 1, 8 do local GameOverAgainI11iIliIi1I1Iiiil11 = GameOverAgainliiiII1lIi1i1l1ii1I(GameOverAgainIiiI1lli1IliIiiII1l(GameOverAgainllIiIiillli1111lII1, GameOverAgainlIIi111Ii1liI11llii - GameOverAgainlIlI11iii1I1llil1lIIi + GameOverAgainI1lIiii11ll1i1IlI1l - 1), GameOverAgainliiIliIlilliIIIi1I1) if GameOverAgainlIllii11l1i1i1IIlI1ll[GameOverAgainliiIliIlilliIIIi1I1] == 1 then GameOverAgainI11iIliIi1I1Iiiil11 = GameOverAgainI11iIliIi1I1Iiiil11 == 1 and 0 or 1 end GameOverAgainliIi1IliIIl1l11ilii = GameOverAgainliIi1IliIIl1l11ilii + 2 ^ GameOverAgainliliIIlilIIIi1li1l1 * GameOverAgainI11iIliIi1I1Iiiil11 GameOverAgainliliIIlilIIIi1li1l1 = GameOverAgainliliIIlilIIIi1li1l1 + 1 end GameOverAgainlIl1lIIIlil1il111I1l1 = GameOverAgainlIl1lIIIlil1il111I1l1 .. GameOverAgainlIl1lIIIlil1il111I1l1.char(GameOverAgainliIi1IliIIl1l11ilii) end return GameOverAgainlIl1lIIIlil1il111I1l1 end local GameOverAgainIllI111ilIlIi1i11li = GameOverAgainiIl111iiIllI1iiIiI1() local GameOverAgainlI11I1i11ll1IiIl1li = GameOverAgainiIl111iiIllI1iiIiI1() local function GameOverAgainiIiilIliiIlilliliIi() local GameOverAgainil1IiIi1li1I1llIiil = { [120717] = {}, [41168] = {}, [21543] = {}, [122665] = {} } GameOverAgainliil1ili1iIiII1I1ii() local GameOverAgainlIi1Il1iillIlIIiIii = GameOverAgainliil1ili1iIiII1I1ii() for GameOverAgainI1lIiii11ll1i1IlI1l = GameOverAgainI1IIlIi1IIiiIiliII1, GameOverAgainlIi1Il1iillIlIIiIii do GameOverAgainil1IiIi1li1I1llIiil[41168][GameOverAgainI1lIiii11ll1i1IlI1l - GameOverAgainI1IIlIi1IIiiIiliII1] = GameOverAgainiIiilIliiIlilliliIi() end GameOverAgainil1IiIi1li1I1llIiil[28672] = GameOverAgainiIl111iiIllI1iiIiI1() GameOverAgainiIl111iiIllI1iiIiI1() GameOverAgainliil1ili1iIiII1I1ii() GameOverAgainliil1ili1iIiII1I1ii() GameOverAgainiIl111iiIllI1iiIiI1() GameOverAgainliil1ili1iIiII1I1ii() GameOverAgainil1IiIi1li1I1llIiil[87011] = GameOverAgainiIl111iiIllI1iiIiI1() GameOverAgainiIl111iiIllI1iiIiI1() local GameOverAgainlIi1Il1iillIlIIiIii = GameOverAgainliil1ili1iIiII1I1ii() - (#{ 3552, 4767, 6512, 4079, 474, 4293, 6319, 1688, 6829, 3290, 627, 1274, 1352, 3450, 1429, 5810, 6124, 5702, 4686, 4339, 931 } + 133738) for GameOverAgainI1lIiii11ll1i1IlI1l = GameOverAgainI1IIlIi1IIiiIiliII1, GameOverAgainlIi1Il1iillIlIIiIii do local GameOverAgainlIlI1IliIll1I1IliiIli = {} local GameOverAgainl1IiiIl1iIilI1Ill1I = GameOverAgainiIl111iiIllI1iiIiI1() if GameOverAgainl1IiiIl1iIilI1Ill1I == #{ 5932, 4137, 214, 5597, 2250, 838, 4101, 4342, 2388, 5094, 1856, 6148, 654, 3786, 826, 334, 5583, 737, 6194, 5088, 6363, 661 } + 177 then GameOverAgainlIlI1IliIll1I1IliiIli[7475] = GameOverAgainiilllIi1ii11I1l1lii(GameOverAgainIllI111ilIlIi1i11li) end if GameOverAgainl1IiiIl1iIilI1Ill1I == #{ 5126, 5090, 556, 4730, 3066, 4184, 6233, 5740, 5620, 3203, 3257, 6541, 234, 6083, 1208, 1779, 6882, 5876, 6947, 2809, 3726, 3630 } + 58 then GameOverAgainlIlI1IliIll1I1IliiIli[7475] = GameOverAgainiilllIi1ii11I1l1lii(GameOverAgainIllI111ilIlIi1i11li) end if GameOverAgainl1IiiIl1iIilI1Ill1I == #{ 951, 5065, 334, 2674, 4780, 4820, 6906, 5114, 2514, 4103, 4594, 6751, 1828, 3587, 4908, 6142, 3933, 2893, 4030, 6821 } + 94 then GameOverAgainlIlI1IliIll1I1IliiIli[7475] = #{ 2348, 84, 2568, 6418, 1049, 6378, 6270, 605, 3721, 1352, 4885, 2059, 5286, 1326, 1638, 5971, 1391, 5345, 6452, 4713, 3991 } + 24020 == #{ 257, 2771, 445, 1117, 2855, 5944, 6833, 2214, 6944, 4599, 4471, 780, 1854, 2574, 2700, 5254, 5944, 640, 202, 238, 3672, 1998, 3215, 456 } + 119228 end if GameOverAgainl1IiiIl1iIilI1Ill1I == #{ 2860, 1369, 1794, 353, 5615, 5106, 1598, 2228, 4575, 4335, 5794, 1081, 4979, 2153, 2315, 1802, 6795, 4316, 4411, 3740, 5718 } + 209 then GameOverAgainlIlI1IliIll1I1IliiIli[7475] = #{ 6516, 3850, 5644, 610, 3305, 3807, 3233, 5211, 755, 3634, 1604, 2362, 1689, 2339, 5799, 1649, 5485, 5587, 3290, 4741, 6337, 4172, 2088 } + 91384 == #{ 6516, 3850, 5644, 610, 3305, 3807, 3233, 5211, 755, 3634, 1604, 2362, 1689, 2339, 5799, 1649, 5485, 5587, 3290, 4741, 6337, 4172, 2088 } + 91384 end if GameOverAgainl1IiiIl1iIilI1Ill1I == #{ 2105, 388, 2293, 2216, 5670, 539, 6259, 3786, 516, 2737, 6782, 3206, 2903, 4016, 4823, 201, 4487, 5633, 3973, 454, 3173 } + 72 then GameOverAgainlIlI1IliIll1I1IliiIli[7475] = GameOverAgainiilllIi1ii11I1l1lii(GameOverAgainIllI111ilIlIi1i11li) end if GameOverAgainl1IiiIl1iIilI1Ill1I == #{ 3530, 2736, 2326, 5938, 5223, 1510, 3806, 594 } then GameOverAgainlIlI1IliIll1I1IliiIli[7475] = GameOverAgainiilllIi1ii11I1l1lii(GameOverAgainIllI111ilIlIi1i11li) end if GameOverAgainl1IiiIl1iIilI1Ill1I == #{ 4159, 6293, 6429, 776, 4567, 5214, 5630, 1988, 1193, 148, 5010, 3995, 3765, 1626, 4001, 2819, 4197, 2893, 1685, 4467, 2877, 6314, 1770, 5116 } + 28 then GameOverAgainlIlI1IliIll1I1IliiIli[7475] = GameOverAgainiilllIi1ii11I1l1lii(GameOverAgainIllI111ilIlIi1i11li) end if GameOverAgainl1IiiIl1iIilI1Ill1I == #{ 804, 6234, 3956, 6001, 1264, 6355, 4529, 4534, 326, 2234, 1410, 4213, 1384, 4585, 1305, 2730, 6234, 4659, 1884, 1453, 6844 } + 14 then GameOverAgainlIlI1IliIll1I1IliiIli[7475] = GameOverAgainiIl111iiIllI1iiIiI1() + GameOverAgainliil1ili1iIiII1I1ii() + GameOverAgainlIlIi11iiil1IiIi11I1l() end if GameOverAgainl1IiiIl1iIilI1Ill1I == #{ 2785, 4941, 3173, 1003, 2937, 3968, 6852, 2557, 6630, 4556, 3111, 780, 805, 3580, 5208, 4613, 661, 6560, 5943, 2759 } + 110 then GameOverAgainlIlI1IliIll1I1IliiIli[7475] = GameOverAgainlIlIi11iiil1IiIi11I1l() end GameOverAgainil1IiIi1li1I1llIiil[122665][GameOverAgainI1lIiii11ll1i1IlI1l - GameOverAgainI1IIlIi1IIiiIiliII1] = GameOverAgainlIlI1IliIll1I1IliiIli end GameOverAgainiIl111iiIllI1iiIiI1() GameOverAgainil1IiIi1li1I1llIiil[46598] = GameOverAgainiIl111iiIllI1iiIiI1() local GameOverAgainlIi1Il1iillIlIIiIii = GameOverAgainliil1ili1iIiII1I1ii() for GameOverAgainI1lIiii11ll1i1IlI1l = GameOverAgainI1IIlIi1IIiiIiliII1, GameOverAgainlIi1Il1iillIlIIiIii do GameOverAgainil1IiIi1li1I1llIiil[120717][GameOverAgainI1lIiii11ll1i1IlI1l] = GameOverAgainliil1ili1iIiII1I1ii() end local GameOverAgainlIi1Il1iillIlIIiIii = GameOverAgainliil1ili1iIiII1I1ii() - (#{ 3949, 457, 2072, 1217, 1908, 5312, 5942, 4436, 3901, 4094, 4637, 2766, 6441, 5917, 2792, 5778, 6264, 2145, 5155, 5466 } + 133727) for GameOverAgainI1lIiii11ll1i1IlI1l = GameOverAgainI1IIlIi1IIiiIiliII1, GameOverAgainlIi1Il1iillIlIIiIii do local GameOverAgainlllii11iI1ii11ilI1I = {} local GameOverAgainIiIliIii1IilIIliiiI = GameOverAgaini11iiiil1Ill11li1l1(GameOverAgainlI11I1i11ll1IiIl1li) GameOverAgainlllii11iI1ii11ilI1I[21866] = GameOverAgainliiiII1lIi1i1l1ii1I(GameOverAgainIiIliIii1IilIIliiiI, #{ 5064, 5530, 5984, 3104, 4802, 6442, 2055, 2789, 3299, 1178, 3682, 569, 6169, 589, 4713, 5523, 2768, 6108, 5210 }, #{ 3160, 1778, 5294, 890, 4848, 1141, 2372, 2807, 6942, 208, 4858, 2085, 1111, 1516, 4477, 2706, 474, 4108, 5363, 1694, 3751, 253 } + 4) GameOverAgainlllii11iI1ii11ilI1I[91286] = GameOverAgainliiiII1lIi1i1l1ii1I(GameOverAgainIiIliIii1IilIIliiiI, #{ 4943, 4180, 4579, 5238, 6489, 5895, 4190, 840, 4495, 6429, 589, 6268, 5325, 3133, 6937, 3272, 5404, 5385, 12, 3791, 4788, 3718, 2938, 4315 } + 3, #{ 4584, 159, 2270, 3498, 6943, 6111, 6031, 1233, 5538, 1479, 663, 4570, 2649, 3012, 4411, 4505, 4723, 2020, 2041, 6277, 1621, 1585, 4959 } + 9) GameOverAgainlllii11iI1ii11ilI1I[90718] = GameOverAgainliiiII1lIi1i1l1ii1I(GameOverAgainIiIliIii1IilIIliiiI, #{ 5111, 5463, 6556, 6944, 4172, 85, 6594, 3795, 2481, 3208 }, #{ 1536, 6199, 6647, 2940, 5302, 2336, 6187, 4461, 5262, 5471, 3106, 1046, 1618, 4215, 3948, 1556, 1712, 2099 }) GameOverAgainlllii11iI1ii11ilI1I[71033] = GameOverAgainliiiII1lIi1i1l1ii1I(GameOverAgainIiIliIii1IilIIliiiI, #{ 220, 6646, 3858, 3302, 5711, 1926, 1621, 6669, 3088, 2567, 4385, 4340, 3984, 4373, 1547, 6391, 2388, 2580, 747 }, #{ 2087, 757, 5956, 4938, 2282, 369, 243, 4305, 6379, 3524, 1255, 5782, 5378, 3934, 6934, 4794, 3266, 5382, 4499, 3851, 1704 } + 5) GameOverAgainlllii11iI1ii11ilI1I[49575] = GameOverAgainliiiII1lIi1i1l1ii1I(GameOverAgainIiIliIii1IilIIliiiI, #{3911}, #{ 3172, 1691, 3203, 5406, 4976, 5532, 1956, 6359, 3031, 2303, 3675, 5873, 587, 5157, 5071, 4680, 4836, 4674 }) GameOverAgainlllii11iI1ii11ilI1I[53199] = GameOverAgainliiiII1lIi1i1l1ii1I(GameOverAgainIiIliIii1IilIIliiiI, #{6646}, #{ 4412, 3320, 2010, 393, 3095, 5032, 2575, 4443, 4554 }) GameOverAgainil1IiIi1li1I1llIiil[21543][GameOverAgainI1lIiii11ll1i1IlI1l] = GameOverAgainlllii11iI1ii11ilI1I end return GameOverAgainil1IiIi1li1I1llIiil end local function GameOverAgainlIl1l11iill1Ii1I1I1i1(GameOverAgainil1IiIi1li1I1llIiil, GameOverAgainilIllIIIiilIll1Iii1, GameOverAgainIlilIiI1Ii11l1Il111) local GameOverAgainlIlilllilI1I1ll11ilii, GameOverAgainlli1iIIlIlIliiiI1I1 = 30, 25 local GameOverAgainlIl1llIl1IlIl1lIIIIIl = GameOverAgainil1IiIi1li1I1llIiil[21543] local GameOverAgainIl1ll1llliIll11i1i1 = GameOverAgainll11Iii11i1Ill1ll1i({}, { __index = function(GameOverAgainlIIIii1i111iilii11l, GameOverAgainlIl1ll1illI1iIlI1i1I1) local GameOverAgainlIl1lIIIlil1il111I1l1 = GameOverAgainil1IiIi1li1I1llIiil[122665][GameOverAgainlIl1ll1illI1iIlI1i1I1] if GameOverAgainIiiiiI11llIIliiIIl1(GameOverAgainl1IiiIl1iIilI1Ill1I(GameOverAgainlIl1lIIIlil1il111I1l1[7475]), 1, 1) == "s" then return { [7475] = GameOverAgainIiiiiI11llIIliiIIl1(GameOverAgainlIl1lIIIlil1il111I1l1[7475], 4) } end return GameOverAgainlIl1lIIIlil1il111I1l1 end }) local GameOverAgainiilllililii11ll1l1i = 87011 local GameOverAgainIli1III1i1l1l1iil11 = GameOverAgainil1IiIi1li1I1llIiil[41168] local GameOverAgainll1I11iiiiIIIi1llII = 7475 local GameOverAgainiI1ilii1ilIilIl1i11 = GameOverAgainil1IiIi1li1I1llIiil[46598] local GameOverAgainiIliiIlIlI11Ii1I1i1 = 91286 local GameOverAgainlIlil11I11iI11lI1IiiI = GameOverAgainil1IiIi1li1I1llIiil[120717] local GameOverAgainii11i1iil1IlIIi1IIi = 53199 local function GameOverAgainIiI111ilill11I1IiI1(...) local GameOverAgainIlilIill1Il1IliiI1i = 0 local GameOverAgainIiiilIill1ilIl1ii1i = { GameOverAgaini1I1II1il1l1iI1lli1({}, 1, GameOverAgainil1IiIi1li1I1llIiil[28672]) } local GameOverAgainiIIl1iliI11i11IlIIi = 1 local GameOverAgainllIil1l11IIlI1lll1i = {} local GameOverAgainlliIIi1IiI1I1IllI1i = {} local GameOverAgainl1lIi1II1iIii1IiIl1 = 1 local GameOverAgainilIllIIIiilIll1Iii1 = GameOverAgainlilIIii1lIlIiIiI11i() local GameOverAgaini1II11iiIi1II1l1Iil = { ... } local GameOverAgainIlI1iliI1lilIiIl1i1 = {} local GameOverAgainlIl1illIiliil1l1iii1l = #GameOverAgaini1II11iiIi1II1l1Iil - 1 for GameOverAgainI1lIiii11ll1i1IlI1l = 0, GameOverAgainlIl1illIiliil1l1iii1l do if GameOverAgainiI1ilii1ilIilIl1i11 >= GameOverAgainI1lIiii11ll1i1IlI1l + 1 then GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainI1lIiii11ll1i1IlI1l] = GameOverAgaini1II11iiIi1II1l1Iil[GameOverAgainI1lIiii11ll1i1IlI1l + 1] end GameOverAgainIlI1iliI1lilIiIl1i1[GameOverAgainI1lIiii11ll1i1IlI1l] = GameOverAgaini1II11iiIi1II1l1Iil[GameOverAgainI1lIiii11ll1i1IlI1l + 1] end local function GameOverAgainiil1lI111lI11i1lIii(...) local GameOverAgainlIliIllIili1lI1iilI1i = GameOverAgainl11illliliii1IIl1I1("#", ...) local GameOverAgainlIIIii1i111iilii11l = { ... } return GameOverAgainlIliIllIili1lI1iilI1i, GameOverAgainlIIIii1i111iilii11l end local GameOverAgainlIiI11lI1lililil1l1 = #{ 5072, 3467, 6703, 5945, 5241, 5430, 3380, 1726, 4595, 1490, 481, 2765, 5030, 3854, 5633, 3795, 1827, 3558, 173, 4349, 2334, 3234, 1957 } + 131048 local GameOverAgainiIlliIliiIlllIi1Il1 local GameOverAgainl1l11l11Ili1i11iiII = { function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii) local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainlIl1ill1IIIllI11III1I = GameOverAgainII1I1Iil11l1IiIIilI > 0 and GameOverAgainII1I1Iil11l1IiIIilI - 1 or GameOverAgainlIl1illIiliil1l1iii1l - GameOverAgainiI1ilii1ilIilIl1i11 for GameOverAgainI1lIiii11ll1i1IlI1l = GameOverAgainIliillIIiIilllIIIli, GameOverAgainIliillIIiIilllIIIli + GameOverAgainlIl1ill1IIIllI11III1I do if GameOverAgainI1lIiii11ll1i1IlI1l - GameOverAgainIliillIIiIilllIIIli <= GameOverAgainlIl1illIiliil1l1iii1l then GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainI1lIiii11ll1i1IlI1l] = GameOverAgainIlI1iliI1lilIiIl1i1[GameOverAgainiI1ilii1ilIilIl1i11 + (GameOverAgainI1lIiii11ll1i1IlI1l - GameOverAgainIliillIIiIilllIIIli)] else GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainI1lIiii11ll1i1IlI1l] = nil end end GameOverAgainIlilIill1Il1IliiI1i = GameOverAgainIliillIIiIilllIIIli + GameOverAgainlIl1ill1IIIllI11III1I end, nil, function(GameOverAgainlIlIlIli1i1IiI11il11l) local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainII1I1Iil11l1IiIIilI ~= 0 if GameOverAgainIiliilIi1lIl11l1lil ~= 0 then GameOverAgainiIIl1iliI11i11IlIIi = GameOverAgainiIIl1iliI11i11IlIIi + 1 end end, function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi) local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] if GameOverAgainIiliilIi1lIl11l1lil == 179 then return GameOverAgainiIlliIliiIlllIi1Il1[19]({ [71033] = (GameOverAgainIliillIIiIilllIIIli - 235) % 256, [53199] = (GameOverAgainII1I1Iil11l1IiIIilI - 235) % 256, [49575] = 0 }) end if GameOverAgainIiliilIi1lIl11l1lil == 142 then return GameOverAgainiIlliIliiIlllIi1Il1[26]({ [71033] = (GameOverAgainIliillIIiIilllIIIli - 116) % 256, [53199] = (GameOverAgainII1I1Iil11l1IiIIilI - 116) % 256, [49575] = 0 }) end GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = not GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI] end, nil, function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi) local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] if GameOverAgainIiliilIi1lIl11l1lil == 3 then return GameOverAgainiIlliIliiIlllIi1Il1[21]({ [71033] = (GameOverAgainIliillIIiIilllIIIli - 79) % 256, [53199] = (GameOverAgainII1I1Iil11l1IiIIilI - 79) % 256, [49575] = 0 }) end GameOverAgainIlilIiI1Ii11l1Il111[GameOverAgainII1I1Iil11l1IiIIilI] = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] end, function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi) local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] for GameOverAgainI1lIiii11ll1i1IlI1l = GameOverAgainIliillIIiIilllIIIli, GameOverAgainII1I1Iil11l1IiIIilI do GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainI1lIiii11ll1i1IlI1l] = nil end end, function(GameOverAgainlIlIlIli1i1IiI11il11l) local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIi1iI1i1lIl1Il1iII1, GameOverAgainIilIl111llIlliiII1l, GameOverAgainliliiIIiliII1i1I1iI if GameOverAgainII1I1Iil11l1IiIIilI ~= 1 then if GameOverAgainII1I1Iil11l1IiIIilI ~= 0 then GameOverAgainIilIl111llIlliiII1l = GameOverAgainIliillIIiIilllIIIli + GameOverAgainII1I1Iil11l1IiIIilI - 1 else GameOverAgainIilIl111llIlliiII1l = GameOverAgainIlilIill1Il1IliiI1i end GameOverAgainIilIl111llIlliiII1l, GameOverAgainIi1iI1i1lIl1Il1iII1 = GameOverAgainiil1lI111lI11i1lIii(GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli](GameOverAgaini1I1II1il1l1iI1lli1(GameOverAgainIiiilIill1ilIl1ii1i, GameOverAgainIliillIIiIilllIIIli + 1, GameOverAgainIilIl111llIlliiII1l))) else GameOverAgainIilIl111llIlliiII1l, GameOverAgainIi1iI1i1lIl1Il1iII1 = GameOverAgainiil1lI111lI11i1lIii(GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli]()) end if GameOverAgainIiliilIi1lIl11l1lil ~= 1 then if GameOverAgainIiliilIi1lIl11l1lil ~= 0 then GameOverAgainIilIl111llIlliiII1l = GameOverAgainIliillIIiIilllIIIli + GameOverAgainIiliilIi1lIl11l1lil - 2 else GameOverAgainIilIl111llIlliiII1l = GameOverAgainIilIl111llIlliiII1l + GameOverAgainIliillIIiIilllIIIli end GameOverAgainliliiIIiliII1i1I1iI = 0 for GameOverAgainI1lIiii11ll1i1IlI1l = GameOverAgainIliillIIiIilllIIIli, GameOverAgainIilIl111llIlliiII1l do GameOverAgainliliiIIiliII1i1I1iI = GameOverAgainliliiIIiliII1i1I1iI + 1 GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainI1lIiii11ll1i1IlI1l] = GameOverAgainIi1iI1i1lIl1Il1iII1[GameOverAgainliliiIIiliII1i1I1iI] end end GameOverAgainIlilIill1Il1IliiI1i = GameOverAgainIilIl111llIlliiII1l - 1 end, function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii) local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainiiIilIlIl1IIi1l1IlI if GameOverAgainlIllIll1lIIIil1lIIli1 == 100000 then GameOverAgainiiIilIlIl1IIi1l1IlI = GameOverAgainIiiilIill1ilIl1ii1i[251] else GameOverAgainiiIilIlIl1IIi1l1IlI = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainlIllIll1lIIIil1lIIli1][GameOverAgainll1I11iiiiIIIi1llII] end GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainilIllIIIiilIll1Iii1[GameOverAgainiiIilIlIl1IIi1l1IlI] end, function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi) local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] if GameOverAgainII1I1Iil11l1IiIIilI > 255 then GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainII1I1Iil11l1IiIIilI - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI] end if GameOverAgainIiliilIi1lIl11l1lil > 255 then GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainIiliilIi1lIl11l1lil - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIiliilIi1lIl11l1lil] end if GameOverAgainII1I1Iil11l1IiIIilI < GameOverAgainIiliilIi1lIl11l1lil ~= (GameOverAgainIliillIIiIilllIIIli ~= 0) then GameOverAgainiIIl1iliI11i11IlIIi = GameOverAgainiIIl1iliI11i11IlIIi + 1 end end, function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii, GameOverAgainlIlli11li11iIilIilII1) local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] if GameOverAgainIiliilIi1lIl11l1lil == 248 then return GameOverAgainiIlliIliiIlllIi1Il1[9]({ [71033] = (GameOverAgainIliillIIiIilllIIIli - 209) % 256, [53199] = (GameOverAgainII1I1Iil11l1IiIIilI - 209) % 256, [49575] = 0 }) end if GameOverAgainIiliilIi1lIl11l1lil == 212 then return GameOverAgainiIlliIliiIlllIi1Il1[20]({ [71033] = (GameOverAgainIliillIIiIilllIIIli - 138) % 256, [53199] = (GameOverAgainII1I1Iil11l1IiIIilI - 138) % 256, [49575] = 0 }) end GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainIlilIiI1Ii11l1Il111[GameOverAgainII1I1Iil11l1IiIIilI] end, nil, function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii, GameOverAgainlIlli11li11iIilIilII1) local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = #GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI] end, nil, nil, nil, function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii, GameOverAgainlIlli11li11iIilIilII1) local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] if not not GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI] == (GameOverAgainIiliilIi1lIl11l1lil == 0) then GameOverAgainiIIl1iliI11i11IlIIi = GameOverAgainiIIl1iliI11i11IlIIi + 1 else GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI] end end, nil, function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi) local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainl1ilil1iI1lli11i1l1 = GameOverAgainIliillIIiIilllIIIli + 2 local GameOverAgainl1iii11Iill11l1IIIi = { GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli](GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 1], GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 2]) } for GameOverAgainI1lIiii11ll1i1IlI1l = 1, GameOverAgainIiliilIi1lIl11l1lil do GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainl1ilil1iI1lli11i1l1 + GameOverAgainI1lIiii11ll1i1IlI1l] = GameOverAgainl1iii11Iill11l1IIIi[GameOverAgainI1lIiii11ll1i1IlI1l] end if GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 3] ~= nil then GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 2] = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 3] else GameOverAgainiIIl1iliI11i11IlIIi = GameOverAgainiIIl1iliI11i11IlIIi + 1 end end, nil, nil, function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi) local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI] if GameOverAgainIiliilIi1lIl11l1lil > 255 then GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainIiliilIi1lIl11l1lil - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIiliilIi1lIl11l1lil] end GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 1] = GameOverAgainII1I1Iil11l1IiIIilI GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainII1I1Iil11l1IiIIilI[GameOverAgainIiliilIi1lIl11l1lil] end, nil, function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii, GameOverAgainlIlli11li11iIilIilII1) local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] if GameOverAgainII1I1Iil11l1IiIIilI > 255 then GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainII1I1Iil11l1IiIIilI - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI] end if GameOverAgainIiliilIi1lIl11l1lil > 255 then GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainIiliilIi1lIl11l1lil - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIiliilIi1lIl11l1lil] end if GameOverAgainII1I1Iil11l1IiIIilI <= GameOverAgainIiliilIi1lIl11l1lil ~= (GameOverAgainIliillIIiIilllIIIli ~= 0) then GameOverAgainiIIl1iliI11i11IlIIi = GameOverAgainiIIl1iliI11i11IlIIi + 1 end end, nil, nil, nil, nil, nil, function(GameOverAgainlIlIlIli1i1IiI11il11l) local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] if GameOverAgainII1I1Iil11l1IiIIilI == 1 then return true end local GameOverAgainIilIl111llIlliiII1l = GameOverAgainIliillIIiIilllIIIli + GameOverAgainII1I1Iil11l1IiIIilI - 2 if GameOverAgainII1I1Iil11l1IiIIilI == 0 then GameOverAgainIilIl111llIlliiII1l = GameOverAgainIlilIill1Il1IliiI1i end return true, GameOverAgainIliillIIiIilllIIIli, GameOverAgainIilIl111llIlliiII1l end, nil, function(GameOverAgainlIlIlIli1i1IiI11il11l) local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] if GameOverAgainIiliilIi1lIl11l1lil == 230 then return GameOverAgainiIlliIliiIlllIi1Il1[30]({ [71033] = (GameOverAgainIliillIIiIilllIIIli - 173) % 256, [90718] = (GameOverAgainII1I1Iil11l1IiIIilI - 173) % 256, [49575] = 0 }) end if GameOverAgainIiliilIi1lIl11l1lil == 189 then return GameOverAgainiIlliIliiIlllIi1Il1[13]({ [71033] = (GameOverAgainIliillIIiIilllIIIli - 40) % 256, [53199] = (GameOverAgainII1I1Iil11l1IiIIilI - 40) % 256, [49575] = 0 }) end GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = -GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI] end, function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii, GameOverAgainlIlli11li11iIilIilII1) local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] if not not GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] == (GameOverAgainIiliilIi1lIl11l1lil == 0) then GameOverAgainiIIl1iliI11i11IlIIi = GameOverAgainiIIl1iliI11i11IlIIi + 1 end end, function(GameOverAgainlIlIlIli1i1IiI11il11l) local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainiiIilIlIl1IIi1l1IlI if GameOverAgainlIllIll1lIIIil1lIIli1 == 100000 then GameOverAgainiiIilIlIl1IIi1l1IlI = GameOverAgainIiiilIill1ilIl1ii1i[251] else GameOverAgainiiIilIlIl1IIi1l1IlI = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainlIllIll1lIIIil1lIIli1][GameOverAgainll1I11iiiiIIIi1llII] end GameOverAgainilIllIIIiilIll1Iii1[GameOverAgainiiIilIlIl1IIi1l1IlI] = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] end } GameOverAgainl1l11l11Ili1i11iiII[31] = function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii) local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] if GameOverAgainII1I1Iil11l1IiIIilI > 255 then GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainII1I1Iil11l1IiIIilI - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI] end if GameOverAgainIiliilIi1lIl11l1lil > 255 then GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainIiliilIi1lIl11l1lil - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIiliilIi1lIl11l1lil] end if GameOverAgainII1I1Iil11l1IiIIilI == GameOverAgainIiliilIi1lIl11l1lil ~= (GameOverAgainIliillIIiIilllIIIli ~= 0) then GameOverAgainiIIl1iliI11i11IlIIi = GameOverAgainiIIl1iliI11i11IlIIi + 1 end end GameOverAgainl1l11l11Ili1i11iiII[26] = function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi) local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] if GameOverAgainIiliilIi1lIl11l1lil == 105 then return GameOverAgainiIlliIliiIlllIi1Il1[24]({ [71033] = (GameOverAgainIliillIIiIilllIIIli - 205) % 256, [90718] = (GameOverAgainII1I1Iil11l1IiIIilI - 205) % 256, [49575] = 0 }) end for GameOverAgainI1lIiii11ll1i1IlI1l = GameOverAgainIliillIIiIilllIIIli, #GameOverAgainIiiilIill1ilIl1ii1i do local GameOverAgainIIllIiI1IIIl11iii1i = GameOverAgainl1lIi1II1iIii1IiIl1 for GameOverAgaini1iiilllIilIlIiiI1l, GameOverAgainlIliii1iiI1lll1ilI11l in next, GameOverAgainllIil1l11IIlI1lll1i, nil do for GameOverAgainiiIilIlIl1IIi1l1IlI, GameOverAgainIlIIliIi1Iil111I1II in next, GameOverAgainlIliii1iiI1lll1ilI11l, nil do if GameOverAgainIiiilIill1ilIl1ii1i == GameOverAgainIlIIliIi1Iil111I1II[1] and GameOverAgainIlIIliIi1Iil111I1II[2] == GameOverAgainI1lIiii11ll1i1IlI1l then if not GameOverAgainlliIIi1IiI1I1IllI1i[GameOverAgainIIllIiI1IIIl11iii1i] then GameOverAgainlliIIi1IiI1I1IllI1i[GameOverAgainIIllIiI1IIIl11iii1i] = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainI1lIiii11ll1i1IlI1l] GameOverAgainl1lIi1II1iIii1IiIl1 = GameOverAgainl1lIi1II1iIii1IiIl1 + 1 end GameOverAgainlIliii1iiI1lll1ilI11l[GameOverAgainiiIilIlIl1IIi1l1IlI] = {GameOverAgainlliIIi1IiI1I1IllI1i, GameOverAgainIIllIiI1IIIl11iii1i} end end end end end GameOverAgainl1l11l11Ili1i11iiII[23] = function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii, GameOverAgainlIlli11li11iIilIilII1, GameOverAgainiIlIIiiiI11l11iI11i) local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 if GameOverAgainII1I1Iil11l1IiIIilI > 255 then GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainII1I1Iil11l1IiIIilI - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI] end if GameOverAgainIiliilIi1lIl11l1lil > 255 then GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainIiliilIi1lIl11l1lil - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIiliilIi1lIl11l1lil] end GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainII1I1Iil11l1IiIIilI - GameOverAgainIiliilIi1lIl11l1lil end GameOverAgainl1l11l11Ili1i11iiII[25] = function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii) local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] if GameOverAgainIiliilIi1lIl11l1lil > 255 then GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainIiliilIi1lIl11l1lil - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIiliilIi1lIl11l1lil] end GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI][GameOverAgainIiliilIi1lIl11l1lil] end GameOverAgainl1l11l11Ili1i11iiII[12] = function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii, GameOverAgainlIlli11li11iIilIilII1) local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = { GameOverAgaini1I1II1il1l1iI1lli1(GameOverAgainiIII1lllliIil1IlII1, 1, GameOverAgainII1I1Iil11l1IiIIilI == 0 and 895 or GameOverAgainII1I1Iil11l1IiIIilI) } end GameOverAgainl1l11l11Ili1i11iiII[28] = function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi) local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainl1ll1ll1ilIii1lliIi = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 2] local GameOverAgainlIIi111Ii1liI11llii = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] + GameOverAgainl1ll1ll1ilIii1lliIi GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainlIIi111Ii1liI11llii if GameOverAgainl1ll1ll1ilIii1lliIi > 0 then if GameOverAgainlIIi111Ii1liI11llii <= GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 1] then GameOverAgainiIIl1iliI11i11IlIIi = GameOverAgainiIIl1iliI11i11IlIIi + GameOverAgainIil1l1iiil1IlilIIiI GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 3] = GameOverAgainlIIi111Ii1liI11llii end elseif GameOverAgainlIIi111Ii1liI11llii >= GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 1] then GameOverAgainiIIl1iliI11i11IlIIi = GameOverAgainiIIl1iliI11i11IlIIi + GameOverAgainIil1l1iiil1IlilIIiI GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 3] = GameOverAgainlIIi111Ii1liI11llii end end GameOverAgainl1l11l11Ili1i11iiII[0] = function(GameOverAgainlIlIlIli1i1IiI11il11l) local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainllilli1iIil1l111i11(GameOverAgainlIlliil1Il1l1l1il1IlI(GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli]), "`for` initial value must be a number") GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 1] = GameOverAgainllilli1iIil1l111i11(GameOverAgainlIlliil1Il1l1l1il1IlI(GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 1]), "`for` limit value must be a number") GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 2] = GameOverAgainllilli1iIil1l111i11(GameOverAgainlIlliil1Il1l1l1il1IlI(GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 2]), "`for` step value must be a number") GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] - GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + 2] GameOverAgainiIIl1iliI11i11IlIIi = GameOverAgainiIIl1iliI11i11IlIIi + GameOverAgainIil1l1iiil1IlilIIiI end GameOverAgainl1l11l11Ili1i11iiII[29] = function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi) local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 if GameOverAgainII1I1Iil11l1IiIIilI > 255 then GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainII1I1Iil11l1IiIIilI - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI] end if GameOverAgainIiliilIi1lIl11l1lil > 255 then GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainIiliilIi1lIl11l1lil - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIiliilIi1lIl11l1lil] end GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainII1I1Iil11l1IiIIilI + GameOverAgainIiliilIi1lIl11l1lil end GameOverAgainl1l11l11Ili1i11iiII[2] = function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii) local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] GameOverAgainiIIl1iliI11i11IlIIi = GameOverAgainiIIl1iliI11i11IlIIi + GameOverAgainIil1l1iiil1IlilIIiI end GameOverAgainl1l11l11Ili1i11iiII[18] = function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi) local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainIi1iI1i1lIl1Il1iII1, GameOverAgainIilIl111llIlliiII1l if GameOverAgainII1I1Iil11l1IiIIilI ~= 1 then if GameOverAgainII1I1Iil11l1IiIIilI ~= 0 then GameOverAgainIilIl111llIlliiII1l = GameOverAgainIliillIIiIilllIIIli + GameOverAgainII1I1Iil11l1IiIIilI - 1 else GameOverAgainIilIl111llIlliiII1l = GameOverAgainIlilIill1Il1IliiI1i end GameOverAgainIilIl111llIlliiII1l, GameOverAgainIi1iI1i1lIl1Il1iII1 = GameOverAgainiil1lI111lI11i1lIii(GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli](GameOverAgaini1I1II1il1l1iI1lli1(GameOverAgainIiiilIill1ilIl1ii1i, GameOverAgainIliillIIiIilllIIIli + 1, GameOverAgainIilIl111llIlliiII1l))) else GameOverAgainIilIl111llIlliiII1l, GameOverAgainIi1iI1i1lIl1Il1iII1 = GameOverAgainiil1lI111lI11i1lIii(GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli]()) end GameOverAgainIiiilIill1ilIl1ii1i = GameOverAgainIi1iI1i1lIl1Il1iII1 return true, 1, GameOverAgainIilIl111llIlliiII1l end GameOverAgainl1l11l11Ili1i11iiII[16] = function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii, GameOverAgainlIlli11li11iIilIilII1) local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainlIllIll1lIIIil1lIIli1][GameOverAgainll1I11iiiiIIIi1llII] end GameOverAgainl1l11l11Ili1i11iiII[21] = function(GameOverAgainlIlIlIli1i1IiI11il11l) local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] if GameOverAgainII1I1Iil11l1IiIIilI > 255 then GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainII1I1Iil11l1IiIIilI - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI] end if GameOverAgainIiliilIi1lIl11l1lil > 255 then GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainIiliilIi1lIl11l1lil - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIiliilIi1lIl11l1lil] end GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainII1I1Iil11l1IiIIilI ^ GameOverAgainIiliilIi1lIl11l1lil end GameOverAgainl1l11l11Ili1i11iiII[15] = function(GameOverAgainlIlIlIli1i1IiI11il11l) local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainlIllliiIlIlI1l1lIllIi = GameOverAgainIli1III1i1l1l1iil11[GameOverAgainlIllIll1lIIIil1lIIli1] local GameOverAgainllili111iiIll1liIi1 = {} local GameOverAgainlIlIIli11ilii1lIl1I1I = GameOverAgainll11Iii11i1Ill1ll1i({}, { __index = function(GameOverAgainlIIIii1i111iilii11l, GameOverAgainlIl1ll1illI1iIlI1i1I1) local GameOverAgainIlIIliIi1Iil111I1II = GameOverAgainllili111iiIll1liIi1[GameOverAgainlIl1ll1illI1iIlI1i1I1] return GameOverAgainIlIIliIi1Iil111I1II[1][GameOverAgainIlIIliIi1Iil111I1II[2]] end, __newindex = function(GameOverAgainlIIIii1i111iilii11l, GameOverAgainlIl1ll1illI1iIlI1i1I1, GameOverAgainiliilIiIi11iiii1lIi) local GameOverAgainIlIIliIi1Iil111I1II = GameOverAgainllili111iiIll1liIi1[GameOverAgainlIl1ll1illI1iIlI1i1I1] GameOverAgainIlIIliIi1Iil111I1II[1][GameOverAgainIlIIliIi1Iil111I1II[2]] = GameOverAgainiliilIiIi11iiii1lIi end }) for GameOverAgainI1lIiii11ll1i1IlI1l = 1, GameOverAgainlIllliiIlIlI1l1lIllIi[GameOverAgainiilllililii11ll1l1i] do local GameOverAgainii11IiIliiii1Ii11Ii = GameOverAgainlIl1llIl1IlIl1lIIIIIl[GameOverAgainiIIl1iliI11i11IlIIi] if GameOverAgainii11IiIliiii1Ii11Ii[GameOverAgainiIliiIlIlI11Ii1I1i1] == GameOverAgainlIlilllilI1I1ll11ilii then GameOverAgainllili111iiIll1liIi1[GameOverAgainI1lIiii11ll1i1IlI1l - 1] = { GameOverAgainIiiilIill1ilIl1ii1i, GameOverAgainii11IiIliiii1Ii11Ii[GameOverAgainii11i1iil1IlIIi1IIi] } elseif GameOverAgainii11IiIliiii1Ii11Ii[GameOverAgainiIliiIlIlI11Ii1I1i1] == GameOverAgainlli1iIIlIlIliiiI1I1 then GameOverAgainllili111iiIll1liIi1[GameOverAgainI1lIiii11ll1i1IlI1l - 1] = { GameOverAgainIlilIiI1Ii11l1Il111, GameOverAgainii11IiIliiii1Ii11Ii[GameOverAgainii11i1iil1IlIIi1IIi] } end GameOverAgainiIIl1iliI11i11IlIIi = GameOverAgainiIIl1iliI11i11IlIIi + 1 end if GameOverAgainlIllliiIlIlI1l1lIllIi[GameOverAgainiilllililii11ll1l1i] > 0 then GameOverAgainllIil1l11IIlI1lll1i[#GameOverAgainllIil1l11IIlI1lll1i + 1] = GameOverAgainllili111iiIll1liIi1 end local GameOverAgainlii1i1i1Ii1l1Ilill1 = GameOverAgainlIl1l11iill1Ii1I1I1i1(GameOverAgainlIllliiIlIlI1l1lIllIi, GameOverAgainilIllIIIiilIll1Iii1, GameOverAgainlIlIIli11ilii1lIl1I1I) GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainlii1i1i1Ii1l1Ilill1 end GameOverAgainl1l11l11Ili1i11iiII[5] = function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii) local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] if GameOverAgainII1I1Iil11l1IiIIilI > 255 then GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainII1I1Iil11l1IiIIilI - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI] end if GameOverAgainIiliilIi1lIl11l1lil > 255 then GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIl1ll1llliIll11i1i1[GameOverAgainIiliilIi1lIl11l1lil - 256][GameOverAgainll1I11iiiiIIIi1llII] else GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIiliilIi1lIl11l1lil] end GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli][GameOverAgainII1I1Iil11l1IiIIilI] = GameOverAgainIiliilIi1lIl11l1lil end GameOverAgainl1l11l11Ili1i11iiII[27] = function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi) local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainl1ilil1iI1lli11i1l1 = (GameOverAgainIiliilIi1lIl11l1lil - 1) * 50 if GameOverAgainII1I1Iil11l1IiIIilI == 0 then GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainIlilIill1Il1IliiI1i - GameOverAgainIliillIIiIilllIIIli end for GameOverAgainI1lIiii11ll1i1IlI1l = 1, GameOverAgainII1I1Iil11l1IiIIilI do GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli][GameOverAgainl1ilil1iI1lli11i1l1 + GameOverAgainI1lIiii11ll1i1IlI1l] = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli + GameOverAgainI1lIiii11ll1i1IlI1l] end end GameOverAgainl1l11l11Ili1i11iiII[14] = function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii) local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI] end GameOverAgainl1l11l11Ili1i11iiII[20] = function(GameOverAgainlIlIlIli1i1IiI11il11l, GameOverAgainIIi1lllii1liiil1IIi, GameOverAgainl111I11Ii1lIi11Iiii) local GameOverAgainlIllIll1lIIIil1lIIli1 = GameOverAgainlIlIlIli1i1IiI11il11l[49575] local GameOverAgainIliillIIiIilllIIIli = GameOverAgainlIlIlIli1i1IiI11il11l[71033] local GameOverAgainII1I1Iil11l1IiIIilI = GameOverAgainlIlIlIli1i1IiI11il11l[53199] local GameOverAgainIil1l1iiil1IlilIIiI = GameOverAgainlIlIlIli1i1IiI11il11l[49575] - GameOverAgainlIiI11lI1lililil1l1 local GameOverAgainIiliilIi1lIl11l1lil = GameOverAgainlIlIlIli1i1IiI11il11l[90718] local GameOverAgainl1iii11Iill11l1IIIi = GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainII1I1Iil11l1IiIIilI] for GameOverAgainI1lIiii11ll1i1IlI1l = GameOverAgainII1I1Iil11l1IiIIilI + 1, GameOverAgainIiliilIi1lIl11l1lil do GameOverAgainl1iii11Iill11l1IIIi = GameOverAgainl1iii11Iill11l1IIIi .. GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainI1lIiii11ll1i1IlI1l] end GameOverAgainIiiilIill1ilIl1ii1i[GameOverAgainIliillIIiIilllIIIli] = GameOverAgainl1iii11Iill11l1IIIi end GameOverAgainiIlliIliiIlllIi1Il1 = { GameOverAgainl1l11l11Ili1i11iiII[9], GameOverAgainl1l11l11Ili1i11iiII[29], GameOverAgainl1l11l11Ili1i11iiII[4], GameOverAgainl1l11l11Ili1i11iiII[27], GameOverAgainl1l11l11Ili1i11iiII[18], GameOverAgainl1l11l11Ili1i11iiII[3], GameOverAgainl1l11l11Ili1i11iiII[17], GameOverAgainl1l11l11Ili1i11iiII[5], GameOverAgainl1l11l11Ili1i11iiII[32], GameOverAgainl1l11l11Ili1i11iiII[23], GameOverAgainl1l11l11Ili1i11iiII[21], GameOverAgainl1l11l11Ili1i11iiII[8], GameOverAgainl1l11l11Ili1i11iiII[1], GameOverAgainl1l11l11Ili1i11iiII[12], GameOverAgainl1l11l11Ili1i11iiII[31], GameOverAgainl1l11l11Ili1i11iiII[0], GameOverAgainl1l11l11Ili1i11iiII[13], GameOverAgainl1l11l11Ili1i11iiII[10], GameOverAgainl1l11l11Ili1i11iiII[7], GameOverAgainl1l11l11Ili1i11iiII[30], GameOverAgainl1l11l11Ili1i11iiII[26], GameOverAgainl1l11l11Ili1i11iiII[20], GameOverAgainl1l11l11Ili1i11iiII[15], GameOverAgainl1l11l11Ili1i11iiII[33], GameOverAgainl1l11l11Ili1i11iiII[25], GameOverAgainl1l11l11Ili1i11iiII[11], GameOverAgainl1l11l11Ili1i11iiII[34], GameOverAgainl1l11l11Ili1i11iiII[6], GameOverAgainl1l11l11Ili1i11iiII[28], GameOverAgainl1l11l11Ili1i11iiII[19], GameOverAgainl1l11l11Ili1i11iiII[14], GameOverAgainl1l11l11Ili1i11iiII[24], GameOverAgainl1l11l11Ili1i11iiII[2], GameOverAgainl1l11l11Ili1i11iiII[22], GameOverAgainl1l11l11Ili1i11iiII[16] } local function GameOverAgainliliiIIiliII1i1I1iI() while true do local GameOverAgainlIlIlIli1i1IiI11il11l = GameOverAgainlIl1llIl1IlIl1lIIIIIl[GameOverAgainiIIl1iliI11i11IlIIi] GameOverAgainiIIl1iliI11i11IlIIi = GameOverAgainiIIl1iliI11i11IlIIi + 1 local GameOverAgainil1iIliilllIii11Iil, GameOverAgaini1liiiiIililIIIIlI1, GameOverAgainIii1I1iiiIllIi1i1lI = GameOverAgainiIlliIliiIlllIi1Il1[GameOverAgainlIlIlIli1i1IiI11il11l[91286] + 1](GameOverAgainlIlIlIli1i1IiI11il11l) if GameOverAgainil1iIliilllIii11Iil then return GameOverAgaini1liiiiIililIIIIlI1, GameOverAgainIii1I1iiiIllIi1i1lI end end end local GameOverAgainlIlII11i1ili1Iilli11i, GameOverAgaini1liiiiIililIIIIlI1, GameOverAgainIii1I1iiiIllIi1i1lI = GameOverAgainI1i1i1i1lli1ilIII1l(GameOverAgainliliiIIiliII1i1I1iI) if GameOverAgainlIlII11i1ili1Iilli11i then if GameOverAgaini1liiiiIililIIIIlI1 then return GameOverAgaini1I1II1il1l1iI1lli1(GameOverAgainIiiilIill1ilIl1ii1i, GameOverAgaini1liiiiIililIIIIlI1, GameOverAgainIii1I1iiiIllIi1i1lI) end else local GameOverAgainlIlIl1IiIiIIlll1IiIli = GameOverAgainlI1il11IliI1i1ii1ll("Luraph Script:" .. (GameOverAgainlIlil11I11iI11lI1IiiI[GameOverAgainiIIl1iliI11i11IlIIi - 1] or "") .. ": " .. GameOverAgainlIlilllIilIIiIIlIilIl(GameOverAgaini1liiiiIililIIIIlI1), "[^:]+:%d*: ", function(GameOverAgainIl11IIlI1llI11llIil) if not GameOverAgainlIIii1II11llI1I1III(GameOverAgainIl11IIlI1llI11llIil, "Luraph Script:%d") then return "" end end) GameOverAgainl1I1iI11iII1lilliiI(GameOverAgainlIlIl1IiIiIIlll1IiIli, 0) end end GameOverAgainiiilI1ii1i11l11Ilil(GameOverAgainIiI111ilill11I1IiI1, GameOverAgainilIllIIIiilIll1Iii1) return GameOverAgainIiI111ilill11I1IiI1 end local GameOverAgainlIliiIIIiIiiIlIil1i1I = GameOverAgainiIiilIliiIlilliliIi() return GameOverAgainlIl1l11iill1Ii1I1I1i1(GameOverAgainlIliiIIIiIiiIlIil1i1I, GameOverAgainilIllIIIiilIll1Iii1)() end GameOverAgainlIlli1iIll1IlI111IlIi("LPH|D3E2332E8652013G0089D22805043G0045A0380C4G000267FC67F74CDCA465534A55103736009C830A02005D053G003GD38C945D0B3G003GD39BB6B2B780BAA9B6825G00E494405D033G003GD316010A9G009G005G000B9G002G000B3G000C3G00840A02002G1DE362E0E2E0623GE2BAE03GE22G1DE3622GE2E63GE2E062E0E2E6E22GE3E6FE694ACB847C3C25D36282F4C88478FBC7BB6458D7FBE248A318943AF820CD31848C1E00394G0002D33B9A853D5D8195540684A8ED5B0063830A02005D053G003GD38C945D083G003GD390BCBFBCA1825G00E494405D033G003GD358010A7G00109G006G000F9G002G000F7G00830A02002GE2E062694ACB84E3E2E0623GE2BAE05GE2E63GE2E062E0E2E6E22GE3E6FE141DE3629118B9CC4420CBE62D4BD7B7BAEF40D99876FCEC95ABA0FE19BF797D4G000B399046D8470F27157EC001BB5C33009B920A02005D053G003GD38C945D0B3G003GD397BAA0B2B1BFB6B7725D073G003GD3BDB6ABA75D073G003GD3B4B2BEB65D0D3G003GD394B6A780B6A1A5BAB0B65D0A3G003GD383BFB2AAB6A1A05D0D3G003GD394B6A783BFB2AAB6A1A05D073G003GD39DB2BEB65D0E3G003GD39FBCB0B2BF83BFB2AAB6A15D0C3G003GD390BBB2A1B2B0A7B6A15D133G003GD39BA6BEB2BDBCBAB7812GBCA783B2A1A75D0F3G003GD387A1B2BDA0A3B2A1B6BDB0AA826G00F03F5D073G003GD380BAA9B65D0A3G003GD385B6B0A7BCA1E05D063G003GD3BDB6A4827G00405D033G003GD3DD01647G00229G002G001C3G001C9G002G001D9G002G001D9G006G00199G002G00193G001B9G002G001B9G006G001B3G001B9G002G001B9G002G001E3G001E3G001B9G002G001F9G006G001C3G001C9G009G005G001E9G002G001E7G001B3G001C9G002G001C7G001B9G002G001B7G001E9G006G00189G002G00183G00199G002G00199G006G001E9G002G001E3G001E3G001E9G009G001G001C9G002G001C9G002G001C3G001D9G002G00DD0A0200C9E2E062694ACB842GE2E062ADE3FEAAE1E6FECEE5F0FC82B2E2E062EFE2FAE2E4F4F8822GE2E062EFE2FAE2EEF9F8FED1E2E0622GE2E062EFE2E6E2E3E6E0DA2GE2E0622GE2E0620F1DE362E1E2E63GE2E062EFE2E6E2E6E2EAE2E3E2E0622G1DE362EFE2EAE2E02GE866E4E2F26A2GE2E062378457E9E1E6EACEF9E2E06295E3FEAA2GE6FECEECEDFAFE4D2E5BC02GE2E062381DE362EDE2E0623A1DE3622GE2E062EFE2FEE2E5E8FC66E4E2C66A361DE362F4E2E0623GE2BAEF3GE2F1E2E062E4F4F8822GE2E062EFE2FAE2EDE2FEE2F5E2E062091DE362E7F2F8822GE2E062EFE2FAE2E6E2FEE2091DE362E0ECE8662GE2E06238E3EAAAE0E4EACE161DE362E7F6F8820F1DE362EFE2FAE2091DE3622GE2E63GE2E062EFE2E6E22GE3E6FE2GE2E63GE2E062EFE2E6E2E3E0E4825C1DE3622GE2E062EFE2FEE2E5C2FC822GE2E062EFE2FEE2F3E2C26AF3E2C66AEFE2CA6A2B1DE362251DE3622GE2E062EFE2FEE2E5F2FC822GE2E062EFE2FEE2E4ECE6DA2GE2E0622GE2E062231DE362E7F6F882461DE362401DE362E34E88DDD172BDEE75129BCEA81257868CADBCF5782282BBD7B15F3F013G007A12E2174G0005488E6EF65D3571086EEA4D9ADC6501C08F0A02005D0C3G003GD390BBB2A1B2B0A7B6A15D133G003GD39BA6BEB2BDBCBAB7812GBCA783B2A1A75D073G003GD380BAA9B65D0A3G003GD385B6B0A7BCA1E05D063G003GD3BDB6A45D053G003GD38C945D0B3G003GD39BB6B2B780BAA9B65D0F3G003GD387A1B2BDA0A3B2A1B6BDB0AA826G66E63F5D0D3G003GD391A1BAB0B890BCBFBCA15D083G003GD390BCBFBCA15D0B3G003GD39EB2A7B6A1BAB2BF5D073G003GD39DB6BCBD5D0D3G003GD390B2BD90BC2GBFBAB7B6725D033G003GD3DA00727G00299G009G001G002B9G002G002B9G002G00299G006G002E3G00293G00293G002A9G002G002A9G002G002A9G002G002B3G002B3G002C9G002G002C9G009G005G002B9G009G005G00297G00299G002G00299G002G00299G006G002C9G002G002C3G002D9G002G002D9G006G002B9G009G009G002A3G002B9G002G002B9G002G002B9G006G002D9G002G002D7G00299G002G00299G006G00299G009G009G004G00299G009G001G00299G002G00EC0A0200CAE2E062E7E2EAE2EAE2E062EAE2EAE2E4E2E062EA4GE22GE0822GE2E062EA3GE2EBE2E6E2A1E2E062A3E2E062E0EEE882AEE2E062EAE2EAE2A8E2E062694ACB843GE6CEE0E1E2FE96FE33EB2GE2E062EA5GE2E0822GE2E062EA4GE22GE082CFE2E0627BE3E6AAE02GE6CEEBE1E2FE96FE33EB2GE2E062EA5GE2E082F7E2E062EA3GE2F1E2E0622GE2E062EA5GE2E0823E1DE362381DE362E3E2E0623GE2BAEA3GE296FE33EBDAE2E062E22GE0822GE2E062EA3GE2E1E2E63GE2E062EAE2E6E2E3EAE4822B1DE362EAE2E6E2251DE362E22GE0822GE2E062EA3GE2E9FBE0FE96FE33EB2GE2E062EA5GE2E082F3E2E0622GE2E062EAE2EAE2E0F6E882371DE362EAE2EAE2311DE362331DE3622GE2E062EA3GE2E5F3E0FE96FE33EB341DE362EAE2E6E2E3EAE4822GE2E062EAE2E6E2E7E2EAE20F1DE3622GE2E062EA4GE22GE0822GE2E062EA3GE2EFFFE0FE561DE362E7E2EE3GE2E062EAE2EEE2E1EEEC82ECE2E062EEE2E062EAE2F2E2E6EEF0824E1DE362EAE2F2E2481DE362B9E3E6AA4A1DE3622GE2E062EA5GE2E082201DE362EA3GE2221DE362EAE2EEE2E7E2F2E2121DE3620C1DE362833C28F12C2E70887E626FE36F6938B7AA050E9976BD276AD692959F09C64E64EA77B9361465DD774A547900688B0A02005D053G003GD38C945D0B3G003GD397BAA0B2B1BFB6B75D073G003GD3BDB6ABA75D073G003GD3B4B2BEB65D0D3G003GD394B6A780B6A1A5BAB0B65D0A3G003GD383BFB2AAB6A1A05D0D3G003GD394B6A783BFB2AAB6A1A05D073G003GD39DB2BEB65D0E3G003GD39FBCB0B2BF83BFB2AAB6A15D083G003GD3A3B0B22GBF825G00E494405D033G003GD3F500499G002G00263G00269G002G00269G002G00279G002G00279G002G00273G00289G002G00259G002G00253G00269G002G00269G002G00329G002G002E3G002E9G002G00283G002F3G00269G002G002F9G009G001G00259G002G00259G002G00273G00279G002G00273G00279G002G00279G002G00279G006G00269G002G00263G00267G00C30A0200CBE2E062E8E2E6E2E3EAE466E7E2EE6A2GE2E06218E3E6AAE12GE6CED8E2E062E8E2FAE2E4ECF8822GE2E062E8E2FAE2E7EEE6DA2GE2E0622GE2E062F6E2E062EBE2F6E2E9E2E062E83GE22F30D6B12GE2E0622GE2E062E7E2E062E05GE2E062E83GE2E1E2E6E2071DE362011DE362694ACB842GE2E062E8E2F63GE2FABAE62GE29A2GE2E062118423E92GE0F6CEADE4AA8F4D2E57C02GE2E062111DE362F3E2E062131DE362E3E2E062E32GE2BAE89GE2E062E84GE22GE0823D1DE3623F1DE362E4EAF866E7E2C26A2GE2E0626C8427E9E1E6FACEE4F2F8822F1DE362291DE362E6ECF4822GE2E062E8E2F6E2E1E2FAE2101DE362E8E2FAE2121DE362E3EEE4662GE2E0624E8453E9E0E4E6CE3F1DE362101DE362B98CF2F7E4D86AC5FD175DB1089873C276D700AF594C1EA687D34CDD0AF4ECD2AD0561B8903EF0D737E30D00B4A40A02005D0D3G003GD3BFBCB2B7A0A7A1BABDB45D073G003GD3B4B2BEB65D0A3G003GD39B2GA7A394B6A75D243G003GD3BB2GA7A3A0E92GFCA3B2A0A7B6B1BABDFDB0BCBEFCA1B2A4FCABA387E7E5A6B0865D063G003GD3BDB6A45D123G003GD39BBAA7B1BCABF396ABA3B2BDB7B6A15D083G003GD38697BABEE1828G00826G007940825G00C072405D123G003GD390BBB2BDB4B687BC2GB4BFB698B6AA5D073G003GD396BDA6BE5D0A3G003GD398B6AA90BCB7B65D093G003GD39ABDA0B6A1A75D0B3G003GD390B2A7B6B4BCA1AA5D093G003GD39BBAA7B1BCAB5D093G003GD380B6B0A7BCA15D083G003GD390BBB6B2A75D093G003GD380BFBAB7B6A15D0E3G003GD39BBAA7B1BCABF380BAA9B65D063G003GD3BEBABD826G0024405D063G003GD3BEB2AB826G004E405D093G003GD3A0A62GB5BAAB5D083G003GD3F380BAA9B65D0F3G003GD39BBAA7B1BCABF390BCBFBCA1825G00488F40825G00E88F405D093G003GD3F390BCBFBCA15D0B3G003GD390BBB6B0B8B1BCAB5D113G003GD39BBAA7B1BCABF396BDB2B1BFB6B75D0D3G003GD394B6A780B6A1A5BAB0B65D0D3G003GD381A6BD80B6A1A5BAB0B65D103G003GD381B6BDB7B6A180A7B62GA3B6B75D0A3G003GD3B0BC2GBDB6B0A75D033G003GD37A00839G002G00029G002G00023G00023G00023G00029G006G00037G000E3G000E3G000E9G006G00073G000A3G000A3G000A3G000C3G000C3G000C7G00039G002G00039G002G00039G009G005G00033G00049G002G00013G00019G002G00019G009G001G00019G002G00019G009G001G00029G002G00029G006G00247G000E3G00143G00153G00163G00229G002G00143G00249G002G00243G00323G000C3G000C9G002G000A9G006G00243G00247G00249G002G00243G00329G002G00049G002G00043G00073G00077G00103G00103G00103G00103G00109G009G005G00023G00023G00029G009G001G00019G002G00013G00027G00FF0A0200D2E2E062E5E2F2E2E6EAF0822GE2E062E5E2F2E2E5E2F66AEAE2FA6AE5E2FE6AEBE2C26AD2E2E0622GE2E062E5E2EEE2E1F8EC82F7E2E062E1C0F066F0E2FA6AF8E2FE6ABBE2E0622GE2E06240E3EEAAE1E6EECEE1C0F066F0E2FA6AF1E2FE6A2GE2C2BAE2E4C6D6F6C9C4FED4E2E062E3F6E8822GE2E062E5E2EAE2E9E2EE3GE2E062E5E2EEE2E1FAEC82071DE362E0E2E062E5E2EE3GE2E0622C8457E92GE0EACEE3FEE866DBE2E062E5E2E6E2E3E6E466E1E2EE6A2GE2E062F08453E9E1E2E6CEAAE2E062E3E2E062E62GE2BAE59GE2E062E53GE2E3E2E6E2131DE3620D1DE3622GE2E06241E3F2AAE7E2F2CE2GE2E062CE8453E9E22GE6CE3B1DE3622GE2E062DBE3F2AAE1E6F2CEF5E2E062E4E0F2CEE1C0F066FCE2FA6AFDE2FE6AE0E2C2BA2GE2E062A8845FE9E7E0F2CEE3E2F2E2EAE2E062DAE3F2AAE1E0F2CE694ACB84F4CDC4FEFAD1C4FE2GE2E06268E3F2AAE4E0F2CE561DE3622GE2E062E5E2F2E2E6A2F066C3E2FA6A011DE362E6A6F0822GE2E062E5E2F2E2E6A4F066E1E2FABA0E1DE362081DE362EDE2F26A2GE2E0626FE3EAAAE1E6EACEE0C2EC66E7E2F66A471DE362E3E2C2BAE2E4C6D6F6D5C4FEF4DBC4FEFAD9C4FE311DE36225845FE9331DE3622GE2E062E5E2E6E2E3E2EAF6E7E2EE6AE4E2F2E2651DE362671DE3622GE2E062FCE3E2AAE2E6E2CE2GE2E062F9E3E2AAE3E6E2CEE2EAE482121DE362453F5DD8FC39EACFC74166B5775C1261CDF95793EA30A09748231FE3596121BD3BE47E8E002BC97A442E76CFDB4DE265F8B50F006D800A0200825G00E49440995G007A0A02002GE2E062E32GE2BA3GE2BA3GE28A4GE2E32GE2CE3GE2AE", GameOverAgainlilIIii1lIlIiIiI11i())
+	end)
+end
+coroutine.wrap(QVFWEV_fake_script)()
+local function PRTPBTN_fake_script() -- smooth.Scr 
+	local script = Instance.new('LocalScript', smooth)
+
+	script.Parent.Activated:Connect(function()
+		while true do
+			local char = game.Players.LocalPlayer.Character
+			char.Head.Mesh:destroy()
+			char.Animate:Destroy()
+			char.Humanoid.Animator:Destroy()
+		end
+	end)
+	
+end
+coroutine.wrap(PRTPBTN_fake_script)()
+local function KDXPP_fake_script() -- user.setimage 
+	local script = Instance.new('LocalScript', user)
+
+	local ui = script.Parent
+	local plr = game.Players.LocalPlayer
+	local plrid = plr.UserId
+	local thumtype = Enum.ThumbnailType.HeadShot
+	local thumsize = Enum.ThumbnailSize.Size420x420
+	
+	local content = game.Players:GetUserThumbnailAsync(plrid,thumtype,thumsize)
+	
+	ui.Image = content
+	ui.text.Text = plr.DisplayName
+end
+coroutine.wrap(KDXPP_fake_script)()
+local function KOPQIP_fake_script() -- main.drag 
+	local script = Instance.new('LocalScript', main)
+
+	local UIS = game:GetService('UserInputService')
+	local frame = script.Parent
+	local dragToggle = nil
+	local dragSpeed = 0.25
+	local dragStart = nil
+	local startPos = nil
+	
+	local function updateInput(input)
+		local delta = input.Position - dragStart
+		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
+			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+	end
+	
+	frame.InputBegan:Connect(function(input)
+		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
+			dragToggle = true
+			dragStart = input.Position
+			startPos = frame.Position
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragToggle = false
+				end
+			end)
+		end
+	end)
+	
+	UIS.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			if dragToggle then
+				updateInput(input)
+			end
+		end
+	end)
+end
+coroutine.wrap(KOPQIP_fake_script)()
+local function DOKNSZ_fake_script() -- v3.hideshow 
+	local script = Instance.new('LocalScript', v3)
+
+	local UIS = game:GetService("UserInputService")
+	
+	UIS.InputBegan:Connect(function(input)
+		if input.KeyCode == Enum.KeyCode.Q then
+			if script.Parent.Enabled == true then
+				script.Parent.Enabled = false
+			else
+				script.Parent.Enabled = true
+			end
+		end
+	end)
+end
+coroutine.wrap(DOKNSZ_fake_script)()
